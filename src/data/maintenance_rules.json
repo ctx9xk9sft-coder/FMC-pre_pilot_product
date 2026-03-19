@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "version": "1.0",
+    "scope": "Skoda V1 business rules",
+    "note": "Pravila su napravljena da budu kompatibilna sa postojecim event type vrednostima u buildMaintenancePlan.js."
+  },
+  "oil_service": {
+    "eventType": "oil_service",
+    "category": "regular_service",
+    "titleTemplate": "Mali servis",
+    "serviceRegimes": {
+      "flex": {
+        "baseKm": 30000,
+        "baseMonths": 24,
+        "usageAdjustments": {
+          "rentacar": {
+            "km": 15000,
+            "months": 12
+          },
+          "fleet_city": {
+            "km": 20000,
+            "months": 12
+          },
+          "fleet_standard": {
+            "km": 25000,
+            "months": 24
+          },
+          "highway": {
+            "km": 30000,
+            "months": 24
+          }
+        }
+      },
+      "fixed_15000": {
+        "baseKm": 15000,
+        "baseMonths": 12
+      },
+      "fixed_10000": {
+        "baseKm": 10000,
+        "baseMonths": 12
+      }
+    },
+    "defaultItems": [
+      "engine_oil",
+      "oil_filter",
+      "drain_plug",
+      "air_filter",
+      "cabin_filter"
+    ],
+    "dieselSecondServiceAdds": [
+      "fuel_filter"
+    ],
+    "sourceRule": "base_oil_service_rule"
+  },
+  "spark_plugs": {
+    "enabledForFuelTypes": [
+      "Petrol",
+      "Benzin"
+    ],
+    "enabledForEngineNameContains": [
+      "TSI"
+    ],
+    "eventType": "spark_plugs",
+    "category": "powertrain",
+    "title": "Zamena svećica",
+    "intervalKm": 60000,
+    "intervalMonths": 48,
+    "items": [
+      "spark_plugs"
+    ],
+    "sourceRule": "petrol_spark_plugs_60k_48m"
+  },
+  "dsg_service": {
+    "enabledForGearboxContains": [
+      "DSG",
+      "DQ200",
+      "DQ250",
+      "DQ381",
+      "DQ400"
+    ],
+    "eventType": "dsg_service",
+    "category": "powertrain",
+    "title": "Servis DSG menjača",
+    "intervalKm": 120000,
+    "items": [
+      "gearbox_oil",
+      "gearbox_filter"
+    ],
+    "defaultOilLiters": 6,
+    "sourceRule": "dsg_service_120k"
+  },
+  "haldex_service": {
+    "enabledForDrivetrain": [
+      "AWD"
+    ],
+    "eventType": "haldex_service",
+    "category": "drivetrain",
+    "title": "Servis Haldex pogona",
+    "intervalKm": 60000,
+    "intervalMonths": 24,
+    "items": [
+      "haldex_oil"
+    ],
+    "defaultOilLiters": 1,
+    "sourceRule": "haldex_service_60k_24m"
+  },
+  "brake_fluid": {
+    "eventType": "brake_fluid",
+    "category": "fluids",
+    "title": "Zamena kočione tečnosti",
+    "intervalMonths": 24,
+    "items": [
+      "brake_fluid"
+    ],
+    "sourceRule": "brake_fluid_24m"
+  },
+  "brakes": {
+    "usageProfileLifetimesKm": {
+      "rentacar": {
+        "frontPads": 32000,
+        "rearPads": 56000
+      },
+      "fleet_city": {
+        "frontPads": 36000,
+        "rearPads": 63000
+      },
+      "fleet_standard": {
+        "frontPads": 40000,
+        "rearPads": 70000
+      },
+      "highway": {
+        "frontPads": 45000,
+        "rearPads": 78000
+      }
+    },
+    "discMultiplier": 2,
+    "frontPadsEventType": "front_brake_pads",
+    "rearPadsEventType": "rear_brake_pads",
+    "frontDiscsEventType": "front_brake_discs",
+    "rearDiscsEventType": "rear_brake_discs"
+  },
+  "tires": {
+    "usageProfileLifetimesKm": {
+      "rentacar": 35000,
+      "fleet_city": 38000,
+      "fleet_standard": 40000,
+      "highway": 45000
+    },
+    "seasonalChangeMonths": 12,
+    "summerEventType": "summer_tires",
+    "winterEventType": "winter_tires",
+    "seasonalChangeEventType": "seasonal_tire_change"
+  }
+}

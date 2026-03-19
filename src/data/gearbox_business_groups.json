@@ -1,0 +1,112 @@
+{
+  "DSG_DQ200_NO_SERVICE": {
+    "label": "DSG DQ200 (bez servisa ulja)",
+    "codes": [
+      "UCE",
+      "UUF",
+      "VHQ",
+      "VSU",
+      "VSY",
+      "WPY",
+      "WQA",
+      "WQE",
+      "WSC"
+    ]
+  },
+  "DSG_WET_SERVICEABLE": {
+    "label": "DSG wet (servisabilan)",
+    "codes": [
+      "TAH",
+      "TUK",
+      "UDC",
+      "UEL",
+      "VCZ",
+      "VDY",
+      "VEA",
+      "VEB",
+      "WFQ",
+      "WFR",
+      "WFU",
+      "WJU",
+      "WJV",
+      "WKE",
+      "WKW"
+    ]
+  },
+  "MANUAL_5": {
+    "label": "Manual 5-stepeni",
+    "codes": [
+      "SND",
+      "VGV"
+    ]
+  },
+  "MANUAL_6": {
+    "label": "Manual 6-stepeni",
+    "codes": [
+      "QTS",
+      "TKK",
+      "USN",
+      "UTV",
+      "UWS",
+      "UXA",
+      "VCE",
+      "VCF",
+      "VCJ",
+      "VCN",
+      "VCS",
+      "VGS"
+    ]
+  },
+  "TORQUE_CONVERTER_AUTO": {
+    "label": "Automatik pretvarač",
+    "codes": []
+  },
+  "AUTOMATIK": {
+    "label": "Automatik",
+    "codes": [
+      "TAH",
+      "TUK",
+      "UCE",
+      "UDC",
+      "UEL",
+      "UUF",
+      "VCZ",
+      "VDY",
+      "VEA",
+      "VEB",
+      "VHQ",
+      "VSU",
+      "VSY",
+      "WFQ",
+      "WFR",
+      "WFU",
+      "WJU",
+      "WJV",
+      "WKE",
+      "WKW",
+      "WPY",
+      "WQA",
+      "WQE",
+      "WSC"
+    ]
+  },
+  "MANUAL": {
+    "label": "Manual",
+    "codes": [
+      "QTS",
+      "SND",
+      "TKK",
+      "USN",
+      "UTV",
+      "UWS",
+      "UXA",
+      "VCE",
+      "VCF",
+      "VCJ",
+      "VCN",
+      "VCS",
+      "VGS",
+      "VGV"
+    ]
+  }
+}

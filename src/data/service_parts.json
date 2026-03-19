@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "version": "1.0",
+    "note": "Mapa je namerno business-realistic. Ne ukljucuje fitting parts kao obaveznu logiku."
+  },
+  "oil_service": {
+    "default": [
+      {
+        "partType": "engine_oil",
+        "qty": 1,
+        "unit": "fill"
+      },
+      {
+        "partType": "oil_filter",
+        "qty": 1,
+        "unit": "pcs"
+      },
+      {
+        "partType": "drain_plug",
+        "qty": 1,
+        "unit": "pcs"
+      },
+      {
+        "partType": "air_filter",
+        "qty": 1,
+        "unit": "pcs"
+      },
+      {
+        "partType": "cabin_filter",
+        "qty": 1,
+        "unit": "pcs"
+      }
+    ],
+    "dieselEverySecondServiceAdds": [
+      {
+        "partType": "fuel_filter",
+        "qty": 1,
+        "unit": "pcs"
+      }
+    ]
+  },
+  "spark_plugs": {
+    "default": [
+      {
+        "partType": "spark_plugs",
+        "qty": 1,
+        "unit": "set"
+      }
+    ]
+  },
+  "dsg_service": {
+    "default": [
+      {
+        "partType": "gearbox_oil",
+        "qty": 6,
+        "unit": "liter"
+      },
+      {
+        "partType": "gearbox_filter",
+        "qty": 1,
+        "unit": "pcs"
+      }
+    ]
+  },
+  "haldex_service": {
+    "default": [
+      {
+        "partType": "haldex_oil",
+        "qty": 1,
+        "unit": "liter"
+      }
+    ]
+  },
+  "brake_fluid": {
+    "default": [
+      {
+        "partType": "brake_fluid",
+        "qty": 1,
+        "unit": "liter"
+      }
+    ]
+  },
+  "front_brake_pads": {
+    "default": [
+      {
+        "partType": "front_brake_pads",
+        "qty": 1,
+        "unit": "set"
+      }
+    ]
+  },
+  "rear_brake_pads": {
+    "default": [
+      {
+        "partType": "rear_brake_pads",
+        "qty": 1,
+        "unit": "set"
+      }
+    ]
+  },
+  "front_brake_discs": {
+    "default": [
+      {
+        "partType": "front_brake_discs",
+        "qty": 1,
+        "unit": "set"
+      }
+    ]
+  },
+  "rear_brake_discs": {
+    "default": [
+      {
+        "partType": "rear_brake_discs",
+        "qty": 1,
+        "unit": "set"
+      }
+    ]
+  },
+  "summer_tires": {
+    "default": [
+      {
+        "partType": "summer_tires_set",
+        "qty": 1,
+        "unit": "set"
+      }
+    ]
+  },
+  "winter_tires": {
+    "default": [
+      {
+        "partType": "winter_tires_set",
+        "qty": 1,
+        "unit": "set"
+      }
+    ]
+  },
+  "seasonal_tire_change": {
+    "default": [
+      {
+        "partType": "tire_change_service",
+        "qty": 1,
+        "unit": "service"
+      }
+    ]
+  }
+}

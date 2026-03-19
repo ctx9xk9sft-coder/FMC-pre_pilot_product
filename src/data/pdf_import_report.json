@@ -1,0 +1,601 @@
+{
+  "scannedAt": "2026-03-14T10:36:21.018Z",
+  "inputRoot": "./data_sources",
+  "totalPdfFiles": 78,
+  "created": [
+    {
+      "sourceFile": "11.pdf",
+      "vin": "TMBCR0NZ6TC030200"
+    },
+    {
+      "sourceFile": "12.pdf",
+      "vin": "TMBCP0NZ4TC041220"
+    },
+    {
+      "sourceFile": "13.pdf",
+      "vin": "TMBAH0NZ2TC035498"
+    },
+    {
+      "sourceFile": "14.pdf",
+      "vin": "TMBCR0NZ9TC015531"
+    },
+    {
+      "sourceFile": "16.pdf",
+      "vin": "TMBAL0NZ4TC041589"
+    },
+    {
+      "sourceFile": "17.pdf",
+      "vin": "TMBAG8NX7TM031666"
+    },
+    {
+      "sourceFile": "18.pdf",
+      "vin": "TMBCT8NXXTM040463"
+    },
+    {
+      "sourceFile": "19.pdf",
+      "vin": "TMBAR8NX9TM032862"
+    },
+    {
+      "sourceFile": "20.pdf",
+      "vin": "TMBAR8NX5TM034012"
+    },
+    {
+      "sourceFile": "21.pdf",
+      "vin": "TMBAA8NX6TM006260"
+    },
+    {
+      "sourceFile": "22.pdf",
+      "vin": "TMBGK6NW1T3088553"
+    },
+    {
+      "sourceFile": "23.pdf",
+      "vin": "TMBGK6NWXT3068303"
+    },
+    {
+      "sourceFile": "24.pdf",
+      "vin": "TMBGR6NW6T3075681"
+    },
+    {
+      "sourceFile": "25.pdf",
+      "vin": "TMBGK6NW1T3071297"
+    },
+    {
+      "sourceFile": "26.pdf",
+      "vin": "TMBGR6NW8T3012498"
+    },
+    {
+      "sourceFile": "27.pdf",
+      "vin": "TMBER6NW5T3081611"
+    },
+    {
+      "sourceFile": "28.pdf",
+      "vin": "TMBER6NWXT3084505"
+    },
+    {
+      "sourceFile": "29.pdf",
+      "vin": "TMBLG9PS8TT077724"
+    },
+    {
+      "sourceFile": "30.pdf",
+      "vin": "TMBLN9PS5TT047148"
+    },
+    {
+      "sourceFile": "31.pdf",
+      "vin": "TMBLN9PS0RT030699"
+    },
+    {
+      "sourceFile": "32.pdf",
+      "vin": "TMBLD9PS0TT062725"
+    },
+    {
+      "sourceFile": "33.pdf",
+      "vin": "TMBJW9PS8TT007778"
+    },
+    {
+      "sourceFile": "34.pdf",
+      "vin": "TMBJR7NU3T5042636"
+    },
+    {
+      "sourceFile": "35.pdf",
+      "vin": "TMBJR7NU5S5059825"
+    },
+    {
+      "sourceFile": "36.pdf",
+      "vin": "TMBER9PJ9T4045515"
+    },
+    {
+      "sourceFile": "37.pdf",
+      "vin": "TMBEE9PJ7R4067937"
+    },
+    {
+      "sourceFile": "38.pdf",
+      "vin": "TMBAG6NX5LY017116"
+    },
+    {
+      "sourceFile": "39.pdf",
+      "vin": "TMBLJ4NU6K5019137"
+    },
+    {
+      "sourceFile": "40.pdf",
+      "vin": "TMBLN7NS2M8519799"
+    },
+    {
+      "sourceFile": "41.pdf",
+      "vin": "TMBAH7NP4N7012999"
+    },
+    {
+      "sourceFile": "42.pdf",
+      "vin": "TMBAJ6NX9LY024460"
+    },
+    {
+      "sourceFile": "43.pdf",
+      "vin": "TMBGK9NW6L3070518"
+    },
+    {
+      "sourceFile": "44.pdf",
+      "vin": "TMBCJ7NP5L7020586"
+    },
+    {
+      "sourceFile": "45.pdf",
+      "vin": "TMBEE6PJ3N4050853"
+    },
+    {
+      "sourceFile": "46.pdf",
+      "vin": "TMBAP6NX5NY100001"
+    },
+    {
+      "sourceFile": "48.pdf",
+      "vin": "TMBLK7NS1M8501920"
+    },
+    {
+      "sourceFile": "49.pdf",
+      "vin": "TMBAJ6NE7L0006374"
+    },
+    {
+      "sourceFile": "50.pdf",
+      "vin": "TMBAG6NE7K0193547"
+    },
+    {
+      "sourceFile": "51.pdf",
+      "vin": "TMBCR7NP2M7056049"
+    },
+    {
+      "sourceFile": "52.pdf",
+      "vin": "TMBLN7NS4N8507655"
+    },
+    {
+      "sourceFile": "53.pdf",
+      "vin": "TMBAG6NX7MY171361"
+    }
+  ],
+  "updated": [
+    {
+      "sourceFile": "1.pdf",
+      "vin": "TMBGR6NW2S3006078"
+    },
+    {
+      "sourceFile": "10.pdf",
+      "vin": "TMBEA6PJ1P4008065"
+    },
+    {
+      "sourceFile": "111111.pdf",
+      "vin": "TMBJG4NU0L2007865"
+    },
+    {
+      "sourceFile": "15.pdf",
+      "vin": "TMBAH0NZ2TC035498"
+    },
+    {
+      "sourceFile": "2.pdf",
+      "vin": "TMBAA8NX8TM006289"
+    },
+    {
+      "sourceFile": "3.pdf",
+      "vin": "TMBEK6NW7S3006394"
+    },
+    {
+      "sourceFile": "4.pdf",
+      "vin": "TMBJR7NU3T5006400"
+    },
+    {
+      "sourceFile": "456.pdf",
+      "vin": "TMBAA8NX8TM006289"
+    },
+    {
+      "sourceFile": "5.pdf",
+      "vin": "TMBLD7NS4J8006553"
+    },
+    {
+      "sourceFile": "54445.pdf",
+      "vin": "TMBAG8NX1SM009113"
+    },
+    {
+      "sourceFile": "5555555458.pdf",
+      "vin": "TMBGR6NW2S3006078"
+    },
+    {
+      "sourceFile": "56556.pdf",
+      "vin": "TMBAH7NP2P7008663"
+    },
+    {
+      "sourceFile": "565656.pdf",
+      "vin": "TMBCR0NZ0TC015854"
+    },
+    {
+      "sourceFile": "6565.pdf",
+      "vin": "TMBLE9NU5T5006947"
+    },
+    {
+      "sourceFile": "65655555.pdf",
+      "vin": "TMBAA8NX3TM008919"
+    },
+    {
+      "sourceFile": "65656.pdf",
+      "vin": "TMBEK6NW7T3009944"
+    },
+    {
+      "sourceFile": "6565658.pdf",
+      "vin": "TMBLN9NS9N8010628"
+    },
+    {
+      "sourceFile": "66564.pdf",
+      "vin": "TMBEA6PJ1P4008065"
+    },
+    {
+      "sourceFile": "7.pdf",
+      "vin": "TMBLE9NU5T5006947"
+    },
+    {
+      "sourceFile": "747.pdf",
+      "vin": "TMBGK6NW2T3007169"
+    },
+    {
+      "sourceFile": "7852463.pdf",
+      "vin": "TMBEK6NW9T3008438"
+    },
+    {
+      "sourceFile": "78541111.pdf",
+      "vin": "TMBJR7NU3T5006400"
+    },
+    {
+      "sourceFile": "78548.pdf",
+      "vin": "TMBAN7NP1N7018946"
+    },
+    {
+      "sourceFile": "7874.pdf",
+      "vin": "TMBEK6NW7S3006394"
+    },
+    {
+      "sourceFile": "8.pdf",
+      "vin": "TMBGK6NW2T3007169"
+    },
+    {
+      "sourceFile": "8521.pdf",
+      "vin": "TMBLD7NS4J8006553"
+    },
+    {
+      "sourceFile": "9.pdf",
+      "vin": "TMBJG4NU0L2007865"
+    },
+    {
+      "sourceFile": "989856.pdf",
+      "vin": "TMBJF7NU0T5015905"
+    },
+    {
+      "sourceFile": "Karoq FL.pdf",
+      "vin": "TMBJF7NU7N5044241"
+    },
+    {
+      "sourceFile": "Kodiaq I.pdf",
+      "vin": "TMBLN7NS6P8501357"
+    },
+    {
+      "sourceFile": "Kodiaq II.pdf",
+      "vin": "TMBLN7PS9ST072766"
+    },
+    {
+      "sourceFile": "Octavia IV.pdf",
+      "vin": "TMBAP6NX4NY121938"
+    },
+    {
+      "sourceFile": "Superb III.pdf",
+      "vin": "TMBAH7NP8R7036258"
+    },
+    {
+      "sourceFile": "Superb IV.pdf",
+      "vin": "TMBAH0NZ4SC056528"
+    }
+  ],
+  "failed": [
+    {
+      "sourceFile": "447875.pdf",
+      "missing": [
+        "drivetrain"
+      ],
+      "parsedRecord": {
+        "sourceFile": "447875.pdf",
+        "vin": "TMBJP6NJ7PZ006565",
+        "salesType": "NJ53M4",
+        "modelYear": 2023,
+        "modelAbbr": "FAB",
+        "model": "Fabia",
+        "engineCode": "DKLD",
+        "transmissionCode": "QTS",
+        "drivetrain": null,
+        "serviceRegime": "LongLife",
+        "serviceIndicator": "QI6",
+        "productionDate": "13.03.2026",
+        "engineUnitCode": "TSI",
+        "gearboxPrCode": "G0C"
+      },
+      "debug": {
+        "headerSlice": [
+          "TMBJP6NJ7PZ006565",
+          "Chassis No Engine Code DKLD",
+          "Sales Type NJ53M4 Transmission Code QTS",
+          "Model Year 2023 Finaldrive Ident 5S",
+          "Model FAB Interior Trim Code BL",
+          "fabia 9P/F9E",
+          "Model Designation Roof Colour",
+          "30.06.2022 9P/F9E",
+          "Date of Production Exterior Colour/Paint Code",
+          "Order Number",
+          "Open Field Campaigns Server error2",
+          "PR Numbers",
+          "A9E Equipment 3",
+          "B0A Part set without country-specific",
+          "prescriptive standard",
+          "BG1 Special requirements for Serbia",
+          "C72 Operating permit, alteration",
+          "CX9 Steel wheels 6J x 15",
+          "weight-optimized",
+          "DI6 3-cylinder SI engine 1.0 l/70 kW",
+          "TSI",
+          "base engine is TJ4/TC5/T26/T0M",
+          "E0A No special edition",
+          "EL0 Without online service",
+          "EM0 Without driver alert system",
+          "ER1 Regional code \" ECE \" for radio"
+        ],
+        "firstPagePreview": [
+          "Car data",
+          "18:00 13.03.2026",
+          "TMBJP6NJ7PZ006565",
+          "Chassis No Engine Code DKLD",
+          "Sales Type NJ53M4 Transmission Code QTS",
+          "Model Year 2023 Finaldrive Ident 5S",
+          "Model FAB Interior Trim Code BL",
+          "fabia 9P/F9E",
+          "Model Designation Roof Colour",
+          "30.06.2022 9P/F9E",
+          "Date of Production Exterior Colour/Paint Code",
+          "Order Number",
+          "Open Field Campaigns Server error2",
+          "PR Numbers",
+          "A9E Equipment 3",
+          "B0A Part set without country-specific",
+          "prescriptive standard",
+          "BG1 Special requirements for Serbia",
+          "C72 Operating permit, alteration",
+          "CX9 Steel wheels 6J x 15",
+          "weight-optimized",
+          "DI6 3-cylinder SI engine 1.0 l/70 kW",
+          "TSI",
+          "base engine is TJ4/TC5/T26/T0M",
+          "E0A No special edition",
+          "EL0 Without online service",
+          "EM0 Without driver alert system",
+          "ER1 Regional code \" ECE \" for radio",
+          "F0A No special purpose vehicle, standard",
+          "equipment",
+          "FB0 Normal paintwork",
+          "FC0 Without customized installation",
+          "G0C 5-speed manual transmission",
+          "G45 Shock absorption in front",
+          "H8D Tires 185/60 R15 H",
+          "I8C Entry radio (Gen2 GP)",
+          "IA0 Without bracket",
+          "IG1 Curb weight range 1",
+          "IN1 Rear axle weight, type 1",
+          "J1H Battery 320 A (49 Ah)"
+        ]
+      }
+    },
+    {
+      "sourceFile": "47.pdf",
+      "missing": [
+        "drivetrain"
+      ],
+      "parsedRecord": {
+        "sourceFile": "47.pdf",
+        "vin": "TMBEP2NJ7LZ074207",
+        "salesType": "NJ33M4",
+        "modelYear": 2020,
+        "modelAbbr": "FAB",
+        "model": "Fabia",
+        "engineCode": "DKLD",
+        "transmissionCode": "QTS",
+        "drivetrain": null,
+        "serviceRegime": "LongLife",
+        "serviceIndicator": "QI6",
+        "productionDate": "14.03.2026",
+        "engineUnitCode": "TSI",
+        "gearboxPrCode": "G0C"
+      },
+      "debug": {
+        "headerSlice": [
+          "TMBEP2NJ7LZ074207",
+          "Chassis No Engine Code DKLD",
+          "Sales Type NJ33M4 Transmission Code QTS",
+          "Model Year 2020 Finaldrive Ident 5S",
+          "Model FAB Interior Trim Code BL",
+          "fabia 8E/A7W",
+          "Model Designation Roof Colour",
+          "17.01.2020 8E/A7W",
+          "Date of Production Exterior Colour/Paint Code",
+          "Order Number",
+          "Open Field Campaigns Server error2",
+          "PR Numbers",
+          "A9E Equipment 3",
+          "B0A Part set without country-specific",
+          "prescriptive standard",
+          "BG1 Special requirements for Serbia",
+          "C63 Operating permit, alteration",
+          "CX9 Steel wheels 6J x 15",
+          "weight-optimized",
+          "DI6 3-cylinder SI engine 1.0 l/70 kW",
+          "TSI",
+          "base engine is TJ4/TC5/T26/T0M",
+          "E0A No special edition",
+          "EL0 Without online service",
+          "EM0 Without driver alert system",
+          "ER1 Regional code \" ECE \" for radio"
+        ],
+        "firstPagePreview": [
+          "Car data",
+          "9:37 14.03.2026",
+          "TMBEP2NJ7LZ074207",
+          "Chassis No Engine Code DKLD",
+          "Sales Type NJ33M4 Transmission Code QTS",
+          "Model Year 2020 Finaldrive Ident 5S",
+          "Model FAB Interior Trim Code BL",
+          "fabia 8E/A7W",
+          "Model Designation Roof Colour",
+          "17.01.2020 8E/A7W",
+          "Date of Production Exterior Colour/Paint Code",
+          "Order Number",
+          "Open Field Campaigns Server error2",
+          "PR Numbers",
+          "A9E Equipment 3",
+          "B0A Part set without country-specific",
+          "prescriptive standard",
+          "BG1 Special requirements for Serbia",
+          "C63 Operating permit, alteration",
+          "CX9 Steel wheels 6J x 15",
+          "weight-optimized",
+          "DI6 3-cylinder SI engine 1.0 l/70 kW",
+          "TSI",
+          "base engine is TJ4/TC5/T26/T0M",
+          "E0A No special edition",
+          "EL0 Without online service",
+          "EM0 Without driver alert system",
+          "ER1 Regional code \" ECE \" for radio",
+          "F0A No special purpose vehicle, standard",
+          "equipment",
+          "FB0 Normal paintwork",
+          "FC0 Without customized installation",
+          "G0C 5-speed manual transmission",
+          "G65 Shock absorption in front",
+          "H8D Tires 185/60 R15 H",
+          "I7L MIB1-G Entry MQB radio China",
+          "IA0 Without bracket",
+          "IG1 Curb weight range 1",
+          "IN1 Rear axle weight, type 1",
+          "J1H Battery 320 A (49 Ah)"
+        ]
+      }
+    },
+    {
+      "sourceFile": "6.pdf",
+      "missing": [
+        "drivetrain"
+      ],
+      "parsedRecord": {
+        "sourceFile": "6.pdf",
+        "vin": "TMBJP6NJ7PZ006565",
+        "salesType": "NJ53M4",
+        "modelYear": 2023,
+        "modelAbbr": "FAB",
+        "model": "Fabia",
+        "engineCode": "DKLD",
+        "transmissionCode": "QTS",
+        "drivetrain": null,
+        "serviceRegime": "LongLife",
+        "serviceIndicator": "QI6",
+        "productionDate": "13.03.2026",
+        "engineUnitCode": "TSI",
+        "gearboxPrCode": "G0C"
+      },
+      "debug": {
+        "headerSlice": [
+          "TMBJP6NJ7PZ006565",
+          "Chassis No Engine Code DKLD",
+          "Sales Type NJ53M4 Transmission Code QTS",
+          "Model Year 2023 Finaldrive Ident 5S",
+          "Model FAB Interior Trim Code BL",
+          "fabia 9P/F9E",
+          "Model Designation Roof Colour",
+          "30.06.2022 9P/F9E",
+          "Date of Production Exterior Colour/Paint Code",
+          "Order Number",
+          "Open Field Campaigns Server error2",
+          "PR Numbers",
+          "A9E Equipment 3",
+          "B0A Part set without country-specific",
+          "prescriptive standard",
+          "BG1 Special requirements for Serbia",
+          "C72 Operating permit, alteration",
+          "CX9 Steel wheels 6J x 15",
+          "weight-optimized",
+          "DI6 3-cylinder SI engine 1.0 l/70 kW",
+          "TSI",
+          "base engine is TJ4/TC5/T26/T0M",
+          "E0A No special edition",
+          "EL0 Without online service",
+          "EM0 Without driver alert system",
+          "ER1 Regional code \" ECE \" for radio"
+        ],
+        "firstPagePreview": [
+          "Car data",
+          "18:00 13.03.2026",
+          "TMBJP6NJ7PZ006565",
+          "Chassis No Engine Code DKLD",
+          "Sales Type NJ53M4 Transmission Code QTS",
+          "Model Year 2023 Finaldrive Ident 5S",
+          "Model FAB Interior Trim Code BL",
+          "fabia 9P/F9E",
+          "Model Designation Roof Colour",
+          "30.06.2022 9P/F9E",
+          "Date of Production Exterior Colour/Paint Code",
+          "Order Number",
+          "Open Field Campaigns Server error2",
+          "PR Numbers",
+          "A9E Equipment 3",
+          "B0A Part set without country-specific",
+          "prescriptive standard",
+          "BG1 Special requirements for Serbia",
+          "C72 Operating permit, alteration",
+          "CX9 Steel wheels 6J x 15",
+          "weight-optimized",
+          "DI6 3-cylinder SI engine 1.0 l/70 kW",
+          "TSI",
+          "base engine is TJ4/TC5/T26/T0M",
+          "E0A No special edition",
+          "EL0 Without online service",
+          "EM0 Without driver alert system",
+          "ER1 Regional code \" ECE \" for radio",
+          "F0A No special purpose vehicle, standard",
+          "equipment",
+          "FB0 Normal paintwork",
+          "FC0 Without customized installation",
+          "G0C 5-speed manual transmission",
+          "G45 Shock absorption in front",
+          "H8D Tires 185/60 R15 H",
+          "I8C Entry radio (Gen2 GP)",
+          "IA0 Without bracket",
+          "IG1 Curb weight range 1",
+          "IN1 Rear axle weight, type 1",
+          "J1H Battery 320 A (49 Ah)"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "beforeRows": 25,
+    "afterRows": 66,
+    "createdCount": 41,
+    "updatedCount": 34,
+    "failedCount": 3,
+    "backupPath": "./src/data/vin_training_dataset.backup-20260314-113623.json"
+  }
+}

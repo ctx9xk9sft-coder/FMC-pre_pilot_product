@@ -1,0 +1,468 @@
+{
+  "ev_80_kw": {
+    "label": "EV 80 kW",
+    "fuel": "ev",
+    "displacementL": 0.0,
+    "powerKw": 80,
+    "engineCodes": [
+      "EBRA",
+      "EDDA",
+      "EDXA"
+    ]
+  },
+  "ev_85_kw": {
+    "label": "EV 85 kW",
+    "fuel": "ev",
+    "displacementL": 0.0,
+    "powerKw": 85,
+    "engineCodes": [
+      "EANA",
+      "EANB"
+    ]
+  },
+  "ev_150_kw": {
+    "label": "EV 150 kW",
+    "fuel": "ev",
+    "displacementL": 0.0,
+    "powerKw": 150,
+    "engineCodes": [
+      "EBJA",
+      "EBJC"
+    ]
+  },
+  "ev_170_kw": {
+    "label": "EV 170 kW",
+    "fuel": "ev",
+    "displacementL": 0.0,
+    "powerKw": 170,
+    "engineCodes": [
+      "EDCA",
+      "EDCC"
+    ]
+  },
+  "ev_210_kw": {
+    "label": "EV 210 kW",
+    "fuel": "ev",
+    "displacementL": 0.0,
+    "powerKw": 210,
+    "engineCodes": [
+      "EDFA"
+    ]
+  },
+  "ev_245_kw": {
+    "label": "EV 245 kW",
+    "fuel": "ev",
+    "displacementL": 0.0,
+    "powerKw": 245,
+    "engineCodes": [
+      "EEWA"
+    ]
+  },
+  "1_0_tgi_66_kw": {
+    "label": "1.0 TGI 66 kW",
+    "fuel": "cng",
+    "displacementL": 1.0,
+    "powerKw": 66,
+    "engineCodes": [
+      "DBYA"
+    ]
+  },
+  "1_0_tsi_48_kw": {
+    "label": "1.0 TSI 48 kW",
+    "fuel": "petrol",
+    "displacementL": 1.0,
+    "powerKw": 48,
+    "engineCodes": [
+      "DSGA"
+    ]
+  },
+  "1_0_tsi_59_kw": {
+    "label": "1.0 TSI 59 kW",
+    "fuel": "petrol",
+    "displacementL": 1.0,
+    "powerKw": 59,
+    "engineCodes": [
+      "DSGD"
+    ]
+  },
+  "1_0_tsi_70_kw": {
+    "label": "1.0 TSI 70 kW",
+    "fuel": "petrol",
+    "displacementL": 1.0,
+    "powerKw": 70,
+    "engineCodes": [
+      "DKLA",
+      "DKLD",
+      "DLAC",
+      "DUSB"
+    ]
+  },
+  "1_0_tsi_81_kw": {
+    "label": "1.0 TSI 81 kW",
+    "fuel": "petrol",
+    "displacementL": 1.0,
+    "powerKw": 81,
+    "engineCodes": [
+      "DLAA"
+    ]
+  },
+  "1_0_tsi_85_kw": {
+    "label": "1.0 TSI 85 kW",
+    "fuel": "petrol",
+    "displacementL": 1.0,
+    "powerKw": 85,
+    "engineCodes": [
+      "CHZJ",
+      "DKJA",
+      "DKRA",
+      "DKRF",
+      "DUSA",
+      "DXUA"
+    ]
+  },
+  "1_4_tgi_81_kw": {
+    "label": "1.4 TGI 81 kW",
+    "fuel": "cng",
+    "displacementL": 1.4,
+    "powerKw": 81,
+    "engineCodes": [
+      "CPWA"
+    ]
+  },
+  "1_4_tsi_92_kw": {
+    "label": "1.4 TSI 92 kW",
+    "fuel": "petrol",
+    "displacementL": 1.4,
+    "powerKw": 92,
+    "engineCodes": [
+      "CZCA"
+    ]
+  },
+  "1_4_tsi_110_kw": {
+    "label": "1.4 TSI 110 kW",
+    "fuel": "petrol",
+    "displacementL": 1.4,
+    "powerKw": 110,
+    "engineCodes": [
+      "CZDA",
+      "CZEA",
+      "DJKA",
+      "DSBA"
+    ]
+  },
+  "1_4_tsi_iv_110_kw": {
+    "label": "1.4 TSI iV 110 kW",
+    "fuel": "petrol_hybrid",
+    "displacementL": 1.4,
+    "powerKw": 110,
+    "engineCodes": [
+      "DGEA"
+    ]
+  },
+  "1_4_tsi_iv_115_kw": {
+    "label": "1.4 TSI iV 115 kW",
+    "fuel": "petrol_hybrid",
+    "displacementL": 1.4,
+    "powerKw": 115,
+    "engineCodes": [
+      "DGEB"
+    ]
+  },
+  "1_5_tgi_96_kw": {
+    "label": "1.5 TGI 96 kW",
+    "fuel": "cng",
+    "displacementL": 1.5,
+    "powerKw": 96,
+    "engineCodes": [
+      "DHFA"
+    ]
+  },
+  "1_5_tsi_85_kw": {
+    "label": "1.5 TSI 85 kW",
+    "fuel": "petrol",
+    "displacementL": 1.5,
+    "powerKw": 85,
+    "engineCodes": [
+      "DXDE"
+    ]
+  },
+  "1_5_tsi_110_kw": {
+    "label": "1.5 TSI 110 kW",
+    "fuel": "petrol",
+    "displacementL": 1.5,
+    "powerKw": 110,
+    "engineCodes": [
+      "DPCA",
+      "DXDB"
+    ]
+  },
+  "1_5_tsi_iv_110_kw": {
+    "label": "1.5 TSI iV 110 kW",
+    "fuel": "petrol_hybrid",
+    "displacementL": 1.5,
+    "powerKw": 110,
+    "engineCodes": [
+      "DUCB"
+    ]
+  },
+  "1_6_tdi_70_kw": {
+    "label": "1.6 TDI 70 kW",
+    "fuel": "diesel",
+    "displacementL": 1.6,
+    "powerKw": 70,
+    "engineCodes": [
+      "DGTD"
+    ]
+  },
+  "1_6_tdi_85_kw": {
+    "label": "1.6 TDI 85 kW",
+    "fuel": "diesel",
+    "displacementL": 1.6,
+    "powerKw": 85,
+    "engineCodes": [
+      "DDYA",
+      "DGTA",
+      "DGTE"
+    ]
+  },
+  "1_6_tdi_88_kw": {
+    "label": "1.6 TDI 88 kW",
+    "fuel": "diesel",
+    "displacementL": 1.6,
+    "powerKw": 88,
+    "engineCodes": [
+      "DCXA",
+      "DCZA"
+    ]
+  },
+  "1_6_tsi_81_kw": {
+    "label": "1.6 TSI 81 kW",
+    "fuel": "petrol",
+    "displacementL": 1.6,
+    "powerKw": 81,
+    "engineCodes": [
+      "CWVA",
+      "DWYA"
+    ]
+  },
+  "1_8_tsi_132_kw": {
+    "label": "1.8 TSI 132 kW",
+    "fuel": "petrol",
+    "displacementL": 1.8,
+    "powerKw": 132,
+    "engineCodes": [
+      "CJSA",
+      "CJSC"
+    ]
+  },
+  "2_0_tdi_81_kw": {
+    "label": "2.0 TDI 81 kW",
+    "fuel": "diesel",
+    "displacementL": 2.0,
+    "powerKw": 81,
+    "engineCodes": [
+      "CLCA"
+    ]
+  },
+  "2_0_tdi_85_kw": {
+    "label": "2.0 TDI 85 kW",
+    "fuel": "diesel",
+    "displacementL": 2.0,
+    "powerKw": 85,
+    "engineCodes": [
+      "DFGC",
+      "DSUD",
+      "DTRB",
+      "DTRD",
+      "DXRC"
+    ]
+  },
+  "2_0_tdi_90_kw": {
+    "label": "2.0 TDI 90 kW",
+    "fuel": "diesel",
+    "displacementL": 2.0,
+    "powerKw": 90,
+    "engineCodes": [
+      "DSUB",
+      "DTRA"
+    ]
+  },
+  "2_0_tdi_103_kw": {
+    "label": "2.0 TDI 103 kW",
+    "fuel": "diesel",
+    "displacementL": 2.0,
+    "powerKw": 103,
+    "engineCodes": [
+      "CFFB",
+      "CLJA"
+    ]
+  },
+  "2_0_tdi_105_kw": {
+    "label": "2.0 TDI 105 kW",
+    "fuel": "diesel",
+    "displacementL": 2.0,
+    "powerKw": 105,
+    "engineCodes": [
+      "CRFD",
+      "CRVC"
+    ]
+  },
+  "2_0_tdi_110_kw": {
+    "label": "2.0 TDI 110 kW",
+    "fuel": "diesel",
+    "displacementL": 2.0,
+    "powerKw": 110,
+    "engineCodes": [
+      "CKFC",
+      "CRLB",
+      "CRMB",
+      "DBGC",
+      "DFEA",
+      "DFFA",
+      "DFGA",
+      "DSRA",
+      "DSRB",
+      "DSTA",
+      "DSTB",
+      "DTSA",
+      "DTSB",
+      "DTTA",
+      "DTTC",
+      "DXPA",
+      "DXRB"
+    ]
+  },
+  "2_0_tdi_125_kw": {
+    "label": "2.0 TDI 125 kW",
+    "fuel": "diesel",
+    "displacementL": 2.0,
+    "powerKw": 125,
+    "engineCodes": [
+      "CFGB"
+    ]
+  },
+  "2_0_tdi_130_kw": {
+    "label": "2.0 TDI 130 kW",
+    "fuel": "diesel",
+    "displacementL": 2.0,
+    "powerKw": 130,
+    "engineCodes": [
+      "CRGA",
+      "CRGB"
+    ]
+  },
+  "2_0_tdi_140_kw": {
+    "label": "2.0 TDI 140 kW",
+    "fuel": "diesel",
+    "displacementL": 2.0,
+    "powerKw": 140,
+    "engineCodes": [
+      "DDAA",
+      "DFCA",
+      "DFHA"
+    ]
+  },
+  "2_0_tdi_142_kw": {
+    "label": "2.0 TDI 142 kW",
+    "fuel": "diesel",
+    "displacementL": 2.0,
+    "powerKw": 142,
+    "engineCodes": [
+      "DXNB"
+    ]
+  },
+  "2_0_tdi_147_kw": {
+    "label": "2.0 TDI 147 kW",
+    "fuel": "diesel",
+    "displacementL": 2.0,
+    "powerKw": 147,
+    "engineCodes": [
+      "DTUA"
+    ]
+  },
+  "2_0_tdi_176_kw": {
+    "label": "2.0 TDI 176 kW",
+    "fuel": "diesel",
+    "displacementL": 2.0,
+    "powerKw": 176,
+    "engineCodes": [
+      "CUAA"
+    ]
+  },
+  "2_0_tsi_132_kw": {
+    "label": "2.0 TSI 132 kW",
+    "fuel": "petrol",
+    "displacementL": 2.0,
+    "powerKw": 132,
+    "engineCodes": [
+      "CZPA"
+    ]
+  },
+  "2_0_tsi_140_kw": {
+    "label": "2.0 TSI 140 kW",
+    "fuel": "petrol",
+    "displacementL": 2.0,
+    "powerKw": 140,
+    "engineCodes": [
+      "CZPB",
+      "DKZA",
+      "DNNA"
+    ]
+  },
+  "2_0_tsi_150_kw": {
+    "label": "2.0 TSI 150 kW",
+    "fuel": "petrol",
+    "displacementL": 2.0,
+    "powerKw": 150,
+    "engineCodes": [
+      "DNNE"
+    ]
+  },
+  "2_0_tsi_162_kw": {
+    "label": "2.0 TSI 162 kW",
+    "fuel": "petrol",
+    "displacementL": 2.0,
+    "powerKw": 162,
+    "engineCodes": [
+      "CHHB"
+    ]
+  },
+  "2_0_tsi_180_kw": {
+    "label": "2.0 TSI 180 kW",
+    "fuel": "petrol",
+    "displacementL": 2.0,
+    "powerKw": 180,
+    "engineCodes": [
+      "DNPA"
+    ]
+  },
+  "2_0_tsi_195_kw": {
+    "label": "2.0 TSI 195 kW",
+    "fuel": "petrol",
+    "displacementL": 2.0,
+    "powerKw": 195,
+    "engineCodes": [
+      "DNPB",
+      "DNPD"
+    ]
+  },
+  "2_0_tsi_200_kw": {
+    "label": "2.0 TSI 200 kW",
+    "fuel": "petrol",
+    "displacementL": 2.0,
+    "powerKw": 200,
+    "engineCodes": [
+      "DNUA"
+    ]
+  },
+  "2_0_tsi_206_kw": {
+    "label": "2.0 TSI 206 kW",
+    "fuel": "petrol",
+    "displacementL": 2.0,
+    "powerKw": 206,
+    "engineCodes": [
+      "CJXA",
+      "DNFE"
+    ]
+  }
+}

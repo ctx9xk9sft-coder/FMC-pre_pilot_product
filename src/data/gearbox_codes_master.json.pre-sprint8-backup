@@ -1,0 +1,186 @@
+{
+  "VSU": {
+    "family": "DQ200",
+    "type": "DSG",
+    "drivetrain": "FWD",
+    "description": "G1C",
+    "serviceRequired": false,
+    "clutchType": "dry"
+  },
+  "SND": {
+    "family": "MQ200",
+    "type": "manual",
+    "drivetrain": "FWD",
+    "description": "G0C",
+    "serviceRequired": false,
+    "clutchType": null
+  },
+  "VCF": {
+    "family": "MQ281",
+    "type": "manual",
+    "drivetrain": "FWD",
+    "description": "G0K",
+    "serviceRequired": false,
+    "clutchType": null
+  },
+  "VCZ": {
+    "family": "DQ381",
+    "type": "DSG",
+    "drivetrain": "FWD",
+    "description": "G1C",
+    "serviceRequired": true,
+    "clutchType": "wet"
+  },
+  "VCS": {
+    "family": "MQ281",
+    "type": "manual",
+    "drivetrain": "FWD",
+    "description": "G0K",
+    "serviceRequired": false,
+    "clutchType": null
+  },
+  "VCN": {
+    "family": "MQ281",
+    "type": "manual",
+    "drivetrain": "FWD",
+    "description": "G0K",
+    "serviceRequired": false,
+    "clutchType": null
+  },
+  "UDC": {
+    "family": "DQ381",
+    "type": "DSG",
+    "drivetrain": "AWD",
+    "description": "G1D",
+    "serviceRequired": true,
+    "clutchType": "wet"
+  },
+  "WJV": {
+    "family": "DQ381",
+    "type": "DSG",
+    "drivetrain": "AWD",
+    "description": "G1D",
+    "serviceRequired": true,
+    "clutchType": "wet"
+  },
+  "WQE": {
+    "family": "DQ200",
+    "type": "DSG",
+    "drivetrain": "FWD",
+    "description": "G1C",
+    "serviceRequired": false,
+    "clutchType": "dry"
+  },
+  "UWS": {
+    "family": "MQ281",
+    "type": "manual",
+    "drivetrain": "FWD",
+    "description": "G0K",
+    "serviceRequired": false,
+    "clutchType": null
+  },
+  "WQA": {
+    "family": "DQ200",
+    "type": "DSG",
+    "drivetrain": "FWD",
+    "description": "G1C",
+    "serviceRequired": false,
+    "clutchType": "dry"
+  },
+  "TAH": {
+    "family": "DQ500",
+    "type": "DSG",
+    "drivetrain": "AWD",
+    "description": "G1D",
+    "serviceRequired": true,
+    "clutchType": "wet"
+  },
+  "QTS": {
+    "family": "MQ200",
+    "type": "manual",
+    "drivetrain": null,
+    "description": "G0C",
+    "serviceRequired": false,
+    "clutchType": null
+  },
+  "WKW": {
+    "family": "DQ381",
+    "type": "DSG",
+    "drivetrain": "AWD",
+    "description": "G1D",
+    "serviceRequired": true,
+    "clutchType": "wet"
+  },
+  "TKK": {
+    "family": "MQ250",
+    "type": "manual",
+    "drivetrain": "FWD",
+    "description": "G0K",
+    "serviceRequired": false,
+    "clutchType": null
+  },
+  "UXA": {
+    "family": "MQ281",
+    "type": "manual",
+    "drivetrain": "FWD",
+    "description": "G0K",
+    "serviceRequired": false,
+    "clutchType": null
+  },
+  "VEB": {
+    "family": "DQ381",
+    "type": "DSG",
+    "drivetrain": "AWD",
+    "description": "G1D",
+    "serviceRequired": true,
+    "clutchType": "wet"
+  },
+  "WFU": {
+    "family": "DQ381",
+    "type": "DSG",
+    "drivetrain": "AWD",
+    "description": "G1D",
+    "serviceRequired": true,
+    "clutchType": "wet"
+  },
+  "UTV": {
+    "family": "MQ200",
+    "type": "manual",
+    "drivetrain": "FWD",
+    "description": "G0K",
+    "serviceRequired": false,
+    "clutchType": null
+  },
+  "WFQ": {
+    "family": "DQ381",
+    "type": "DSG",
+    "drivetrain": "FWD",
+    "description": "G1C",
+    "serviceRequired": true,
+    "clutchType": "wet"
+  },
+  "WSC": {
+    "family": "DQ200",
+    "type": "DSG",
+    "drivetrain": "FWD",
+    "description": "G01",
+    "serviceRequired": false,
+    "clutchType": "dry"
+  },
+  "WJU": {
+    "family": "DQ381",
+    "type": "DSG",
+    "drivetrain": "AWD",
+    "description": "G1D",
+    "serviceRequired": true,
+    "clutchType": "wet"
+  },
+  "WKE": {
+    "family": "DQ381",
+    "type": "DSG",
+    "drivetrain": "AWD",
+    "description": "G1D",
+    "serviceRequired": true,
+    "clutchType": "wet"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "version": "2.0",
+    "note": "Specifikacije su grupisane po pricing profilu vozila radi preciznijeg pricing-a. Nisu ETKA nivo, ali su business-usable za Škoda-only fleet kalkulaciju."
+  },
+  "fabia_small_petrol": {
+    "frontDiscMm": 256,
+    "rearDiscMm": 230,
+    "frontPadsPartId": "front_brake_pads_fabia",
+    "rearPadsPartId": "rear_brake_pads_fabia",
+    "frontDiscsPartId": "front_brake_discs_fabia",
+    "rearDiscsPartId": "rear_brake_discs_fabia"
+  },
+  "scala_kamiq_1_0_tsi": {
+    "frontDiscMm": 276,
+    "rearDiscMm": 230,
+    "frontPadsPartId": "front_brake_pads_scala",
+    "rearPadsPartId": "rear_brake_pads_scala",
+    "frontDiscsPartId": "front_brake_discs_scala",
+    "rearDiscsPartId": "rear_brake_discs_scala"
+  },
+  "octavia_1_0_tsi": {
+    "frontDiscMm": 288,
+    "rearDiscMm": 272,
+    "frontPadsPartId": "front_brake_pads_octavia_light",
+    "rearPadsPartId": "rear_brake_pads_octavia_light",
+    "frontDiscsPartId": "front_brake_discs_octavia_light",
+    "rearDiscsPartId": "rear_brake_discs_octavia_light"
+  },
+  "octavia_1_5_tsi": {
+    "frontDiscMm": 288,
+    "rearDiscMm": 272,
+    "frontPadsPartId": "front_brake_pads_octavia_150",
+    "rearPadsPartId": "rear_brake_pads_octavia_150",
+    "frontDiscsPartId": "front_brake_discs_octavia_150",
+    "rearDiscsPartId": "rear_brake_discs_octavia_150"
+  },
+  "octavia_1_5_tsi_dq200": {
+    "frontDiscMm": 288,
+    "rearDiscMm": 272,
+    "frontPadsPartId": "front_brake_pads_octavia_150",
+    "rearPadsPartId": "rear_brake_pads_octavia_150",
+    "frontDiscsPartId": "front_brake_discs_octavia_150",
+    "rearDiscsPartId": "rear_brake_discs_octavia_150"
+  },
+  "octavia_2_0_tdi": {
+    "frontDiscMm": 312,
+    "rearDiscMm": 300,
+    "frontPadsPartId": "front_brake_pads_octavia_diesel",
+    "rearPadsPartId": "rear_brake_pads_octavia_diesel",
+    "frontDiscsPartId": "front_brake_discs_octavia_diesel",
+    "rearDiscsPartId": "rear_brake_discs_octavia_diesel"
+  },
+  "superb_2_0_tdi": {
+    "frontDiscMm": 340,
+    "rearDiscMm": 310,
+    "frontPadsPartId": "front_brake_pads_superb",
+    "rearPadsPartId": "rear_brake_pads_superb",
+    "frontDiscsPartId": "front_brake_discs_superb",
+    "rearDiscsPartId": "rear_brake_discs_superb"
+  },
+  "kodiaq_2_0_tdi_awd": {
+    "frontDiscMm": 340,
+    "rearDiscMm": 310,
+    "frontPadsPartId": "front_brake_pads_kodiaq",
+    "rearPadsPartId": "rear_brake_pads_kodiaq",
+    "frontDiscsPartId": "front_brake_discs_kodiaq",
+    "rearDiscsPartId": "rear_brake_discs_kodiaq"
+  },
+  "generic_tsi_small": {
+    "frontDiscMm": 288,
+    "rearDiscMm": 272,
+    "frontPadsPartId": "front_brake_pads_octavia_150",
+    "rearPadsPartId": "rear_brake_pads_octavia_150",
+    "frontDiscsPartId": "front_brake_discs_octavia_150",
+    "rearDiscsPartId": "rear_brake_discs_octavia_150"
+  },
+  "generic_tdi_ea288": {
+    "frontDiscMm": 312,
+    "rearDiscMm": 300,
+    "frontPadsPartId": "front_brake_pads_octavia_diesel",
+    "rearPadsPartId": "rear_brake_pads_octavia_diesel",
+    "frontDiscsPartId": "front_brake_discs_octavia_diesel",
+    "rearDiscsPartId": "rear_brake_discs_octavia_diesel"
+  }
+}

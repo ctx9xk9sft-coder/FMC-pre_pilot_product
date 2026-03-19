@@ -1,0 +1,3234 @@
+{
+  "meta": {
+    "name": "skoda_gearbox_codes",
+    "version": "1.0.0"
+  },
+  "models": {
+    "FABIA": [
+      {
+        "code": "QAA",
+        "tech_info": "5S",
+        "model": "FABIA",
+        "mounting": {
+          "start": "2015-02",
+          "end": "2018-12"
+        },
+        "notes": "Fabia/Jingrui"
+      },
+      {
+        "code": "QNM",
+        "tech_info": "5S",
+        "model": "FABIA",
+        "mounting": {
+          "start": "2015-02",
+          "end": "2018-12"
+        },
+        "notes": "Fabia/Jingrui"
+      },
+      {
+        "code": "SGR",
+        "tech_info": "6A",
+        "model": "FABIA",
+        "mounting": {
+          "start": "2017-01",
+          "end": "2017-11"
+        },
+        "notes": "Fabia/Jingrui"
+      },
+      {
+        "code": "SGS",
+        "tech_info": "6A",
+        "model": "FABIA",
+        "mounting": {
+          "start": "2016-12",
+          "end": "2018-12"
+        },
+        "notes": "Fabia/Jingrui"
+      },
+      {
+        "code": "SGT",
+        "tech_info": "6A",
+        "model": "FABIA",
+        "mounting": {
+          "start": "2017-01",
+          "end": "2018-12"
+        },
+        "notes": "Fabia/Jingrui"
+      },
+      {
+        "code": "SSZ",
+        "tech_info": "6A",
+        "model": "FABIA",
+        "mounting": {
+          "start": "2017-01",
+          "end": "2017-11"
+        },
+        "notes": "Fabia/Jingrui"
+      },
+      {
+        "code": "TAZ",
+        "tech_info": "6A",
+        "model": "FABIA",
+        "mounting": {
+          "start": "2017-11",
+          "end": "2018-12"
+        },
+        "notes": "Fabia/Jingrui"
+      },
+      {
+        "code": "TBA",
+        "tech_info": "6A",
+        "model": "FABIA",
+        "mounting": {
+          "start": "2017-11",
+          "end": "2018-12"
+        },
+        "notes": "Fabia/Jingrui"
+      },
+      {
+        "code": "TBB",
+        "tech_info": "6A",
+        "model": "FABIA",
+        "mounting": {
+          "start": "2017-11",
+          "end": "2018-12"
+        },
+        "notes": "Fabia/Jingrui"
+      },
+      {
+        "code": "TDV",
+        "tech_info": "6A",
+        "model": "FABIA",
+        "mounting": {
+          "start": "2017-11",
+          "end": "2018-12"
+        },
+        "notes": "Fabia/Jingrui"
+      },
+      {
+        "code": "SND",
+        "tech_info": "5S",
+        "model": "FABIA",
+        "mounting": {
+          "start": "2021-06",
+          "end": null
+        },
+        "notes": "Fabia IV"
+      },
+      {
+        "code": "UHC",
+        "tech_info": "6S",
+        "model": "FABIA",
+        "mounting": {
+          "start": "2021-06",
+          "end": null
+        },
+        "notes": "Fabia IV"
+      },
+      {
+        "code": "UKC",
+        "tech_info": "5S",
+        "model": "FABIA",
+        "mounting": {
+          "start": "2021-06",
+          "end": null
+        },
+        "notes": "Fabia IV"
+      },
+      {
+        "code": "UPN",
+        "tech_info": "6A",
+        "model": "FABIA",
+        "mounting": {
+          "start": "2021-06",
+          "end": null
+        },
+        "notes": "Fabia IV"
+      },
+      {
+        "code": "URH",
+        "tech_info": "7C",
+        "model": "FABIA",
+        "mounting": {
+          "start": "2021-06",
+          "end": null
+        },
+        "notes": "Fabia IV"
+      },
+      {
+        "code": "URK",
+        "tech_info": "7A",
+        "model": "FABIA",
+        "mounting": {
+          "start": "2021-06",
+          "end": null
+        },
+        "notes": "Fabia IV"
+      },
+      {
+        "code": "USM",
+        "tech_info": "5S",
+        "model": "FABIA",
+        "mounting": {
+          "start": "2021-06",
+          "end": null
+        },
+        "notes": "Fabia IV"
+      },
+      {
+        "code": "UVN",
+        "tech_info": "5S",
+        "model": "FABIA",
+        "mounting": {
+          "start": "2021-06",
+          "end": null
+        },
+        "notes": "Fabia IV"
+      },
+      {
+        "code": "UYV",
+        "tech_info": "7A",
+        "model": "FABIA",
+        "mounting": {
+          "start": "2021-06",
+          "end": null
+        },
+        "notes": "Fabia IV"
+      },
+      {
+        "code": "VGR",
+        "tech_info": "6S",
+        "model": "FABIA",
+        "mounting": {
+          "start": "2024-01",
+          "end": null
+        },
+        "notes": "Fabia IV"
+      },
+      {
+        "code": "VGV",
+        "tech_info": "5S",
+        "model": "FABIA",
+        "mounting": {
+          "start": "2024-01",
+          "end": null
+        },
+        "notes": "Fabia IV"
+      },
+      {
+        "code": "VHQ",
+        "tech_info": "7A",
+        "model": "FABIA",
+        "mounting": {
+          "start": "2021-06",
+          "end": null
+        },
+        "notes": "Fabia IV"
+      },
+      {
+        "code": "VSV",
+        "tech_info": "7A",
+        "model": "FABIA",
+        "mounting": {
+          "start": "2024-09",
+          "end": null
+        },
+        "notes": "Fabia IV"
+      },
+      {
+        "code": "VSY",
+        "tech_info": "7A",
+        "model": "FABIA",
+        "mounting": {
+          "start": "2024-09",
+          "end": null
+        },
+        "notes": "Fabia IV"
+      },
+      {
+        "code": "WAJ",
+        "tech_info": "7A",
+        "model": "FABIA",
+        "mounting": {
+          "start": "2024-01",
+          "end": null
+        },
+        "notes": "Fabia IV"
+      },
+      {
+        "code": "WAK",
+        "tech_info": "7A",
+        "model": "FABIA",
+        "mounting": {
+          "start": "2024-01",
+          "end": null
+        },
+        "notes": "Fabia IV"
+      },
+      {
+        "code": "WNC",
+        "tech_info": "6A",
+        "model": "FABIA",
+        "mounting": {
+          "start": "2025-06",
+          "end": null
+        },
+        "notes": "Fabia IV"
+      },
+      {
+        "code": "WPA",
+        "tech_info": "5S",
+        "model": "FABIA",
+        "mounting": {
+          "start": "2025-04",
+          "end": null
+        },
+        "notes": "Fabia IV"
+      },
+      {
+        "code": "WPF",
+        "tech_info": "5S",
+        "model": "FABIA",
+        "mounting": {
+          "start": "2025-04",
+          "end": null
+        },
+        "notes": "Fabia IV"
+      },
+      {
+        "code": "WPZ",
+        "tech_info": "7A",
+        "model": "FABIA",
+        "mounting": {
+          "start": "2025-07",
+          "end": null
+        },
+        "notes": "Fabia IV"
+      },
+      {
+        "code": "WQA",
+        "tech_info": "7A",
+        "model": "FABIA",
+        "mounting": {
+          "start": "2025-07",
+          "end": null
+        },
+        "notes": "Fabia IV"
+      },
+      {
+        "code": "WQC",
+        "tech_info": "7A",
+        "model": "FABIA",
+        "mounting": {
+          "start": "2025-07",
+          "end": null
+        },
+        "notes": "Fabia IV"
+      },
+      {
+        "code": "WSD",
+        "tech_info": "7A",
+        "model": "FABIA",
+        "mounting": {
+          "start": "2025-11",
+          "end": null
+        },
+        "notes": "Fabia IV"
+      }
+    ],
+    "SCALA": [
+      {
+        "code": "SBV",
+        "tech_info": "5S",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2019-02",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "SGN",
+        "tech_info": "6A",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2019-02",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "SHA",
+        "tech_info": "5S",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2019-02",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "TCV",
+        "tech_info": "6S",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2019-02",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "TKK",
+        "tech_info": "6S",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2019-02",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "TKN",
+        "tech_info": "6S",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2019-02",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "TKQ",
+        "tech_info": "6S",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2019-07",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "TKV",
+        "tech_info": "5S",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2019-09",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "TLN",
+        "tech_info": "5S",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2019-09",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "TNX",
+        "tech_info": "6A",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2019-02",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "TSH",
+        "tech_info": "7A",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2019-02",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "TSM",
+        "tech_info": "7A",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2019-02",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "TSP",
+        "tech_info": "7A",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2019-02",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "TUN",
+        "tech_info": "6S",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2019-11",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "TXT",
+        "tech_info": "7A",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2019-07",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "TXU",
+        "tech_info": "7A",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2019-09",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "TYP",
+        "tech_info": "6S",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2019-02",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "UAG",
+        "tech_info": "7A",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2019-02",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "UBU",
+        "tech_info": "7A",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2019-11",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "UCA",
+        "tech_info": "7A",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2019-11",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "UFC",
+        "tech_info": "5S",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2019-02",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "UHC",
+        "tech_info": "6S",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2019-02",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "UHY",
+        "tech_info": "6S",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2019-02",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "UJA",
+        "tech_info": "6S",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2019-02",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "UJB",
+        "tech_info": "6S",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2019-02",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "UPJ",
+        "tech_info": "7A",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2019-02",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "UQU",
+        "tech_info": "5S",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2019-02",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "URE",
+        "tech_info": "7A",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2019-02",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "URG",
+        "tech_info": "7A",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2019-02",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "USN",
+        "tech_info": "6S",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2019-02",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "UYS",
+        "tech_info": "6S",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2019-02",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "UZH",
+        "tech_info": "6A",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2021-11",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "VCF",
+        "tech_info": "6S",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2022-11",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "VGS",
+        "tech_info": "6S",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2024-01",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "VGW",
+        "tech_info": "5S",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2024-01",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "VHQ",
+        "tech_info": "7A",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2022-11",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "VST",
+        "tech_info": "7A",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2024-09",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "VSU",
+        "tech_info": "7A",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2024-09",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "VSX",
+        "tech_info": "7A",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2024-09",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "VSY",
+        "tech_info": "7A",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2024-09",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "WAJ",
+        "tech_info": "7A",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2024-01",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "WAL",
+        "tech_info": "7A",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2024-01",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "WNB",
+        "tech_info": "6A",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2025-10",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "WPY",
+        "tech_info": "7A",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2025-07",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "WQA",
+        "tech_info": "7A",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2025-07",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "WQB",
+        "tech_info": "7A",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2025-07",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "WSD",
+        "tech_info": "7A",
+        "model": "SCALA",
+        "mounting": {
+          "start": "2025-11",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      }
+    ],
+    "KAMIQ": [
+      {
+        "code": "SBV",
+        "tech_info": "5S",
+        "model": "KAMIQ",
+        "mounting": {
+          "start": "2019-02",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "SGN",
+        "tech_info": "6A",
+        "model": "KAMIQ",
+        "mounting": {
+          "start": "2019-02",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "SHA",
+        "tech_info": "5S",
+        "model": "KAMIQ",
+        "mounting": {
+          "start": "2019-02",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "TCV",
+        "tech_info": "6S",
+        "model": "KAMIQ",
+        "mounting": {
+          "start": "2019-02",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "TKK",
+        "tech_info": "6S",
+        "model": "KAMIQ",
+        "mounting": {
+          "start": "2019-02",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "TKN",
+        "tech_info": "6S",
+        "model": "KAMIQ",
+        "mounting": {
+          "start": "2019-02",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "TKQ",
+        "tech_info": "6S",
+        "model": "KAMIQ",
+        "mounting": {
+          "start": "2019-07",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "TNX",
+        "tech_info": "6A",
+        "model": "KAMIQ",
+        "mounting": {
+          "start": "2019-02",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "TSH",
+        "tech_info": "7A",
+        "model": "KAMIQ",
+        "mounting": {
+          "start": "2019-02",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "TSM",
+        "tech_info": "7A",
+        "model": "KAMIQ",
+        "mounting": {
+          "start": "2019-02",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "TSP",
+        "tech_info": "7A",
+        "model": "KAMIQ",
+        "mounting": {
+          "start": "2019-02",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "USN",
+        "tech_info": "6S",
+        "model": "KAMIQ",
+        "mounting": {
+          "start": "2019-02",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "VHQ",
+        "tech_info": "7A",
+        "model": "KAMIQ",
+        "mounting": {
+          "start": "2022-11",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      },
+      {
+        "code": "WAJ",
+        "tech_info": "7A",
+        "model": "KAMIQ",
+        "mounting": {
+          "start": "2024-01",
+          "end": null
+        },
+        "notes": "Scala/Kamiq"
+      }
+    ],
+    "KAROQ": [
+      {
+        "code": "QFZ",
+        "tech_info": "6S",
+        "model": "KAROQ",
+        "mounting": {
+          "start": "2018-07",
+          "end": "2018-10"
+        },
+        "notes": "Karoq"
+      },
+      {
+        "code": "QQG",
+        "tech_info": "5S",
+        "model": "KAROQ",
+        "mounting": {
+          "start": "2020-06",
+          "end": null
+        },
+        "notes": "Karoq"
+      },
+      {
+        "code": "REJ",
+        "tech_info": "6S",
+        "model": "KAROQ",
+        "mounting": {
+          "start": "2017-07",
+          "end": "2018-07"
+        },
+        "notes": "Karoq"
+      },
+      {
+        "code": "RHR",
+        "tech_info": "7A",
+        "model": "KAROQ",
+        "mounting": {
+          "start": "2017-08",
+          "end": "2017-11"
+        },
+        "notes": "Karoq"
+      },
+      {
+        "code": "RSL",
+        "tech_info": "6S",
+        "model": "KAROQ",
+        "mounting": {
+          "start": "2018-07",
+          "end": "2018-10"
+        },
+        "notes": "Karoq"
+      },
+      {
+        "code": "RSP",
+        "tech_info": "6S",
+        "model": "KAROQ",
+        "mounting": {
+          "start": "2017-07",
+          "end": "2018-07"
+        },
+        "notes": "Karoq"
+      },
+      {
+        "code": "RZE",
+        "tech_info": "8A",
+        "model": "KAROQ",
+        "mounting": {
+          "start": "2019-11",
+          "end": "2019-11"
+        },
+        "notes": "Karoq"
+      },
+      {
+        "code": "SAP",
+        "tech_info": "6S",
+        "model": "KAROQ",
+        "mounting": {
+          "start": "2017-08",
+          "end": "2018-07"
+        },
+        "notes": "Karoq"
+      },
+      {
+        "code": "SEM",
+        "tech_info": "6S",
+        "model": "KAROQ",
+        "mounting": {
+          "start": "2017-07",
+          "end": "2018-11"
+        },
+        "notes": "Karoq"
+      },
+      {
+        "code": "SNB",
+        "tech_info": "7A",
+        "model": "KAROQ",
+        "mounting": {
+          "start": "2017-11",
+          "end": "2018-02"
+        },
+        "notes": "Karoq"
+      },
+      {
+        "code": "SSJ",
+        "tech_info": "7A",
+        "model": "KAROQ",
+        "mounting": {
+          "start": "2018-02",
+          "end": "2019-05"
+        },
+        "notes": "Karoq"
+      },
+      {
+        "code": "TSS",
+        "tech_info": "7A",
+        "model": "KAROQ",
+        "mounting": {
+          "start": "2019-04",
+          "end": "2019-10"
+        },
+        "notes": "Karoq"
+      },
+      {
+        "code": "TVG",
+        "tech_info": "7A",
+        "model": "KAROQ",
+        "mounting": {
+          "start": "2018-09",
+          "end": "2019-05"
+        },
+        "notes": "Karoq"
+      },
+      {
+        "code": "UMH",
+        "tech_info": "7A",
+        "model": "KAROQ",
+        "mounting": {
+          "start": "2020-04",
+          "end": "2021-05"
+        },
+        "notes": "Karoq"
+      },
+      {
+        "code": "UWH",
+        "tech_info": "7A",
+        "model": "KAROQ",
+        "mounting": {
+          "start": "2021-05",
+          "end": "2022-12"
+        },
+        "notes": "Karoq"
+      },
+      {
+        "code": "VGF",
+        "tech_info": "7A",
+        "model": "KAROQ",
+        "mounting": {
+          "start": "2022-12",
+          "end": "2025-12"
+        },
+        "notes": "Karoq"
+      }
+    ],
+    "KODIAQ": [
+      {
+        "code": "RAH",
+        "tech_info": "6S",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2018-02",
+          "end": "2018-08"
+        },
+        "notes": "Kodiaq"
+      },
+      {
+        "code": "SDZ",
+        "tech_info": "6S",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2018-02",
+          "end": "2018-08"
+        },
+        "notes": "Kodiaq"
+      },
+      {
+        "code": "SYJ",
+        "tech_info": "6A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2018-02",
+          "end": "2022-03"
+        },
+        "notes": "Kodiaq"
+      },
+      {
+        "code": "SYT",
+        "tech_info": "6A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2018-02",
+          "end": "2022-03"
+        },
+        "notes": "Kodiaq"
+      },
+      {
+        "code": "TFQ",
+        "tech_info": "7A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2017-11",
+          "end": "2024-06"
+        },
+        "notes": "Kodiaq"
+      },
+      {
+        "code": "TFR",
+        "tech_info": "7A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2017-11",
+          "end": "2024-06"
+        },
+        "notes": "Kodiaq"
+      },
+      {
+        "code": "TFU",
+        "tech_info": "7A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2017-11",
+          "end": "2024-06"
+        },
+        "notes": "Kodiaq"
+      },
+      {
+        "code": "TGQ",
+        "tech_info": "6S",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2018-07",
+          "end": "2024-06"
+        },
+        "notes": "Kodiaq"
+      },
+      {
+        "code": "THA",
+        "tech_info": "6S",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2018-07",
+          "end": "2024-06"
+        },
+        "notes": "Kodiaq"
+      },
+      {
+        "code": "THM",
+        "tech_info": "6S",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2018-07",
+          "end": "2024-06"
+        },
+        "notes": "Kodiaq"
+      },
+      {
+        "code": "THN",
+        "tech_info": "6S",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2018-07",
+          "end": "2024-06"
+        },
+        "notes": "Kodiaq"
+      },
+      {
+        "code": "TJL",
+        "tech_info": "7A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2018-07",
+          "end": "2024-06"
+        },
+        "notes": "Kodiaq"
+      },
+      {
+        "code": "TNY",
+        "tech_info": "7A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2018-07",
+          "end": "2024-06"
+        },
+        "notes": "Kodiaq"
+      },
+      {
+        "code": "TUK",
+        "tech_info": "7A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2020-06",
+          "end": "2024-06"
+        },
+        "notes": "Kodiaq"
+      },
+      {
+        "code": "TUL",
+        "tech_info": "7A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2020-06",
+          "end": "2024-06"
+        },
+        "notes": "Kodiaq"
+      },
+      {
+        "code": "TUR",
+        "tech_info": "7A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2018-07",
+          "end": "2024-06"
+        },
+        "notes": "Kodiaq"
+      },
+      {
+        "code": "TVY",
+        "tech_info": "6S",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2019-07",
+          "end": "2024-06"
+        },
+        "notes": "Kodiaq"
+      },
+      {
+        "code": "TWL",
+        "tech_info": "6S",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2019-07",
+          "end": "2024-06"
+        },
+        "notes": "Kodiaq"
+      },
+      {
+        "code": "TWS",
+        "tech_info": "6S",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2019-07",
+          "end": "2024-06"
+        },
+        "notes": "Kodiaq"
+      },
+      {
+        "code": "TWT",
+        "tech_info": "6S",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2019-07",
+          "end": "2024-06"
+        },
+        "notes": "Kodiaq"
+      },
+      {
+        "code": "ULS",
+        "tech_info": "6S",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2020-06",
+          "end": "2024-06"
+        },
+        "notes": "Kodiaq"
+      },
+      {
+        "code": "UMC",
+        "tech_info": "6S",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2020-06",
+          "end": "2024-06"
+        },
+        "notes": "Kodiaq"
+      },
+      {
+        "code": "UMD",
+        "tech_info": "6S",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2020-06",
+          "end": "2024-06"
+        },
+        "notes": "Kodiaq"
+      },
+      {
+        "code": "URP",
+        "tech_info": "7A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2020-06",
+          "end": "2024-06"
+        },
+        "notes": "Kodiaq"
+      },
+      {
+        "code": "URR",
+        "tech_info": "7A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2020-06",
+          "end": "2024-06"
+        },
+        "notes": "Kodiaq"
+      },
+      {
+        "code": "URX",
+        "tech_info": "7A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2020-06",
+          "end": "2024-06"
+        },
+        "notes": "Kodiaq"
+      },
+      {
+        "code": "URZ",
+        "tech_info": "7A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2020-06",
+          "end": "2024-06"
+        },
+        "notes": "Kodiaq"
+      },
+      {
+        "code": "UXB",
+        "tech_info": "6S",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2021-06",
+          "end": "2024-06"
+        },
+        "notes": "Kodiaq"
+      },
+      {
+        "code": "UZU",
+        "tech_info": "7A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2021-11",
+          "end": "2024-06"
+        },
+        "notes": "Kodiaq"
+      },
+      {
+        "code": "UZW",
+        "tech_info": "7A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2021-11",
+          "end": "2024-06"
+        },
+        "notes": "Kodiaq"
+      },
+      {
+        "code": "VCR",
+        "tech_info": "6S",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2022-06",
+          "end": "2024-06"
+        },
+        "notes": "Kodiaq"
+      },
+      {
+        "code": "VDA",
+        "tech_info": "7A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2022-06",
+          "end": "2024-06"
+        },
+        "notes": "Kodiaq"
+      },
+      {
+        "code": "VDL",
+        "tech_info": "7A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2022-06",
+          "end": "2024-06"
+        },
+        "notes": "Kodiaq"
+      },
+      {
+        "code": "VEA",
+        "tech_info": "7A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2024-06",
+          "end": null
+        },
+        "notes": "Kodiaq"
+      },
+      {
+        "code": "VHB",
+        "tech_info": "7A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2024-06",
+          "end": null
+        },
+        "notes": "Kodiaq II"
+      },
+      {
+        "code": "VHE",
+        "tech_info": "7A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2024-12",
+          "end": null
+        },
+        "notes": "Kodiaq II"
+      },
+      {
+        "code": "VHH",
+        "tech_info": "7A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2024-04",
+          "end": null
+        },
+        "notes": "Kodiaq II"
+      },
+      {
+        "code": "WBP",
+        "tech_info": "7A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2024-01",
+          "end": null
+        },
+        "notes": "Kodiaq II"
+      },
+      {
+        "code": "WBQ",
+        "tech_info": "7A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2024-01",
+          "end": null
+        },
+        "notes": "Kodiaq II"
+      },
+      {
+        "code": "WBR",
+        "tech_info": "7A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2024-01",
+          "end": null
+        },
+        "notes": "Kodiaq II"
+      },
+      {
+        "code": "WBS",
+        "tech_info": "7A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2024-04",
+          "end": null
+        },
+        "notes": "Kodiaq II"
+      },
+      {
+        "code": "WBT",
+        "tech_info": "7A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2024-06",
+          "end": null
+        },
+        "notes": "Kodiaq II"
+      },
+      {
+        "code": "WBW",
+        "tech_info": "7A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2024-01",
+          "end": null
+        },
+        "notes": "Kodiaq II"
+      },
+      {
+        "code": "WDD",
+        "tech_info": "6A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2024-04",
+          "end": null
+        },
+        "notes": "Kodiaq II"
+      },
+      {
+        "code": "WFN",
+        "tech_info": "7A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2024-04",
+          "end": null
+        },
+        "notes": "Kodiaq II"
+      },
+      {
+        "code": "WFT",
+        "tech_info": "7A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2024-04",
+          "end": null
+        },
+        "notes": "Kodiaq II"
+      },
+      {
+        "code": "WFU",
+        "tech_info": "7A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2024-04",
+          "end": null
+        },
+        "notes": "Kodiaq II"
+      },
+      {
+        "code": "WFW",
+        "tech_info": "7A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2024-07",
+          "end": null
+        },
+        "notes": "Kodiaq II"
+      },
+      {
+        "code": "WGA",
+        "tech_info": "7A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2024-04",
+          "end": null
+        },
+        "notes": "Kodiaq II"
+      },
+      {
+        "code": "WGH",
+        "tech_info": "7A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2024-04",
+          "end": null
+        },
+        "notes": "Kodiaq II"
+      },
+      {
+        "code": "WGJ",
+        "tech_info": "7A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2024-06",
+          "end": null
+        },
+        "notes": "Kodiaq II"
+      },
+      {
+        "code": "WGK",
+        "tech_info": "7A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2024-06",
+          "end": null
+        },
+        "notes": "Kodiaq II"
+      },
+      {
+        "code": "WGQ",
+        "tech_info": "6A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2024-06",
+          "end": null
+        },
+        "notes": "Kodiaq II"
+      },
+      {
+        "code": "WJB",
+        "tech_info": "6A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2024-11",
+          "end": null
+        },
+        "notes": "Kodiaq II"
+      },
+      {
+        "code": "WJN",
+        "tech_info": "7A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2025-07",
+          "end": null
+        },
+        "notes": "Kodiaq II"
+      },
+      {
+        "code": "WJT",
+        "tech_info": "7A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2025-07",
+          "end": null
+        },
+        "notes": "Kodiaq II"
+      },
+      {
+        "code": "WJU",
+        "tech_info": "7A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2025-07",
+          "end": null
+        },
+        "notes": "Kodiaq II"
+      },
+      {
+        "code": "WJW",
+        "tech_info": "7A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2025-07",
+          "end": null
+        },
+        "notes": "Kodiaq II"
+      },
+      {
+        "code": "WKA",
+        "tech_info": "7A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2025-07",
+          "end": null
+        },
+        "notes": "Kodiaq II"
+      },
+      {
+        "code": "WKH",
+        "tech_info": "7A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2025-07",
+          "end": null
+        },
+        "notes": "Kodiaq II"
+      },
+      {
+        "code": "WKJ",
+        "tech_info": "7A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2025-07",
+          "end": null
+        },
+        "notes": "Kodiaq II"
+      },
+      {
+        "code": "WKK",
+        "tech_info": "7A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2025-07",
+          "end": null
+        },
+        "notes": "Kodiaq II"
+      },
+      {
+        "code": "WLR",
+        "tech_info": "6A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2024-11",
+          "end": null
+        },
+        "notes": "Kodiaq II"
+      },
+      {
+        "code": "WPX",
+        "tech_info": "6A",
+        "model": "KODIAQ",
+        "mounting": {
+          "start": "2025-07",
+          "end": null
+        },
+        "notes": "Kodiaq II"
+      }
+    ],
+    "OCTAVIA": [
+      {
+        "code": "SRB",
+        "tech_info": "6S",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2012-11",
+          "end": "2017-02"
+        },
+        "notes": "Octavia"
+      },
+      {
+        "code": "THC",
+        "tech_info": "6S",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2017-01",
+          "end": "2020-10"
+        },
+        "notes": "Octavia"
+      },
+      {
+        "code": "THW",
+        "tech_info": "6S",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2017-01",
+          "end": "2020-10"
+        },
+        "notes": "Octavia"
+      },
+      {
+        "code": "THZ",
+        "tech_info": "7A",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2017-01",
+          "end": "2020-10"
+        },
+        "notes": "Octavia"
+      },
+      {
+        "code": "TJW",
+        "tech_info": "6S",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2017-01",
+          "end": "2020-10"
+        },
+        "notes": "Octavia"
+      },
+      {
+        "code": "TKE",
+        "tech_info": "6S",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2017-01",
+          "end": "2020-10"
+        },
+        "notes": "Octavia"
+      },
+      {
+        "code": "TKJ",
+        "tech_info": "6S",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2017-01",
+          "end": "2020-10"
+        },
+        "notes": "Octavia"
+      },
+      {
+        "code": "TKV",
+        "tech_info": "5S",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2017-01",
+          "end": "2020-10"
+        },
+        "notes": "Octavia"
+      },
+      {
+        "code": "TNS",
+        "tech_info": "7A",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2017-01",
+          "end": "2020-10"
+        },
+        "notes": "Octavia"
+      },
+      {
+        "code": "TNV",
+        "tech_info": "7A",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2017-01",
+          "end": "2020-10"
+        },
+        "notes": "Octavia"
+      },
+      {
+        "code": "TSJ",
+        "tech_info": "7A",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2017-01",
+          "end": "2020-10"
+        },
+        "notes": "Octavia"
+      },
+      {
+        "code": "TSK",
+        "tech_info": "7A",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2017-01",
+          "end": "2020-10"
+        },
+        "notes": "Octavia"
+      },
+      {
+        "code": "TSL",
+        "tech_info": "7A",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2017-01",
+          "end": "2020-10"
+        },
+        "notes": "Octavia"
+      },
+      {
+        "code": "TSM",
+        "tech_info": "7A",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2017-01",
+          "end": "2020-10"
+        },
+        "notes": "Octavia"
+      },
+      {
+        "code": "TSN",
+        "tech_info": "7A",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2017-01",
+          "end": "2020-10"
+        },
+        "notes": "Octavia"
+      },
+      {
+        "code": "TSR",
+        "tech_info": "7A",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2017-01",
+          "end": "2020-10"
+        },
+        "notes": "Octavia"
+      },
+      {
+        "code": "TSV",
+        "tech_info": "7A",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2017-01",
+          "end": "2020-10"
+        },
+        "notes": "Octavia"
+      },
+      {
+        "code": "TSX",
+        "tech_info": "7A",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2017-01",
+          "end": "2020-10"
+        },
+        "notes": "Octavia"
+      },
+      {
+        "code": "TVU",
+        "tech_info": "6S",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2017-01",
+          "end": "2020-10"
+        },
+        "notes": "Octavia"
+      },
+      {
+        "code": "TVX",
+        "tech_info": "6S",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2017-01",
+          "end": "2020-10"
+        },
+        "notes": "Octavia"
+      },
+      {
+        "code": "TWH",
+        "tech_info": "6S",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2017-01",
+          "end": "2020-10"
+        },
+        "notes": "Octavia"
+      },
+      {
+        "code": "TXU",
+        "tech_info": "7A",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2017-01",
+          "end": "2020-10"
+        },
+        "notes": "Octavia"
+      },
+      {
+        "code": "UAG",
+        "tech_info": "7A",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2017-01",
+          "end": "2020-10"
+        },
+        "notes": "Octavia"
+      },
+      {
+        "code": "UAK",
+        "tech_info": "7A",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2017-01",
+          "end": "2020-10"
+        },
+        "notes": "Octavia"
+      },
+      {
+        "code": "UAT",
+        "tech_info": "7A",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2017-01",
+          "end": "2020-10"
+        },
+        "notes": "Octavia"
+      },
+      {
+        "code": "UAW",
+        "tech_info": "7A",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2017-01",
+          "end": "2020-10"
+        },
+        "notes": "Octavia"
+      },
+      {
+        "code": "UAZ",
+        "tech_info": "7A",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2017-01",
+          "end": "2020-10"
+        },
+        "notes": "Octavia"
+      },
+      {
+        "code": "UBW",
+        "tech_info": "7A",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2017-01",
+          "end": "2020-10"
+        },
+        "notes": "Octavia"
+      },
+      {
+        "code": "UBX",
+        "tech_info": "7A",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2017-01",
+          "end": "2020-10"
+        },
+        "notes": "Octavia"
+      },
+      {
+        "code": "UCC",
+        "tech_info": "7A",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2017-01",
+          "end": "2020-10"
+        },
+        "notes": "Octavia"
+      },
+      {
+        "code": "UDM",
+        "tech_info": "6S",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2017-01",
+          "end": "2020-10"
+        },
+        "notes": "Octavia"
+      },
+      {
+        "code": "USX",
+        "tech_info": "5S",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2020-11",
+          "end": null
+        },
+        "notes": "Octavia IV"
+      },
+      {
+        "code": "TEZ",
+        "tech_info": "7A",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2019-11",
+          "end": "2020-03"
+        },
+        "notes": "Octavia IV"
+      },
+      {
+        "code": "TFW",
+        "tech_info": "7A",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2020-06",
+          "end": "2020-12"
+        },
+        "notes": "Octavia IV"
+      },
+      {
+        "code": "TFX",
+        "tech_info": "7A",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2020-07",
+          "end": null
+        },
+        "notes": "Octavia IV"
+      },
+      {
+        "code": "TGA",
+        "tech_info": "7A",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2020-08",
+          "end": null
+        },
+        "notes": "Octavia IV"
+      },
+      {
+        "code": "TGB",
+        "tech_info": "7A",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2020-07",
+          "end": null
+        },
+        "notes": "Octavia IV"
+      },
+      {
+        "code": "TJH",
+        "tech_info": "7A",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2020-11",
+          "end": null
+        },
+        "notes": "Octavia IV"
+      },
+      {
+        "code": "TNK",
+        "tech_info": "6S",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2019-11",
+          "end": "2019-11"
+        },
+        "notes": "Octavia IV"
+      },
+      {
+        "code": "TNX",
+        "tech_info": "6A",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2020-06",
+          "end": null
+        },
+        "notes": "Octavia IV"
+      },
+      {
+        "code": "TTC",
+        "tech_info": "7A",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2020-07",
+          "end": null
+        },
+        "notes": "Octavia IV"
+      },
+      {
+        "code": "TTK",
+        "tech_info": "7A",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2020-07",
+          "end": null
+        },
+        "notes": "Octavia IV"
+      },
+      {
+        "code": "TTL",
+        "tech_info": "7A",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2020-08",
+          "end": null
+        },
+        "notes": "Octavia IV"
+      },
+      {
+        "code": "TTM",
+        "tech_info": "7A",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2020-07",
+          "end": null
+        },
+        "notes": "Octavia IV"
+      },
+      {
+        "code": "TTN",
+        "tech_info": "7A",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2020-11",
+          "end": null
+        },
+        "notes": "Octavia IV"
+      },
+      {
+        "code": "TTT",
+        "tech_info": "6A",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2020-06",
+          "end": null
+        },
+        "notes": "Octavia IV"
+      },
+      {
+        "code": "TVR",
+        "tech_info": "6S",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2020-06",
+          "end": null
+        },
+        "notes": "Octavia IV"
+      },
+      {
+        "code": "TWH",
+        "tech_info": "6S",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2020-11",
+          "end": null
+        },
+        "notes": "Octavia IV"
+      },
+      {
+        "code": "TZH",
+        "tech_info": "6S",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2019-11",
+          "end": "2019-11"
+        },
+        "notes": "Octavia IV"
+      },
+      {
+        "code": "UBY",
+        "tech_info": "7A",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2020-11",
+          "end": null
+        },
+        "notes": "Octavia IV"
+      },
+      {
+        "code": "UCE",
+        "tech_info": "7A",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2020-11",
+          "end": null
+        },
+        "notes": "Octavia IV"
+      },
+      {
+        "code": "UET",
+        "tech_info": "6S",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2020-08",
+          "end": null
+        },
+        "notes": "Octavia IV"
+      },
+      {
+        "code": "UEU",
+        "tech_info": "6S",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2019-11",
+          "end": null
+        },
+        "notes": "Octavia IV"
+      },
+      {
+        "code": "UEV",
+        "tech_info": "6S",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2019-11",
+          "end": null
+        },
+        "notes": "Octavia IV"
+      },
+      {
+        "code": "UFH",
+        "tech_info": "6S",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2020-08",
+          "end": null
+        },
+        "notes": "Octavia IV"
+      },
+      {
+        "code": "UFJ",
+        "tech_info": "6S",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2020-06",
+          "end": null
+        },
+        "notes": "Octavia IV"
+      },
+      {
+        "code": "UFK",
+        "tech_info": "6S",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2020-09",
+          "end": null
+        },
+        "notes": "Octavia IV"
+      },
+      {
+        "code": "UHX",
+        "tech_info": "6S",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2019-11",
+          "end": null
+        },
+        "notes": "Octavia IV"
+      },
+      {
+        "code": "UJX",
+        "tech_info": "8A",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2020-06",
+          "end": null
+        },
+        "notes": "Octavia IV"
+      },
+      {
+        "code": "ULR",
+        "tech_info": "6S",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2020-07",
+          "end": null
+        },
+        "notes": "Octavia IV"
+      },
+      {
+        "code": "ULW",
+        "tech_info": "6S",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2020-06",
+          "end": null
+        },
+        "notes": "Octavia IV"
+      },
+      {
+        "code": "UPH",
+        "tech_info": "6S",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2020-11",
+          "end": null
+        },
+        "notes": "Octavia IV"
+      },
+      {
+        "code": "URF",
+        "tech_info": "7A",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2020-11",
+          "end": null
+        },
+        "notes": "Octavia IV"
+      },
+      {
+        "code": "USE",
+        "tech_info": "6S",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2020-11",
+          "end": null
+        },
+        "notes": "Octavia IV"
+      },
+      {
+        "code": "USF",
+        "tech_info": "6S",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2020-11",
+          "end": null
+        },
+        "notes": "Octavia IV"
+      },
+      {
+        "code": "UUD",
+        "tech_info": "7A",
+        "model": "OCTAVIA",
+        "mounting": {
+          "start": "2020-11",
+          "end": null
+        },
+        "notes": "Octavia IV"
+      }
+    ],
+    "SUPERB": [
+      {
+        "code": "TJZ",
+        "tech_info": "6S",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        "notes": "Superb III"
+      },
+      {
+        "code": "TKD",
+        "tech_info": "6S",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        "notes": "Superb III"
+      },
+      {
+        "code": "TKN",
+        "tech_info": "6S",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        "notes": "Superb III"
+      },
+      {
+        "code": "TRS",
+        "tech_info": "6A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        "notes": "Superb III"
+      },
+      {
+        "code": "TSK",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        "notes": "Superb III"
+      },
+      {
+        "code": "TSM",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        "notes": "Superb III"
+      },
+      {
+        "code": "TSN",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        "notes": "Superb III"
+      },
+      {
+        "code": "TSR",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        "notes": "Superb III"
+      },
+      {
+        "code": "TTC",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        "notes": "Superb III"
+      },
+      {
+        "code": "TWE",
+        "tech_info": "6S",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        "notes": "Superb III"
+      },
+      {
+        "code": "TXU",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        "notes": "Superb III"
+      },
+      {
+        "code": "TYB",
+        "tech_info": "6S",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        "notes": "Superb III"
+      },
+      {
+        "code": "TZH",
+        "tech_info": "6S",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        "notes": "Superb III"
+      },
+      {
+        "code": "UAG",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        "notes": "Superb III"
+      },
+      {
+        "code": "UAH",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        "notes": "Superb III"
+      },
+      {
+        "code": "UAN",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        "notes": "Superb III"
+      },
+      {
+        "code": "UAX",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        "notes": "Superb III"
+      },
+      {
+        "code": "UBA",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        "notes": "Superb III"
+      },
+      {
+        "code": "UBW",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        "notes": "Superb III"
+      },
+      {
+        "code": "UBZ",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        "notes": "Superb III"
+      },
+      {
+        "code": "UCD",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        "notes": "Superb III"
+      },
+      {
+        "code": "UEL",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        "notes": "Superb III"
+      },
+      {
+        "code": "UEM",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        "notes": "Superb III"
+      },
+      {
+        "code": "UES",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        "notes": "Superb III"
+      },
+      {
+        "code": "UEU",
+        "tech_info": "6S",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        "notes": "Superb III"
+      },
+      {
+        "code": "UKE",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        "notes": "Superb III"
+      },
+      {
+        "code": "ULV",
+        "tech_info": "6S",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        "notes": "Superb III"
+      },
+      {
+        "code": "UQS",
+        "tech_info": "6A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        "notes": "Superb III"
+      },
+      {
+        "code": "URJ",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        "notes": "Superb III"
+      },
+      {
+        "code": "URK",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        "notes": "Superb III"
+      },
+      {
+        "code": "URL",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        "notes": "Superb III"
+      },
+      {
+        "code": "URN",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        "notes": "Superb III"
+      },
+      {
+        "code": "URS",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        "notes": "Superb III"
+      },
+      {
+        "code": "URW",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        "notes": "Superb III"
+      },
+      {
+        "code": "URY",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        "notes": "Superb III"
+      },
+      {
+        "code": "USA",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        "notes": "Superb III"
+      },
+      {
+        "code": "UWS",
+        "tech_info": "6S",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        "notes": "Superb III"
+      },
+      {
+        "code": "UYJ",
+        "tech_info": "6A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        "notes": "Superb III"
+      },
+      {
+        "code": "UYV",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        "notes": "Superb III"
+      },
+      {
+        "code": "VCH",
+        "tech_info": "6S",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        "notes": "Superb III"
+      },
+      {
+        "code": "VCZ",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        "notes": "Superb III"
+      },
+      {
+        "code": "VDF",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        "notes": "Superb III"
+      },
+      {
+        "code": "VDH",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        "notes": "Superb III"
+      },
+      {
+        "code": "VDY",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        "notes": "Superb III"
+      },
+      {
+        "code": "VEL",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        "notes": "Superb III"
+      },
+      {
+        "code": "UQT",
+        "tech_info": "6A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2024-04",
+          "end": null
+        },
+        "notes": "Superb IV"
+      },
+      {
+        "code": "WAH",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2023-11",
+          "end": null
+        },
+        "notes": "Superb IV"
+      },
+      {
+        "code": "WBW",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2024-03",
+          "end": null
+        },
+        "notes": "Superb IV"
+      },
+      {
+        "code": "WBY",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2023-11",
+          "end": null
+        },
+        "notes": "Superb IV"
+      },
+      {
+        "code": "WCB",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2024-02",
+          "end": null
+        },
+        "notes": "Superb IV"
+      },
+      {
+        "code": "WFQ",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2024-02",
+          "end": null
+        },
+        "notes": "Superb IV"
+      },
+      {
+        "code": "WFV",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2024-02",
+          "end": null
+        },
+        "notes": "Superb IV"
+      },
+      {
+        "code": "WFX",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2024-11",
+          "end": null
+        },
+        "notes": "Superb IV"
+      },
+      {
+        "code": "WGA",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2024-03",
+          "end": null
+        },
+        "notes": "Superb IV"
+      },
+      {
+        "code": "WGL",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2024-11",
+          "end": null
+        },
+        "notes": "Superb IV"
+      },
+      {
+        "code": "WGP",
+        "tech_info": "6A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2024-04",
+          "end": null
+        },
+        "notes": "Superb IV"
+      },
+      {
+        "code": "WGS",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2024-03",
+          "end": null
+        },
+        "notes": "Superb IV"
+      },
+      {
+        "code": "WJQ",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2025-07",
+          "end": null
+        },
+        "notes": "Superb IV"
+      },
+      {
+        "code": "WJV",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2025-07",
+          "end": null
+        },
+        "notes": "Superb IV"
+      },
+      {
+        "code": "WJX",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2025-07",
+          "end": null
+        },
+        "notes": "Superb IV"
+      },
+      {
+        "code": "WKA",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2025-07",
+          "end": null
+        },
+        "notes": "Superb IV"
+      },
+      {
+        "code": "WKL",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2025-07",
+          "end": null
+        },
+        "notes": "Superb IV"
+      },
+      {
+        "code": "WLS",
+        "tech_info": "6A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2024-11",
+          "end": null
+        },
+        "notes": "Superb IV"
+      },
+      {
+        "code": "WPW",
+        "tech_info": "6A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2025-07",
+          "end": null
+        },
+        "notes": "Superb IV"
+      },
+      {
+        "code": "WQD",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2025-07",
+          "end": null
+        },
+        "notes": "Superb IV"
+      },
+      {
+        "code": "WSA",
+        "tech_info": "7A",
+        "model": "SUPERB",
+        "mounting": {
+          "start": "2025-11",
+          "end": null
+        },
+        "notes": "Superb IV"
+      }
+    ],
+    "ENYAQ": [
+      {
+        "code": "TXF",
+        "tech_info": "1E",
+        "model": "ENYAQ",
+        "mounting": {
+          "start": "2020-10",
+          "end": null
+        },
+        "notes": "Enyaq/Elroq"
+      },
+      {
+        "code": "UMF",
+        "tech_info": "1E",
+        "model": "ENYAQ",
+        "mounting": {
+          "start": "2020-10",
+          "end": null
+        },
+        "notes": "Enyaq/Elroq"
+      },
+      {
+        "code": "UMG",
+        "tech_info": "1E",
+        "model": "ENYAQ",
+        "mounting": {
+          "start": "2020-10",
+          "end": null
+        },
+        "notes": "Enyaq/Elroq"
+      },
+      {
+        "code": "UWN",
+        "tech_info": "1E",
+        "model": "ENYAQ",
+        "mounting": {
+          "start": "2020-10",
+          "end": null
+        },
+        "notes": "Enyaq/Elroq"
+      },
+      {
+        "code": "UXJ",
+        "tech_info": "1E",
+        "model": "ENYAQ",
+        "mounting": {
+          "start": "2020-10",
+          "end": null
+        },
+        "notes": "Enyaq/Elroq"
+      },
+      {
+        "code": "UYX",
+        "tech_info": "1E",
+        "model": "ENYAQ",
+        "mounting": {
+          "start": "2020-10",
+          "end": null
+        },
+        "notes": "Enyaq/Elroq"
+      },
+      {
+        "code": "UYY",
+        "tech_info": "1E",
+        "model": "ENYAQ",
+        "mounting": {
+          "start": "2020-10",
+          "end": null
+        },
+        "notes": "Enyaq/Elroq"
+      },
+      {
+        "code": "VCS",
+        "tech_info": "6S",
+        "model": "ENYAQ",
+        "mounting": {
+          "start": "2020-10",
+          "end": null
+        },
+        "notes": "Enyaq/Elroq"
+      },
+      {
+        "code": "VRU",
+        "tech_info": "1E",
+        "model": "ENYAQ",
+        "mounting": {
+          "start": "2020-10",
+          "end": null
+        },
+        "notes": "Enyaq/Elroq"
+      },
+      {
+        "code": "VSC",
+        "tech_info": "1E",
+        "model": "ENYAQ",
+        "mounting": {
+          "start": "2020-10",
+          "end": null
+        },
+        "notes": "Enyaq/Elroq"
+      },
+      {
+        "code": "VSD",
+        "tech_info": "1E",
+        "model": "ENYAQ",
+        "mounting": {
+          "start": "2020-10",
+          "end": null
+        },
+        "notes": "Enyaq/Elroq"
+      },
+      {
+        "code": "VXD",
+        "tech_info": "1E",
+        "model": "ENYAQ",
+        "mounting": {
+          "start": "2020-10",
+          "end": null
+        },
+        "notes": "Enyaq/Elroq"
+      },
+      {
+        "code": "WDL",
+        "tech_info": "1E",
+        "model": "ENYAQ",
+        "mounting": {
+          "start": "2020-10",
+          "end": null
+        },
+        "notes": "Enyaq/Elroq"
+      },
+      {
+        "code": "WHG",
+        "tech_info": "1E",
+        "model": "ENYAQ",
+        "mounting": {
+          "start": "2020-10",
+          "end": null
+        },
+        "notes": "Enyaq/Elroq"
+      },
+      {
+        "code": "WRM",
+        "tech_info": "1E",
+        "model": "ENYAQ",
+        "mounting": {
+          "start": "2020-10",
+          "end": null
+        },
+        "notes": "Enyaq/Elroq"
+      }
+    ]
+  }
+}

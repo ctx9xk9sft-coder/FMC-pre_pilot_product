@@ -1,0 +1,3071 @@
+{
+  "meta": {
+    "name": "skoda_engine_codes",
+    "version": "2.2.0",
+    "structure": "engine-centric",
+    "description": "Consolidated engine master built from project data, Elsa workshop extracts, and selected public web confirmations.",
+    "coverage_note": "Expanded engine-centric Skoda engine database focused on fleet-relevant vehicles, approx. 2010-2026 with strongest coverage for 2017-2026.",
+    "engine_count": 97,
+    "models_covered": [
+      "ENYAQ",
+      "FABIA",
+      "KAMIQ",
+      "KAROQ",
+      "KODIAQ",
+      "OCTAVIA",
+      "SCALA",
+      "SUPERB"
+    ]
+  },
+  "engines": {
+    "CFFB": {
+      "code": "CFFB",
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "fuel_type": "diesel",
+      "kw": 103,
+      "hp": 140,
+      "notes": "TDI CR",
+      "applications": [
+        {
+          "model": "SUPERB",
+          "start": "2010-03",
+          "end": "2013-05"
+        }
+      ],
+      "models": [
+        "SUPERB"
+      ]
+    },
+    "CFGB": {
+      "code": "CFGB",
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "fuel_type": "diesel",
+      "kw": 125,
+      "hp": 170,
+      "notes": "TDI CR",
+      "applications": [
+        {
+          "model": "SUPERB",
+          "start": "2010-05",
+          "end": "2013-05"
+        }
+      ],
+      "models": [
+        "SUPERB"
+      ]
+    },
+    "CHHB": {
+      "code": "CHHB",
+      "applications": [
+        {
+          "model": "SUPERB",
+          "start": "2015-06",
+          "end": null
+        }
+      ],
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "petrol",
+      "kw": 162,
+      "hp": 220,
+      "notes": "TSI",
+      "torque_nm": 350,
+      "emission": "EU6/EU4",
+      "production_from": "2015-06",
+      "oil_capacity_l": 5.7,
+      "oil_capacity_after_repair_l": 6.6,
+      "oil_spec": "VW 504 00",
+      "oil_viscosity": "0W-30",
+      "timing_drive": "chain",
+      "models": [
+        "SUPERB"
+      ]
+    },
+    "CHZJ": {
+      "code": "CHZJ",
+      "applications": [
+        {
+          "model": "KAROQ",
+          "start": "2017-07",
+          "end": null
+        }
+      ],
+      "displacement_l": 1.0,
+      "cylinders": 3,
+      "valves_per_cylinder": 4,
+      "fuel_type": "petrol",
+      "kw": 85,
+      "hp": 116,
+      "notes": "TSI",
+      "torque_nm": 200,
+      "emission": "EU6",
+      "production_from": "2017-07",
+      "oil_capacity_l": 4.0,
+      "oil_capacity_after_repair_l": 4.3,
+      "timing_drive": "belt",
+      "models": [
+        "KAROQ"
+      ]
+    },
+    "CJSA": {
+      "code": "CJSA",
+      "applications": [
+        {
+          "model": "SUPERB",
+          "start": "2015-08",
+          "end": null
+        }
+      ],
+      "displacement_l": 1.8,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "petrol",
+      "kw": 132,
+      "hp": 180,
+      "notes": "TSI",
+      "torque_nm": 320,
+      "emission": "EU6",
+      "production_from": "2015-08",
+      "oil_capacity_l": 5.2,
+      "oil_capacity_after_repair_l": 6.6,
+      "oil_spec": "VW 504 00",
+      "oil_viscosity": "0W-30",
+      "timing_drive": "chain",
+      "models": [
+        "SUPERB"
+      ]
+    },
+    "CJSC": {
+      "code": "CJSC",
+      "applications": [
+        {
+          "model": "SUPERB",
+          "start": "2015-08",
+          "end": null
+        }
+      ],
+      "displacement_l": 1.8,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "petrol",
+      "kw": 132,
+      "hp": 180,
+      "notes": "TSI",
+      "torque_nm": 250,
+      "emission": "EU6/EU4/BS4",
+      "production_from": "2015-08",
+      "oil_capacity_l": 5.2,
+      "oil_capacity_after_repair_l": 6.6,
+      "oil_spec": "VW 504 00",
+      "oil_viscosity": "0W-30",
+      "timing_drive": "chain",
+      "models": [
+        "SUPERB"
+      ]
+    },
+    "CJXA": {
+      "code": "CJXA",
+      "applications": [
+        {
+          "model": "SUPERB",
+          "start": "2015-08",
+          "end": null
+        }
+      ],
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "petrol",
+      "kw": 206,
+      "hp": 280,
+      "notes": "TSI",
+      "torque_nm": 350,
+      "emission": "EU6",
+      "production_from": "2015-08",
+      "oil_capacity_l": 5.7,
+      "oil_capacity_after_repair_l": 6.6,
+      "oil_spec": "VW 504 00",
+      "oil_viscosity": "0W-30",
+      "timing_drive": "chain",
+      "models": [
+        "SUPERB"
+      ]
+    },
+    "CKFC": {
+      "code": "CKFC",
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "fuel_type": "diesel",
+      "kw": 110,
+      "hp": 150,
+      "notes": "TDI CR",
+      "applications": [
+        {
+          "model": "OCTAVIA",
+          "start": "2012-11",
+          "end": "2015-05"
+        }
+      ],
+      "models": [
+        "OCTAVIA"
+      ]
+    },
+    "CLCA": {
+      "code": "CLCA",
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "fuel_type": "diesel",
+      "kw": 81,
+      "hp": 110,
+      "notes": "TDI CR",
+      "applications": [
+        {
+          "model": "OCTAVIA",
+          "start": "2010-03",
+          "end": "2013-06"
+        }
+      ],
+      "models": [
+        "OCTAVIA"
+      ]
+    },
+    "CLJA": {
+      "code": "CLJA",
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "fuel_type": "diesel",
+      "kw": 103,
+      "hp": 140,
+      "notes": "TDI CR",
+      "applications": [
+        {
+          "model": "SUPERB",
+          "start": "2013-05",
+          "end": "2015-05"
+        }
+      ],
+      "models": [
+        "SUPERB"
+      ]
+    },
+    "CPWA": {
+      "code": "CPWA",
+      "displacement_l": 1.4,
+      "cylinders": 4,
+      "fuel_type": "cng",
+      "kw": 81,
+      "hp": 110,
+      "notes": "TGI CNG",
+      "applications": [
+        {
+          "model": "OCTAVIA",
+          "start": "2017-01",
+          "end": "2020-10"
+        }
+      ],
+      "models": [
+        "OCTAVIA"
+      ]
+    },
+    "CRFD": {
+      "code": "CRFD",
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "fuel_type": "diesel",
+      "kw": 105,
+      "hp": 143,
+      "notes": "TDI CR",
+      "applications": [
+        {
+          "model": "KODIAQ",
+          "start": "2017-05",
+          "end": "2018-11"
+        }
+      ],
+      "models": [
+        "KODIAQ"
+      ]
+    },
+    "CRGA": {
+      "code": "CRGA",
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "fuel_type": "diesel",
+      "kw": 130,
+      "hp": 177,
+      "notes": "TDI CR",
+      "applications": [
+        {
+          "model": "KODIAQ",
+          "start": "2017-04",
+          "end": null
+        },
+        {
+          "model": "SUPERB",
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        {
+          "model": "SUPERB",
+          "start": "2015-03",
+          "end": null
+        }
+      ],
+      "valves_per_cylinder": 4,
+      "torque_nm": 380,
+      "emission": "EU4/BS4",
+      "production_from": "2015-09",
+      "oil_capacity_l": 4.7,
+      "oil_capacity_after_repair_l": 5.3,
+      "oil_spec": "VW 507 00",
+      "oil_viscosity": "0W-30",
+      "scr": false,
+      "dpf": false,
+      "timing_drive": "belt",
+      "models": [
+        "KODIAQ",
+        "SUPERB"
+      ]
+    },
+    "CRGB": {
+      "code": "CRGB",
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "fuel_type": "diesel",
+      "kw": 130,
+      "hp": 177,
+      "notes": "TDI CR",
+      "applications": [
+        {
+          "model": "KODIAQ",
+          "start": "2017-04",
+          "end": "2024-06"
+        }
+      ],
+      "models": [
+        "KODIAQ"
+      ]
+    },
+    "CRLB": {
+      "code": "CRLB",
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "fuel_type": "diesel",
+      "kw": 110,
+      "hp": 150,
+      "notes": "TDI CR",
+      "applications": [
+        {
+          "model": "SUPERB",
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        {
+          "model": "SUPERB",
+          "start": "2015-03",
+          "end": null
+        }
+      ],
+      "valves_per_cylinder": 4,
+      "torque_nm": 340,
+      "emission": "EU6",
+      "production_from": "2015-03",
+      "oil_capacity_l": 4.7,
+      "oil_capacity_after_repair_l": 5.3,
+      "oil_spec": "VW 507 00",
+      "scr": false,
+      "dpf": true,
+      "timing_drive": "belt",
+      "models": [
+        "SUPERB"
+      ]
+    },
+    "CRMB": {
+      "code": "CRMB",
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "fuel_type": "diesel",
+      "kw": 110,
+      "hp": 150,
+      "notes": "TDI CR",
+      "applications": [
+        {
+          "model": "OCTAVIA",
+          "start": "2014-08",
+          "end": "2017-02"
+        }
+      ],
+      "models": [
+        "OCTAVIA"
+      ]
+    },
+    "CRVC": {
+      "code": "CRVC",
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "fuel_type": "diesel",
+      "kw": 105,
+      "hp": 143,
+      "notes": "TDI CR",
+      "applications": [
+        {
+          "model": "KAROQ",
+          "start": "2018-07",
+          "end": null
+        },
+        {
+          "model": "OCTAVIA",
+          "start": "2012-11",
+          "end": "2017-02"
+        }
+      ],
+      "valves_per_cylinder": 4,
+      "torque_nm": 320,
+      "emission": "EU4_BS4",
+      "production_from": "2021-06",
+      "oil_capacity_l": 4.6,
+      "oil_capacity_after_repair_l": 5.0,
+      "oil_spec": "VW 507 00",
+      "oil_viscosity": "0W-30",
+      "models": [
+        "KAROQ",
+        "OCTAVIA"
+      ]
+    },
+    "CUAA": {
+      "code": "CUAA",
+      "applications": [
+        {
+          "model": "KODIAQ",
+          "start": "2018-11",
+          "end": null
+        }
+      ],
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "diesel",
+      "kw": 176,
+      "hp": 239,
+      "notes": "TDI CR",
+      "torque_nm": 500,
+      "emission": "EU6",
+      "production_from": "2018-11",
+      "oil_capacity_l": 4.9,
+      "oil_capacity_after_repair_l": 5.5,
+      "oil_spec": "VW 507 00",
+      "oil_viscosity": "0W-30",
+      "scr": true,
+      "dpf": true,
+      "timing_drive": "belt",
+      "models": [
+        "KODIAQ"
+      ]
+    },
+    "CWVA": {
+      "code": "CWVA",
+      "applications": [
+        {
+          "model": "KAROQ",
+          "start": "2020-10",
+          "end": null
+        },
+        {
+          "model": "SCALA",
+          "start": "2019-06",
+          "end": null
+        }
+      ],
+      "displacement_l": 1.6,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "petrol",
+      "kw": 81,
+      "hp": 110,
+      "notes": "MPI/SRE",
+      "torque_nm": 155,
+      "emission": "EU5",
+      "production_from": "2019-06",
+      "oil_capacity_l": 4.0,
+      "oil_capacity_after_repair_l": 4.3,
+      "oil_spec": "VW 502 00",
+      "oil_viscosity": "5W-40",
+      "timing_drive": "belt",
+      "models": [
+        "KAROQ",
+        "SCALA"
+      ]
+    },
+    "CZCA": {
+      "code": "CZCA",
+      "applications": [
+        {
+          "model": "KODIAQ",
+          "start": "2016-10",
+          "end": null
+        },
+        {
+          "model": "SUPERB",
+          "start": "2015-03",
+          "end": null
+        }
+      ],
+      "displacement_l": 1.4,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "petrol",
+      "kw": 92,
+      "hp": 125,
+      "notes": "TSI",
+      "torque_nm": 200,
+      "emission": "EU6",
+      "production_from": "2015-03",
+      "oil_capacity_l": 4.0,
+      "oil_capacity_after_repair_l": 4.5,
+      "oil_spec": "VW 508 00",
+      "oil_viscosity": "0W-20",
+      "timing_drive": "belt",
+      "models": [
+        "KODIAQ",
+        "SUPERB"
+      ]
+    },
+    "CZDA": {
+      "code": "CZDA",
+      "applications": [
+        {
+          "model": "KODIAQ",
+          "start": "2017-01",
+          "end": null
+        },
+        {
+          "model": "SUPERB",
+          "start": "2015-03",
+          "end": null
+        }
+      ],
+      "displacement_l": 1.4,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "petrol",
+      "kw": 110,
+      "hp": 150,
+      "notes": "TSI",
+      "torque_nm": 250,
+      "emission": "EU6",
+      "production_from": "2015-03",
+      "oil_capacity_l": 4.0,
+      "oil_capacity_after_repair_l": 4.5,
+      "oil_spec": "VW 508 00",
+      "oil_viscosity": "0W-20",
+      "timing_drive": "belt",
+      "models": [
+        "KODIAQ",
+        "SUPERB"
+      ]
+    },
+    "CZEA": {
+      "code": "CZEA",
+      "applications": [
+        {
+          "model": "KAROQ",
+          "start": "2019-11",
+          "end": null
+        },
+        {
+          "model": "KODIAQ",
+          "start": "2016-10",
+          "end": null
+        },
+        {
+          "model": "SUPERB",
+          "start": "2015-03",
+          "end": null
+        }
+      ],
+      "displacement_l": 1.4,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "petrol",
+      "kw": 110,
+      "hp": 150,
+      "notes": "TSI",
+      "torque_nm": 250,
+      "emission": "EU6",
+      "production_from": "2015-03",
+      "oil_capacity_l": 4.0,
+      "oil_capacity_after_repair_l": 4.5,
+      "timing_drive": "belt",
+      "models": [
+        "KAROQ",
+        "KODIAQ",
+        "SUPERB"
+      ]
+    },
+    "CZPA": {
+      "code": "CZPA",
+      "applications": [
+        {
+          "model": "KODIAQ",
+          "start": "2016-10",
+          "end": null
+        }
+      ],
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "petrol",
+      "kw": 132,
+      "hp": 180,
+      "notes": "TSI",
+      "torque_nm": 320,
+      "emission": "EU6/EU4",
+      "production_from": "2016-10",
+      "oil_capacity_l": 5.7,
+      "oil_capacity_after_repair_l": 6.6,
+      "oil_spec": "VW 508 00",
+      "oil_viscosity": "0W-20",
+      "timing_drive": "chain",
+      "models": [
+        "KODIAQ"
+      ]
+    },
+    "CZPB": {
+      "code": "CZPB",
+      "applications": [
+        {
+          "model": "OCTAVIA",
+          "start": "2021-03",
+          "end": null
+        },
+        {
+          "model": "OCTAVIA",
+          "start": "2025-07",
+          "end": null
+        },
+        {
+          "model": "SUPERB",
+          "start": "2019-01",
+          "end": null
+        }
+      ],
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "petrol",
+      "kw": 140,
+      "hp": 190,
+      "notes": "TSI/TFSI",
+      "torque_nm": 320,
+      "emission": "EU6",
+      "production_from": "2019-01",
+      "gpf": false,
+      "oil_capacity_l": 5.7,
+      "oil_capacity_after_repair_l": 6.6,
+      "oil_spec": "VW 508 00",
+      "oil_viscosity": "0W-20",
+      "timing_drive": "chain",
+      "models": [
+        "OCTAVIA",
+        "SUPERB"
+      ]
+    },
+    "DBGC": {
+      "code": "DBGC",
+      "applications": [
+        {
+          "model": "KODIAQ",
+          "start": "2017-08",
+          "end": null
+        }
+      ],
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "diesel",
+      "kw": 110,
+      "hp": 150,
+      "notes": "TDI CR",
+      "torque_nm": 320,
+      "emission": "EU5",
+      "production_from": "2017-08",
+      "oil_capacity_l": 5.5,
+      "oil_capacity_after_repair_l": 6.0,
+      "oil_spec": "VW 507 00",
+      "oil_viscosity": "0W-30",
+      "scr": true,
+      "dpf": true,
+      "timing_drive": "belt",
+      "models": [
+        "KODIAQ"
+      ]
+    },
+    "DBYA": {
+      "code": "DBYA",
+      "applications": [
+        {
+          "model": "SCALA",
+          "start": "2019-11",
+          "end": null
+        }
+      ],
+      "displacement_l": 1.0,
+      "cylinders": 3,
+      "valves_per_cylinder": 4,
+      "fuel_type": "cng",
+      "kw": 66,
+      "hp": 90,
+      "notes": "TGI CNG",
+      "torque_nm": 160,
+      "emission": "EU6",
+      "production_from": "2019-11",
+      "timing_drive": "belt",
+      "models": [
+        "SCALA"
+      ]
+    },
+    "DCXA": {
+      "code": "DCXA",
+      "applications": [
+        {
+          "model": "SUPERB",
+          "start": "2015-06",
+          "end": null
+        }
+      ],
+      "displacement_l": 1.6,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "diesel",
+      "kw": 88,
+      "hp": 120,
+      "notes": "TDI CR",
+      "torque_nm": 250,
+      "emission": "EU6",
+      "production_from": "2015-06",
+      "oil_capacity_l": 4.7,
+      "oil_capacity_after_repair_l": 5.0,
+      "oil_spec": "VW 507 00",
+      "scr": false,
+      "dpf": true,
+      "timing_drive": "belt",
+      "models": [
+        "SUPERB"
+      ]
+    },
+    "DCZA": {
+      "code": "DCZA",
+      "applications": [
+        {
+          "model": "SUPERB",
+          "start": "2015-11",
+          "end": null
+        }
+      ],
+      "displacement_l": 1.6,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "diesel",
+      "kw": 88,
+      "hp": 120,
+      "notes": "TDI CR",
+      "torque_nm": 250,
+      "emission": "EU6",
+      "production_from": "2015-11",
+      "oil_capacity_l": 4.7,
+      "oil_capacity_after_repair_l": 5.3,
+      "oil_spec": "VW 507 00",
+      "oil_viscosity": "0W-30",
+      "scr": true,
+      "dpf": true,
+      "timing_drive": "belt",
+      "models": [
+        "SUPERB"
+      ]
+    },
+    "DDAA": {
+      "code": "DDAA",
+      "applications": [
+        {
+          "model": "SUPERB",
+          "start": "2015-03",
+          "end": null
+        }
+      ],
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "diesel",
+      "kw": 140,
+      "hp": 190,
+      "notes": "TDI CR",
+      "torque_nm": 400,
+      "emission": "EU6",
+      "production_from": "2015-03",
+      "oil_capacity_l": 4.7,
+      "oil_capacity_after_repair_l": 5.3,
+      "oil_spec": "VW 507 00",
+      "scr": true,
+      "dpf": true,
+      "timing_drive": "belt",
+      "models": [
+        "SUPERB"
+      ]
+    },
+    "DDYA": {
+      "code": "DDYA",
+      "applications": [
+        {
+          "model": "KAROQ",
+          "start": "2017-07",
+          "end": null
+        }
+      ],
+      "displacement_l": 1.6,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "diesel",
+      "kw": 85,
+      "hp": 116,
+      "notes": "TDI CR",
+      "torque_nm": 250,
+      "emission": "EU6",
+      "production_from": "2017-07",
+      "oil_capacity_l": 4.6,
+      "oil_capacity_after_repair_l": 5.0,
+      "oil_spec": "VW 507 00",
+      "models": [
+        "KAROQ"
+      ]
+    },
+    "DFCA": {
+      "code": "DFCA",
+      "applications": [
+        {
+          "model": "SUPERB",
+          "start": "2015-06",
+          "end": null
+        }
+      ],
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "diesel",
+      "kw": 140,
+      "hp": 190,
+      "notes": "TDI CR",
+      "torque_nm": 400,
+      "emission": "EU6",
+      "production_from": "2015-06",
+      "oil_capacity_l": 4.7,
+      "oil_capacity_after_repair_l": 5.3,
+      "oil_spec": "VW 507 00",
+      "scr": true,
+      "dpf": true,
+      "timing_drive": "belt",
+      "models": [
+        "SUPERB"
+      ]
+    },
+    "DFEA": {
+      "code": "DFEA",
+      "applications": [
+        {
+          "model": "SUPERB",
+          "start": "2015-08",
+          "end": null
+        }
+      ],
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "diesel",
+      "kw": 110,
+      "hp": 150,
+      "notes": "TDI CR",
+      "torque_nm": 340,
+      "emission": "EU6",
+      "production_from": "2015-08",
+      "oil_capacity_l": 4.7,
+      "oil_capacity_after_repair_l": 5.3,
+      "oil_spec": "VW 507 00",
+      "scr": false,
+      "dpf": true,
+      "timing_drive": "belt",
+      "models": [
+        "SUPERB"
+      ]
+    },
+    "DFFA": {
+      "code": "DFFA",
+      "applications": [
+        {
+          "model": "KAROQ",
+          "start": "2017-07",
+          "end": null
+        }
+      ],
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "diesel",
+      "kw": 110,
+      "hp": 150,
+      "notes": "TDI CR",
+      "torque_nm": 340,
+      "emission": "EU6",
+      "production_from": "2017-07",
+      "oil_capacity_l": 4.7,
+      "oil_capacity_after_repair_l": 5.3,
+      "oil_spec": "VW 507 00",
+      "models": [
+        "KAROQ"
+      ]
+    },
+    "DFGA": {
+      "code": "DFGA",
+      "applications": [
+        {
+          "model": "KODIAQ",
+          "start": "2016-10",
+          "end": null
+        },
+        {
+          "model": "KODIAQ",
+          "start": "2024-06",
+          "end": null
+        },
+        {
+          "model": "SUPERB",
+          "start": "2017-07",
+          "end": null
+        }
+      ],
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "diesel",
+      "kw": 110,
+      "hp": 150,
+      "notes": "TDI CR",
+      "torque_nm": 340,
+      "emission": "EU6",
+      "production_from": "2016-10",
+      "oil_capacity_l": 4.7,
+      "oil_capacity_after_repair_l": 5.3,
+      "oil_spec": "VW 507 00",
+      "oil_viscosity": "0W-30",
+      "scr": true,
+      "dpf": true,
+      "timing_drive": "belt",
+      "models": [
+        "KODIAQ",
+        "SUPERB"
+      ]
+    },
+    "DFGC": {
+      "code": "DFGC",
+      "applications": [
+        {
+          "model": "KODIAQ",
+          "start": "2018-07",
+          "end": null
+        }
+      ],
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "diesel",
+      "kw": 85,
+      "hp": 116,
+      "notes": "TDI CR",
+      "torque_nm": 320,
+      "emission": "EU6",
+      "production_from": "2018-07",
+      "scr": true,
+      "dpf": true,
+      "timing_drive": "belt",
+      "models": [
+        "KODIAQ"
+      ]
+    },
+    "DFHA": {
+      "code": "DFHA",
+      "applications": [
+        {
+          "model": "KAROQ",
+          "start": "2018-12",
+          "end": null
+        },
+        {
+          "model": "KODIAQ",
+          "start": "2016-10",
+          "end": null
+        },
+        {
+          "model": "SUPERB",
+          "start": "2017-08",
+          "end": null
+        }
+      ],
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "diesel",
+      "kw": 140,
+      "hp": 190,
+      "notes": "TDI CR",
+      "torque_nm": 400,
+      "emission": "EU6",
+      "production_from": "2016-10",
+      "oil_capacity_l": 4.7,
+      "oil_capacity_after_repair_l": 5.3,
+      "oil_spec": "VW 507 00",
+      "oil_viscosity": "0W-30",
+      "scr": true,
+      "dpf": true,
+      "timing_drive": "belt",
+      "models": [
+        "KAROQ",
+        "KODIAQ",
+        "SUPERB"
+      ]
+    },
+    "DGEA": {
+      "code": "DGEA",
+      "applications": [
+        {
+          "model": "OCTAVIA",
+          "start": "2020-09",
+          "end": null
+        }
+      ],
+      "displacement_l": 1.4,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "petrol_hybrid",
+      "kw": 110,
+      "hp": 150,
+      "notes": "TSI Hybrid",
+      "torque_nm": 250,
+      "emission": "EU6",
+      "production_from": "2020-09",
+      "oil_capacity_l": 4.0,
+      "oil_capacity_after_repair_l": 4.5,
+      "oil_spec": "VW 508 00",
+      "oil_viscosity": "0W-20",
+      "models": [
+        "OCTAVIA"
+      ]
+    },
+    "DGEB": {
+      "code": "DGEB",
+      "applications": [
+        {
+          "model": "SUPERB",
+          "start": "2019-09",
+          "end": null
+        }
+      ],
+      "displacement_l": 1.4,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "petrol_hybrid",
+      "kw": 115,
+      "hp": 156,
+      "notes": "TSI Hybrid",
+      "torque_nm": 250,
+      "emission": "EU6",
+      "production_from": "2019-09",
+      "oil_capacity_l": 4.0,
+      "oil_capacity_after_repair_l": 4.5,
+      "oil_spec": "VW 508 00",
+      "oil_viscosity": "0W-20",
+      "timing_drive": "belt",
+      "gpf": true,
+      "models": [
+        "SUPERB"
+      ]
+    },
+    "DGTA": {
+      "code": "DGTA",
+      "applications": [
+        {
+          "model": "SCALA",
+          "start": "2019-06",
+          "end": null
+        }
+      ],
+      "displacement_l": 1.6,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "diesel",
+      "kw": 85,
+      "hp": 116,
+      "notes": "TDI CR",
+      "torque_nm": 250,
+      "emission": "EU6",
+      "production_from": "2019-06",
+      "scr": true,
+      "dpf": true,
+      "timing_drive": "belt",
+      "models": [
+        "SCALA"
+      ]
+    },
+    "DGTD": {
+      "code": "DGTD",
+      "applications": [
+        {
+          "model": "SCALA",
+          "start": "2019-08",
+          "end": null
+        }
+      ],
+      "displacement_l": 1.6,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "diesel",
+      "kw": 70,
+      "hp": 95,
+      "notes": "TDI CR",
+      "torque_nm": 250,
+      "emission": "EU6",
+      "production_from": "2019-08",
+      "scr": true,
+      "dpf": true,
+      "timing_drive": "belt",
+      "models": [
+        "SCALA"
+      ]
+    },
+    "DGTE": {
+      "code": "DGTE",
+      "applications": [
+        {
+          "model": "KAROQ",
+          "start": "2018-08",
+          "end": null
+        }
+      ],
+      "displacement_l": 1.6,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "diesel",
+      "kw": 85,
+      "hp": 116,
+      "notes": "TDI CR",
+      "torque_nm": 250,
+      "emission": "EU6",
+      "production_from": "2018-08",
+      "oil_capacity_l": 4.9,
+      "oil_capacity_after_repair_l": 5.0,
+      "oil_spec": "VW 507 00",
+      "oil_viscosity": "0W-30",
+      "models": [
+        "KAROQ"
+      ]
+    },
+    "DHFA": {
+      "code": "DHFA",
+      "applications": [
+        {
+          "model": "OCTAVIA",
+          "start": "2020-09",
+          "end": null
+        }
+      ],
+      "displacement_l": 1.5,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "cng",
+      "kw": 96,
+      "hp": 131,
+      "notes": "TGI CNG",
+      "torque_nm": 200,
+      "emission": "EU6",
+      "production_from": "2020-09",
+      "oil_capacity_l": 4.3,
+      "oil_capacity_after_repair_l": 4.8,
+      "oil_spec": "VW 508 00",
+      "oil_viscosity": "0W-20",
+      "models": [
+        "OCTAVIA"
+      ]
+    },
+    "DJKA": {
+      "code": "DJKA",
+      "applications": [
+        {
+          "model": "KAROQ",
+          "start": "2019-12",
+          "end": null
+        },
+        {
+          "model": "OCTAVIA",
+          "start": "2020-09",
+          "end": null
+        },
+        {
+          "model": "OCTAVIA",
+          "start": "2024-04",
+          "end": null
+        }
+      ],
+      "displacement_l": 1.4,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "petrol",
+      "kw": 110,
+      "hp": 150,
+      "notes": "TSI",
+      "torque_nm": 250,
+      "emission": "EU6",
+      "production_from": "2020-09",
+      "oil_capacity_l": 4.0,
+      "oil_capacity_after_repair_l": 4.5,
+      "oil_spec": "VW 508 00",
+      "oil_viscosity": "0W-20",
+      "timing_drive": "belt",
+      "models": [
+        "KAROQ",
+        "OCTAVIA"
+      ]
+    },
+    "DKLA": {
+      "code": "DKLA",
+      "applications": [
+        {
+          "model": "SCALA",
+          "start": "2019-08",
+          "end": null
+        }
+      ],
+      "displacement_l": 1.0,
+      "cylinders": 3,
+      "valves_per_cylinder": 4,
+      "fuel_type": "petrol",
+      "kw": 70,
+      "hp": 95,
+      "notes": "TSI",
+      "torque_nm": 175,
+      "emission": "EU6",
+      "production_from": "2019-08",
+      "timing_drive": "belt",
+      "models": [
+        "SCALA"
+      ]
+    },
+    "DKRF": {
+      "code": "DKRF",
+      "applications": [
+        {
+          "model": "KAROQ",
+          "start": "2018-08",
+          "end": null
+        },
+        {
+          "model": "SCALA",
+          "start": "2019-06",
+          "end": null
+        },
+        {
+          "model": "KAMIQ",
+          "start": "2019-07",
+          "end": null
+        }
+      ],
+      "displacement_l": 1.0,
+      "cylinders": 3,
+      "valves_per_cylinder": 4,
+      "fuel_type": "petrol",
+      "kw": 85,
+      "hp": 116,
+      "notes": "TSI",
+      "torque_nm": 200,
+      "emission": "EU6",
+      "production_from": "2019-06",
+      "gpf": true,
+      "oil_capacity_l": 4.0,
+      "oil_capacity_after_repair_l": 4.3,
+      "oil_spec": "VW 508 00",
+      "oil_viscosity": "0W-20",
+      "timing_drive": "belt",
+      "models": [
+        "KAMIQ",
+        "KAROQ",
+        "SCALA"
+      ]
+    },
+    "DKZA": {
+      "code": "DKZA",
+      "applications": [
+        {
+          "model": "KAROQ",
+          "start": "2018-12",
+          "end": null
+        },
+        {
+          "model": "KODIAQ",
+          "start": "2018-09",
+          "end": null
+        },
+        {
+          "model": "SUPERB",
+          "start": "2018-11",
+          "end": null
+        }
+      ],
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "petrol",
+      "kw": 140,
+      "hp": 190,
+      "notes": "TSI",
+      "torque_nm": 320,
+      "emission": "EU6",
+      "production_from": "2018-09",
+      "gpf": true,
+      "oil_capacity_l": 5.7,
+      "oil_capacity_after_repair_l": 6.6,
+      "oil_spec": "VW 508 00",
+      "oil_viscosity": "0W-20",
+      "timing_drive": "chain",
+      "models": [
+        "KAROQ",
+        "KODIAQ",
+        "SUPERB"
+      ]
+    },
+    "DLAA": {
+      "code": "DLAA",
+      "applications": [
+        {
+          "model": "FABIA",
+          "start": "2021-06",
+          "end": null
+        },
+        {
+          "model": "KAROQ",
+          "start": "2020-09",
+          "end": null
+        },
+        {
+          "model": "SCALA",
+          "start": "2020-10",
+          "end": null
+        }
+      ],
+      "displacement_l": 1.0,
+      "cylinders": 3,
+      "valves_per_cylinder": 4,
+      "fuel_type": "petrol",
+      "kw": 81,
+      "hp": 110,
+      "notes": "TSI",
+      "torque_nm": 200,
+      "emission": "EU6",
+      "production_from": "2020-08",
+      "gpf": true,
+      "oil_capacity_l": 4.0,
+      "oil_capacity_after_repair_l": 4.3,
+      "oil_spec": "VW 508 00",
+      "oil_viscosity": "0W-20",
+      "timing_drive": "belt",
+      "models": [
+        "FABIA",
+        "KAROQ",
+        "SCALA"
+      ]
+    },
+    "DLAC": {
+      "code": "DLAC",
+      "applications": [
+        {
+          "model": "FABIA",
+          "start": "2021-06",
+          "end": null
+        },
+        {
+          "model": "SCALA",
+          "start": "2020-11",
+          "end": null
+        }
+      ],
+      "displacement_l": 1.0,
+      "cylinders": 3,
+      "valves_per_cylinder": 4,
+      "fuel_type": "petrol",
+      "kw": 70,
+      "hp": 95,
+      "notes": "TSI",
+      "torque_nm": 175,
+      "emission": "EU6",
+      "production_from": "2020-11",
+      "gpf": true,
+      "oil_capacity_l": 4.0,
+      "oil_capacity_after_repair_l": 4.3,
+      "oil_spec": "VW 508 00",
+      "oil_viscosity": "0W-20",
+      "timing_drive": "belt",
+      "models": [
+        "FABIA",
+        "SCALA"
+      ]
+    },
+    "DNFE": {
+      "code": "DNFE",
+      "applications": [
+        {
+          "model": "SUPERB",
+          "start": "2020-12",
+          "end": null
+        }
+      ],
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "petrol",
+      "kw": 206,
+      "hp": 280,
+      "notes": "TSI",
+      "torque_nm": 400,
+      "emission": "EU6",
+      "production_from": "2020-12",
+      "gpf": true,
+      "oil_capacity_l": 5.7,
+      "oil_capacity_after_repair_l": 6.6,
+      "oil_spec": "VW 504 00",
+      "oil_viscosity": "0W-30",
+      "timing_drive": "chain",
+      "models": [
+        "SUPERB"
+      ]
+    },
+    "DNNA": {
+      "code": "DNNA",
+      "applications": [
+        {
+          "model": "KAROQ",
+          "start": "2020-12",
+          "end": null
+        },
+        {
+          "model": "KODIAQ",
+          "start": "2021-01",
+          "end": null
+        },
+        {
+          "model": "OCTAVIA",
+          "start": "2021-03",
+          "end": null
+        }
+      ],
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "petrol",
+      "kw": 140,
+      "hp": 190,
+      "notes": "TSI",
+      "torque_nm": 320,
+      "emission": "EU6",
+      "production_from": "2021-01",
+      "gpf": true,
+      "oil_capacity_l": 5.7,
+      "oil_capacity_after_repair_l": 6.6,
+      "oil_spec": "VW 508 00",
+      "oil_viscosity": "0W-20",
+      "timing_drive": "chain",
+      "models": [
+        "KAROQ",
+        "KODIAQ",
+        "OCTAVIA"
+      ]
+    },
+    "DNNE": {
+      "code": "DNNE",
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "fuel_type": "petrol",
+      "kw": 150,
+      "hp": 204,
+      "notes": "TFSI",
+      "applications": [
+        {
+          "model": "KODIAQ",
+          "start": "2024-04",
+          "end": null
+        },
+        {
+          "model": "KODIAQ",
+          "start": "2024-07",
+          "end": null
+        },
+        {
+          "model": "OCTAVIA",
+          "start": "2024-02",
+          "end": null
+        },
+        {
+          "model": "OCTAVIA",
+          "start": "2025-09",
+          "end": null
+        },
+        {
+          "model": "SUPERB",
+          "start": "2024-11",
+          "end": null
+        }
+      ],
+      "valves_per_cylinder": 4,
+      "torque_nm": 320,
+      "emission": "EU6",
+      "production_from": "2024-04",
+      "oil_capacity_l": 5.7,
+      "oil_capacity_after_repair_l": 6.6,
+      "oil_spec": "VW 508 00",
+      "oil_viscosity": "0W-20",
+      "models": [
+        "KODIAQ",
+        "OCTAVIA",
+        "SUPERB"
+      ]
+    },
+    "DNPA": {
+      "code": "DNPA",
+      "applications": [
+        {
+          "model": "KODIAQ",
+          "start": "2021-07",
+          "end": null
+        },
+        {
+          "model": "OCTAVIA",
+          "start": "2020-09",
+          "end": null
+        }
+      ],
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "petrol",
+      "kw": 180,
+      "hp": 245,
+      "notes": "TSI",
+      "torque_nm": 370,
+      "emission": "EU6",
+      "production_from": "2020-09",
+      "gpf": true,
+      "oil_capacity_l": 5.7,
+      "oil_capacity_after_repair_l": 6.6,
+      "oil_spec": "VW 508 00",
+      "oil_viscosity": "0W-20",
+      "timing_drive": "chain",
+      "models": [
+        "KODIAQ",
+        "OCTAVIA"
+      ]
+    },
+    "DNPB": {
+      "code": "DNPB",
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "fuel_type": "petrol",
+      "kw": 195,
+      "hp": 265,
+      "notes": "TFSI",
+      "applications": [
+        {
+          "model": "KODIAQ",
+          "start": "2024-03",
+          "end": null
+        },
+        {
+          "model": "KODIAQ",
+          "start": "2025-01",
+          "end": null
+        },
+        {
+          "model": "SUPERB",
+          "start": "2024-03",
+          "end": null
+        }
+      ],
+      "valves_per_cylinder": 4,
+      "torque_nm": 400,
+      "emission": "EU6",
+      "production_from": "2024-03",
+      "models": [
+        "KODIAQ",
+        "SUPERB"
+      ]
+    },
+    "DNPD": {
+      "code": "DNPD",
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "fuel_type": "petrol",
+      "kw": 195,
+      "hp": 265,
+      "notes": "TFSI",
+      "applications": [
+        {
+          "model": "OCTAVIA",
+          "start": "2024-02",
+          "end": null
+        },
+        {
+          "model": "OCTAVIA",
+          "start": "2024-08",
+          "end": null
+        }
+      ],
+      "valves_per_cylinder": 4,
+      "torque_nm": 370,
+      "emission": "EU6",
+      "production_from": "2024-08",
+      "oil_capacity_l": 5.7,
+      "oil_capacity_after_repair_l": 6.6,
+      "oil_spec": "VW 508 00",
+      "oil_viscosity": "0W-20",
+      "models": [
+        "OCTAVIA"
+      ]
+    },
+    "DNUA": {
+      "code": "DNUA",
+      "applications": [
+        {
+          "model": "SUPERB",
+          "start": "2018-09",
+          "end": null
+        }
+      ],
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "petrol",
+      "kw": 200,
+      "hp": 272,
+      "notes": "TSI",
+      "torque_nm": 350,
+      "emission": "EU6",
+      "production_from": "2018-09",
+      "gpf": true,
+      "oil_capacity_l": 5.7,
+      "oil_capacity_after_repair_l": 6.6,
+      "oil_spec": "VW 504 00",
+      "oil_viscosity": "0W-30",
+      "timing_drive": "chain",
+      "models": [
+        "SUPERB"
+      ]
+    },
+    "DPCA": {
+      "code": "DPCA",
+      "displacement_l": 1.5,
+      "cylinders": 4,
+      "fuel_type": "petrol",
+      "kw": 110,
+      "hp": 150,
+      "notes": "TSI",
+      "applications": [
+        {
+          "model": "FABIA",
+          "start": "2021-11",
+          "end": null
+        },
+        {
+          "model": "KAMIQ",
+          "start": "2019-07",
+          "end": null
+        },
+        {
+          "model": "KAROQ",
+          "start": "2019-07",
+          "end": null
+        },
+        {
+          "model": "KODIAQ",
+          "start": "2019-07",
+          "end": "2024-06"
+        },
+        {
+          "model": "SCALA",
+          "start": "2019-07",
+          "end": null
+        }
+      ],
+      "models": [
+        "FABIA",
+        "KAMIQ",
+        "KAROQ",
+        "KODIAQ",
+        "SCALA"
+      ]
+    },
+    "DSBA": {
+      "code": "DSBA",
+      "displacement_l": 1.4,
+      "cylinders": 4,
+      "fuel_type": "petrol",
+      "kw": 110,
+      "hp": 150,
+      "notes": "TSI",
+      "applications": [
+        {
+          "model": "KAROQ",
+          "start": "2020-12",
+          "end": "2022-12"
+        }
+      ],
+      "models": [
+        "KAROQ"
+      ]
+    },
+    "DSGA": {
+      "code": "DSGA",
+      "displacement_l": 1.0,
+      "cylinders": 3,
+      "fuel_type": "petrol",
+      "kw": 48,
+      "hp": 65,
+      "notes": "MPI",
+      "applications": [
+        {
+          "model": "FABIA",
+          "start": "2021-06",
+          "end": null
+        },
+        {
+          "model": "FABIA",
+          "start": "2021-09",
+          "end": null
+        }
+      ],
+      "valves_per_cylinder": 4,
+      "torque_nm": 91,
+      "emission": "EU6",
+      "production_from": "2021-09",
+      "gpf": false,
+      "oil_capacity_l": 3.6,
+      "oil_capacity_after_repair_l": 3.9,
+      "oil_spec": "VW 508 00",
+      "oil_viscosity": "0W-20",
+      "timing_drive": "belt",
+      "models": [
+        "FABIA"
+      ]
+    },
+    "DSGD": {
+      "code": "DSGD",
+      "displacement_l": 1.0,
+      "cylinders": 3,
+      "fuel_type": "petrol",
+      "kw": 59,
+      "hp": 80,
+      "notes": "MPI",
+      "applications": [
+        {
+          "model": "FABIA",
+          "start": "2021-06",
+          "end": null
+        }
+      ],
+      "valves_per_cylinder": 4,
+      "torque_nm": 93,
+      "emission": "EU6",
+      "production_from": "2021-06",
+      "gpf": false,
+      "oil_capacity_l": 3.75,
+      "oil_capacity_after_repair_l": 4.05,
+      "oil_spec": "VW 508 00",
+      "oil_viscosity": "0W-20",
+      "timing_drive": "belt",
+      "models": [
+        "FABIA"
+      ]
+    },
+    "DSRA": {
+      "code": "DSRA",
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "fuel_type": "diesel",
+      "kw": 110,
+      "hp": 150,
+      "notes": "TDI CR",
+      "applications": [
+        {
+          "model": "SUPERB",
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        {
+          "model": "SUPERB",
+          "start": "2019-09",
+          "end": null
+        }
+      ],
+      "valves_per_cylinder": 4,
+      "torque_nm": 360,
+      "emission": "EU6",
+      "production_from": "2019-09",
+      "oil_capacity_l": 5.1,
+      "oil_capacity_after_repair_l": 6.0,
+      "oil_spec": "VW 509 00",
+      "oil_viscosity": "0W-20",
+      "scr": true,
+      "dpf": true,
+      "timing_drive": "belt",
+      "models": [
+        "SUPERB"
+      ]
+    },
+    "DSRB": {
+      "code": "DSRB",
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "fuel_type": "diesel",
+      "kw": 110,
+      "hp": 150,
+      "notes": "TDI CR",
+      "applications": [
+        {
+          "model": "SUPERB",
+          "start": "2015-03",
+          "end": "2024-06"
+        },
+        {
+          "model": "SUPERB",
+          "start": "2019-09",
+          "end": null
+        }
+      ],
+      "valves_per_cylinder": 4,
+      "torque_nm": 360,
+      "emission": "EU6",
+      "production_from": "2019-09",
+      "oil_capacity_l": 5.1,
+      "oil_capacity_after_repair_l": 6.0,
+      "oil_spec": "VW 509 00",
+      "oil_viscosity": "0W-20",
+      "scr": true,
+      "dpf": true,
+      "timing_drive": "belt",
+      "models": [
+        "SUPERB"
+      ]
+    },
+    "DSTA": {
+      "code": "DSTA",
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "fuel_type": "diesel",
+      "kw": 110,
+      "hp": 150,
+      "notes": "TDI CR",
+      "applications": [
+        {
+          "model": "OCTAVIA",
+          "start": "2019-11",
+          "end": null
+        }
+      ],
+      "models": [
+        "OCTAVIA"
+      ]
+    },
+    "DSTB": {
+      "code": "DSTB",
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "fuel_type": "diesel",
+      "kw": 110,
+      "hp": 150,
+      "notes": "TDI CR",
+      "applications": [
+        {
+          "model": "OCTAVIA",
+          "start": "2019-11",
+          "end": null
+        }
+      ],
+      "valves_per_cylinder": 4,
+      "torque_nm": 340,
+      "emission": "EU6",
+      "production_from": "2019-11",
+      "oil_capacity_l": 5.1,
+      "oil_capacity_after_repair_l": 6.0,
+      "oil_spec": "VW 509 00",
+      "oil_viscosity": "0W-20",
+      "models": [
+        "OCTAVIA"
+      ]
+    },
+    "DSUB": {
+      "code": "DSUB",
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "fuel_type": "diesel",
+      "kw": 90,
+      "hp": 122,
+      "notes": "TDI CR",
+      "applications": [
+        {
+          "model": "SUPERB",
+          "start": "2015-03",
+          "end": "2024-06"
+        }
+      ],
+      "models": [
+        "SUPERB"
+      ]
+    },
+    "DSUD": {
+      "code": "DSUD",
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "fuel_type": "diesel",
+      "kw": 85,
+      "hp": 116,
+      "notes": "TDI CR",
+      "applications": [
+        {
+          "model": "OCTAVIA",
+          "start": "2019-11",
+          "end": null
+        }
+      ],
+      "valves_per_cylinder": 4,
+      "torque_nm": 300,
+      "emission": "EU6",
+      "production_from": "2019-11",
+      "oil_capacity_l": 5.1,
+      "oil_capacity_after_repair_l": 6.0,
+      "oil_spec": "VW 509 00",
+      "oil_viscosity": "0W-20",
+      "models": [
+        "OCTAVIA"
+      ]
+    },
+    "DTRA": {
+      "code": "DTRA",
+      "applications": [
+        {
+          "model": "SUPERB",
+          "start": "2020-07",
+          "end": null
+        }
+      ],
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "diesel",
+      "kw": 90,
+      "hp": 122,
+      "notes": "TDI CR",
+      "torque_nm": 250,
+      "emission": "EU6",
+      "production_from": "2020-07",
+      "oil_capacity_l": 5.1,
+      "oil_capacity_after_repair_l": 6.0,
+      "oil_spec": "VW 509 00",
+      "oil_viscosity": "0W-20",
+      "scr": true,
+      "dpf": true,
+      "timing_drive": "belt",
+      "models": [
+        "SUPERB"
+      ]
+    },
+    "DTRB": {
+      "code": "DTRB",
+      "applications": [
+        {
+          "model": "KAROQ",
+          "start": "2020-12",
+          "end": null
+        },
+        {
+          "model": "OCTAVIA",
+          "start": "2020-11",
+          "end": null
+        }
+      ],
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "diesel",
+      "kw": 85,
+      "hp": 116,
+      "notes": "TDI CR",
+      "torque_nm": 250,
+      "emission": "EU6",
+      "production_from": "2020-11",
+      "oil_capacity_l": 5.1,
+      "oil_capacity_after_repair_l": 6.0,
+      "oil_spec": "VW 509 00",
+      "oil_viscosity": "0W-20",
+      "models": [
+        "KAROQ",
+        "OCTAVIA"
+      ]
+    },
+    "DTRD": {
+      "code": "DTRD",
+      "applications": [
+        {
+          "model": "KAROQ",
+          "start": "2020-12",
+          "end": null
+        },
+        {
+          "model": "OCTAVIA",
+          "start": "2020-11",
+          "end": null
+        }
+      ],
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "diesel",
+      "kw": 85,
+      "hp": 116,
+      "notes": "TDI CR",
+      "torque_nm": 300,
+      "emission": "EU6",
+      "production_from": "2020-11",
+      "oil_capacity_l": 5.1,
+      "oil_capacity_after_repair_l": 6.0,
+      "oil_spec": "VW 509 00",
+      "oil_viscosity": "0W-20",
+      "models": [
+        "KAROQ",
+        "OCTAVIA"
+      ]
+    },
+    "DTSA": {
+      "code": "DTSA",
+      "applications": [
+        {
+          "model": "SUPERB",
+          "start": "2020-09",
+          "end": null
+        }
+      ],
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "diesel",
+      "kw": 110,
+      "hp": 150,
+      "notes": "TDI CR",
+      "torque_nm": 340,
+      "emission": "EU6",
+      "production_from": "2020-09",
+      "oil_capacity_l": 5.1,
+      "oil_capacity_after_repair_l": 6.0,
+      "oil_spec": "VW 509 00",
+      "oil_viscosity": "0W-20",
+      "scr": true,
+      "dpf": true,
+      "timing_drive": "belt",
+      "models": [
+        "SUPERB"
+      ]
+    },
+    "DTSB": {
+      "code": "DTSB",
+      "applications": [
+        {
+          "model": "KODIAQ",
+          "start": "2020-07",
+          "end": null
+        },
+        {
+          "model": "SUPERB",
+          "start": "2020-09",
+          "end": null
+        }
+      ],
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "diesel",
+      "kw": 110,
+      "hp": 150,
+      "notes": "TDI CR",
+      "torque_nm": 360,
+      "emission": "EU6",
+      "production_from": "2020-07",
+      "oil_capacity_l": 5.1,
+      "oil_capacity_after_repair_l": 6.0,
+      "oil_spec": "VW 509 00",
+      "oil_viscosity": "0W-20",
+      "scr": true,
+      "dpf": true,
+      "timing_drive": "belt",
+      "models": [
+        "KODIAQ",
+        "SUPERB"
+      ]
+    },
+    "DTTA": {
+      "code": "DTTA",
+      "applications": [
+        {
+          "model": "KAROQ",
+          "start": "2020-12",
+          "end": null
+        },
+        {
+          "model": "OCTAVIA",
+          "start": "2020-11",
+          "end": null
+        }
+      ],
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "diesel",
+      "kw": 110,
+      "hp": 150,
+      "notes": "TDI CR",
+      "torque_nm": 340,
+      "emission": "EU6",
+      "production_from": "2020-11",
+      "oil_capacity_l": 5.1,
+      "oil_capacity_after_repair_l": 6.0,
+      "oil_spec": "VW 509 00",
+      "oil_viscosity": "0W-20",
+      "models": [
+        "KAROQ",
+        "OCTAVIA"
+      ]
+    },
+    "DTTC": {
+      "code": "DTTC",
+      "applications": [
+        {
+          "model": "KAROQ",
+          "start": "2020-11",
+          "end": null
+        },
+        {
+          "model": "OCTAVIA",
+          "start": "2020-11",
+          "end": null
+        }
+      ],
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "diesel",
+      "kw": 110,
+      "hp": 150,
+      "notes": "TDI CR",
+      "torque_nm": 340,
+      "emission": "EU6",
+      "production_from": "2020-11",
+      "oil_capacity_l": 5.1,
+      "oil_capacity_after_repair_l": 6.0,
+      "oil_spec": "VW 509 00",
+      "oil_viscosity": "0W-20",
+      "models": [
+        "KAROQ",
+        "OCTAVIA"
+      ]
+    },
+    "DTUA": {
+      "code": "DTUA",
+      "applications": [
+        {
+          "model": "KODIAQ",
+          "start": "2020-09",
+          "end": null
+        },
+        {
+          "model": "OCTAVIA",
+          "start": "2020-10",
+          "end": null
+        },
+        {
+          "model": "SUPERB",
+          "start": "2020-09",
+          "end": null
+        }
+      ],
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "diesel",
+      "kw": 147,
+      "hp": 200,
+      "notes": "TDI CR",
+      "torque_nm": 400,
+      "emission": "EU6",
+      "production_from": "2020-09",
+      "oil_capacity_l": 5.5,
+      "oil_capacity_after_repair_l": 6.0,
+      "oil_spec": "VW 507 00",
+      "oil_viscosity": "0W-30",
+      "scr": true,
+      "dpf": true,
+      "timing_drive": "belt",
+      "models": [
+        "KODIAQ",
+        "OCTAVIA",
+        "SUPERB"
+      ]
+    },
+    "DUCB": {
+      "code": "DUCB",
+      "applications": [
+        {
+          "model": "KODIAQ",
+          "start": "2024-05",
+          "end": null
+        }
+      ],
+      "displacement_l": 1.5,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "petrol_hybrid",
+      "kw": 110,
+      "hp": 150,
+      "notes": "TSI Hybrid",
+      "torque_nm": 250,
+      "emission": "EU6",
+      "production_from": "2024-05",
+      "models": [
+        "KODIAQ"
+      ]
+    },
+    "DUSA": {
+      "code": "DUSA",
+      "applications": [
+        {
+          "model": "FABIA",
+          "start": "2024-01",
+          "end": null
+        },
+        {
+          "model": "KAROQ",
+          "start": "2024-01",
+          "end": null
+        },
+        {
+          "model": "SCALA",
+          "start": "2024-01",
+          "end": null
+        }
+      ],
+      "displacement_l": 1.0,
+      "cylinders": 3,
+      "valves_per_cylinder": 4,
+      "fuel_type": "petrol",
+      "kw": 85,
+      "hp": 116,
+      "notes": "TSI",
+      "torque_nm": 200,
+      "emission": "EU6",
+      "production_from": "2024-01",
+      "gpf": true,
+      "oil_capacity_l": 4.0,
+      "oil_capacity_after_repair_l": 4.3,
+      "oil_spec": "VW 508 00",
+      "oil_viscosity": "0W-20",
+      "timing_drive": "belt",
+      "models": [
+        "FABIA",
+        "KAROQ",
+        "SCALA"
+      ]
+    },
+    "DUSB": {
+      "code": "DUSB",
+      "applications": [
+        {
+          "model": "FABIA",
+          "start": "2024-01",
+          "end": null
+        },
+        {
+          "model": "SCALA",
+          "start": "2024-01",
+          "end": null
+        }
+      ],
+      "displacement_l": 1.0,
+      "cylinders": 3,
+      "valves_per_cylinder": 4,
+      "fuel_type": "petrol",
+      "kw": 70,
+      "hp": 95,
+      "notes": "TSI",
+      "torque_nm": 175,
+      "emission": "EU6",
+      "production_from": "2024-01",
+      "gpf": true,
+      "oil_capacity_l": 4.0,
+      "oil_capacity_after_repair_l": 4.3,
+      "oil_spec": "VW 508 00",
+      "oil_viscosity": "0W-20",
+      "timing_drive": "belt",
+      "models": [
+        "FABIA",
+        "SCALA"
+      ]
+    },
+    "DWYA": {
+      "code": "DWYA",
+      "applications": [
+        {
+          "model": "FABIA",
+          "start": "2021-12",
+          "end": null
+        },
+        {
+          "model": "KAROQ",
+          "start": "2021-05",
+          "end": null
+        },
+        {
+          "model": "OCTAVIA",
+          "start": "2021-03",
+          "end": null
+        },
+        {
+          "model": "SCALA",
+          "start": "2022-01",
+          "end": null
+        }
+      ],
+      "displacement_l": 1.6,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "petrol",
+      "kw": 81,
+      "hp": 110,
+      "notes": "MPI",
+      "torque_nm": 155,
+      "emission": "EU6",
+      "production_from": "2021-03",
+      "oil_capacity_l": 4.0,
+      "oil_capacity_after_repair_l": 4.3,
+      "oil_spec": "VW 502 00",
+      "oil_viscosity": "5W-40",
+      "timing_drive": "belt",
+      "models": [
+        "FABIA",
+        "KAROQ",
+        "OCTAVIA",
+        "SCALA"
+      ]
+    },
+    "DXDB": {
+      "code": "DXDB",
+      "applications": [
+        {
+          "model": "FABIA",
+          "start": "2022-12",
+          "end": null
+        },
+        {
+          "model": "KAROQ",
+          "start": "2022-06",
+          "end": null
+        },
+        {
+          "model": "KODIAQ",
+          "start": "2024-03",
+          "end": null
+        },
+        {
+          "model": "OCTAVIA",
+          "start": "2024-04",
+          "end": null
+        },
+        {
+          "model": "SCALA",
+          "start": "2022-11",
+          "end": null
+        }
+      ],
+      "displacement_l": 1.5,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "petrol",
+      "kw": 110,
+      "hp": 150,
+      "notes": "TSI/ACT",
+      "torque_nm": 250,
+      "emission": "EU6",
+      "production_from": "2022-11",
+      "oil_capacity_l": 4.3,
+      "oil_capacity_after_repair_l": 4.8,
+      "oil_spec": "VW 508 00",
+      "oil_viscosity": "0W-20",
+      "timing_drive": "belt",
+      "gpf": true,
+      "models": [
+        "FABIA",
+        "KAROQ",
+        "KODIAQ",
+        "OCTAVIA",
+        "SCALA"
+      ]
+    },
+    "DXDE": {
+      "code": "DXDE",
+      "applications": [
+        {
+          "model": "OCTAVIA",
+          "start": "2024-04",
+          "end": null
+        }
+      ],
+      "displacement_l": 1.5,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "petrol",
+      "kw": 85,
+      "hp": 116,
+      "notes": "TSI",
+      "torque_nm": 220,
+      "emission": "EU6",
+      "production_from": "2024-04",
+      "oil_capacity_l": 4.3,
+      "oil_capacity_after_repair_l": 4.8,
+      "oil_spec": "VW 508 00",
+      "oil_viscosity": "0W-20",
+      "models": [
+        "OCTAVIA"
+      ]
+    },
+    "DXNB": {
+      "code": "DXNB",
+      "applications": [
+        {
+          "model": "KODIAQ",
+          "start": "2024-03",
+          "end": null
+        },
+        {
+          "model": "SUPERB",
+          "start": "2024-02",
+          "end": null
+        }
+      ],
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "diesel",
+      "kw": 142,
+      "hp": 193,
+      "notes": "TDI CR",
+      "torque_nm": 400,
+      "emission": "EU6",
+      "production_from": "2024-02",
+      "oil_capacity_l": 5.5,
+      "oil_capacity_after_repair_l": 6.0,
+      "oil_spec": "VW 507 00",
+      "oil_viscosity": "0W-30",
+      "models": [
+        "KODIAQ",
+        "SUPERB"
+      ]
+    },
+    "DXPA": {
+      "code": "DXPA",
+      "applications": [
+        {
+          "model": "KODIAQ",
+          "start": "2024-03",
+          "end": null
+        },
+        {
+          "model": "SUPERB",
+          "start": "2023-12",
+          "end": null
+        }
+      ],
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "valves_per_cylinder": 4,
+      "fuel_type": "diesel",
+      "kw": 110,
+      "hp": 150,
+      "notes": "TDI CR",
+      "torque_nm": 250,
+      "emission": "EU6",
+      "production_from": "2024-03",
+      "oil_capacity_l": 5.1,
+      "oil_capacity_after_repair_l": 6.0,
+      "oil_spec": "VW 509 00",
+      "oil_viscosity": "0W-20",
+      "models": [
+        "KODIAQ",
+        "SUPERB"
+      ]
+    },
+    "DXRB": {
+      "code": "DXRB",
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "fuel_type": "diesel",
+      "kw": 110,
+      "hp": 150,
+      "notes": "TDI CR",
+      "applications": [
+        {
+          "model": "KAROQ",
+          "start": "2024-03",
+          "end": null
+        },
+        {
+          "model": "OCTAVIA",
+          "start": "2024-04",
+          "end": null
+        }
+      ],
+      "valves_per_cylinder": 4,
+      "torque_nm": 360,
+      "emission": "EU6",
+      "production_from": "2024-03",
+      "oil_capacity_l": 5.5,
+      "oil_capacity_after_repair_l": 6.0,
+      "oil_spec": "VW 509 00",
+      "oil_viscosity": "0W-20",
+      "models": [
+        "KAROQ",
+        "OCTAVIA"
+      ]
+    },
+    "DXRC": {
+      "code": "DXRC",
+      "displacement_l": 2.0,
+      "cylinders": 4,
+      "fuel_type": "diesel",
+      "kw": 85,
+      "hp": 116,
+      "notes": "TDI CR",
+      "applications": [
+        {
+          "model": "KAROQ",
+          "start": "2024-03",
+          "end": null
+        },
+        {
+          "model": "OCTAVIA",
+          "start": "2024-04",
+          "end": null
+        }
+      ],
+      "valves_per_cylinder": 4,
+      "torque_nm": 300,
+      "emission": "EU6",
+      "production_from": "2024-03",
+      "oil_capacity_l": 5.5,
+      "oil_capacity_after_repair_l": 6.0,
+      "oil_spec": "VW 509 00",
+      "oil_viscosity": "0W-20",
+      "models": [
+        "KAROQ",
+        "OCTAVIA"
+      ]
+    },
+    "DXUA": {
+      "code": "DXUA",
+      "displacement_l": 1.0,
+      "cylinders": 3,
+      "fuel_type": "petrol",
+      "kw": 85,
+      "hp": 116,
+      "notes": "TSI",
+      "applications": [
+        {
+          "model": "KAMIQ",
+          "start": "2021-11",
+          "end": null
+        },
+        {
+          "model": "KAMIQ",
+          "start": "2021-12",
+          "end": null
+        },
+        {
+          "model": "SCALA",
+          "start": "2021-11",
+          "end": null
+        },
+        {
+          "model": "SCALA",
+          "start": "2021-12",
+          "end": null
+        },
+        {
+          "model": "SCALA",
+          "start": "2019-02",
+          "end": null
+        },
+        {
+          "model": "KAMIQ",
+          "start": "2019-07",
+          "end": null
+        }
+      ],
+      "valves_per_cylinder": 4,
+      "torque_nm": 200,
+      "emission": "EU6",
+      "production_from": "2021-12",
+      "timing_drive": "belt",
+      "models": [
+        "KAMIQ",
+        "SCALA"
+      ]
+    },
+    "EANA": {
+      "code": "EANA",
+      "displacement_l": 0.0,
+      "cylinders": 0,
+      "fuel_type": "ev",
+      "kw": 85,
+      "hp": 116,
+      "notes": "E-MOTOR",
+      "applications": [
+        {
+          "model": "OCTAVIA",
+          "start": "2020-07",
+          "end": null
+        }
+      ],
+      "models": [
+        "OCTAVIA"
+      ]
+    },
+    "EANB": {
+      "code": "EANB",
+      "displacement_l": 0.0,
+      "cylinders": 0,
+      "fuel_type": "ev",
+      "kw": 85,
+      "hp": 116,
+      "notes": "E-MOTOR",
+      "applications": [
+        {
+          "model": "KODIAQ",
+          "start": "2024-04",
+          "end": null
+        },
+        {
+          "model": "SUPERB",
+          "start": "2023-11",
+          "end": null
+        }
+      ],
+      "models": [
+        "KODIAQ",
+        "SUPERB"
+      ]
+    },
+    "EBJA": {
+      "code": "EBJA",
+      "displacement_l": 0.0,
+      "cylinders": 0,
+      "fuel_type": "ev",
+      "kw": 150,
+      "hp": 204,
+      "notes": "E-MOTOR",
+      "applications": [
+        {
+          "model": "ENYAQ",
+          "start": "2020-10",
+          "end": null
+        }
+      ],
+      "models": [
+        "ENYAQ"
+      ]
+    },
+    "EBJC": {
+      "code": "EBJC",
+      "displacement_l": 0.0,
+      "cylinders": 0,
+      "fuel_type": "ev",
+      "kw": 150,
+      "hp": 204,
+      "notes": "E-MOTOR",
+      "applications": [
+        {
+          "model": "ENYAQ",
+          "start": "2020-10",
+          "end": null
+        }
+      ],
+      "models": [
+        "ENYAQ"
+      ]
+    },
+    "EBRA": {
+      "code": "EBRA",
+      "displacement_l": 0.0,
+      "cylinders": 0,
+      "fuel_type": "ev",
+      "kw": 80,
+      "hp": 109,
+      "notes": "E-MOTOR",
+      "applications": [
+        {
+          "model": "ENYAQ",
+          "start": "2020-10",
+          "end": null
+        }
+      ],
+      "models": [
+        "ENYAQ"
+      ]
+    },
+    "EDCA": {
+      "code": "EDCA",
+      "displacement_l": 0.0,
+      "cylinders": 0,
+      "fuel_type": "ev",
+      "kw": 170,
+      "hp": 231,
+      "notes": "E-MOTOR",
+      "applications": [
+        {
+          "model": "ENYAQ",
+          "start": "2020-10",
+          "end": null
+        }
+      ],
+      "models": [
+        "ENYAQ"
+      ]
+    },
+    "EDCC": {
+      "code": "EDCC",
+      "displacement_l": 0.0,
+      "cylinders": 0,
+      "fuel_type": "ev",
+      "kw": 170,
+      "hp": 231,
+      "notes": "E-MOTOR",
+      "applications": [
+        {
+          "model": "ENYAQ",
+          "start": "2020-10",
+          "end": null
+        }
+      ],
+      "models": [
+        "ENYAQ"
+      ]
+    },
+    "EDDA": {
+      "code": "EDDA",
+      "displacement_l": 0.0,
+      "cylinders": 0,
+      "fuel_type": "ev",
+      "kw": 80,
+      "hp": 109,
+      "notes": "E-MOTOR",
+      "applications": [
+        {
+          "model": "ENYAQ",
+          "start": "2020-10",
+          "end": null
+        }
+      ],
+      "models": [
+        "ENYAQ"
+      ]
+    },
+    "EDFA": {
+      "code": "EDFA",
+      "displacement_l": 0.0,
+      "cylinders": 0,
+      "fuel_type": "ev",
+      "kw": 210,
+      "hp": 286,
+      "notes": "E-MOTOR",
+      "applications": [
+        {
+          "model": "ENYAQ",
+          "start": "2020-10",
+          "end": null
+        }
+      ],
+      "models": [
+        "ENYAQ"
+      ]
+    },
+    "EDXA": {
+      "code": "EDXA",
+      "displacement_l": 0.0,
+      "cylinders": 0,
+      "fuel_type": "ev",
+      "kw": 80,
+      "hp": 109,
+      "notes": "E-MOTOR",
+      "applications": [
+        {
+          "model": "ENYAQ",
+          "start": "2020-10",
+          "end": null
+        }
+      ],
+      "models": [
+        "ENYAQ"
+      ]
+    },
+    "EEWA": {
+      "code": "EEWA",
+      "displacement_l": 0.0,
+      "cylinders": 0,
+      "fuel_type": "ev",
+      "kw": 245,
+      "hp": 333,
+      "notes": "E-MOTOR",
+      "applications": [
+        {
+          "model": "ENYAQ",
+          "start": "2020-10",
+          "end": null
+        }
+      ],
+      "models": [
+        "ENYAQ"
+      ]
+    },
+    "DKJA": {
+      "code": "DKJA",
+      "displacement_l": 1.0,
+      "cylinders": 3,
+      "valves_per_cylinder": 4,
+      "fuel_type": "petrol",
+      "kw": 85,
+      "hp": 116,
+      "notes": "TSI",
+      "torque_nm": 200,
+      "emission": "EU6",
+      "production_from": "2019-02",
+      "timing_drive": "belt",
+      "applications": [
+        {
+          "model": "SCALA",
+          "start": "2019-02",
+          "end": null
+        },
+        {
+          "model": "KAMIQ",
+          "start": "2019-07",
+          "end": null
+        }
+      ],
+      "models": [
+        "SCALA",
+        "KAMIQ"
+      ]
+    },
+    "DKRA": {
+      "code": "DKRA",
+      "displacement_l": 1.0,
+      "cylinders": 3,
+      "valves_per_cylinder": 4,
+      "fuel_type": "petrol",
+      "kw": 85,
+      "hp": 116,
+      "notes": "TSI",
+      "torque_nm": 200,
+      "emission": "EU6",
+      "production_from": "2018-04",
+      "timing_drive": "belt",
+      "applications": [
+        {
+          "model": "KAROQ",
+          "start": "2018-04",
+          "end": null
+        }
+      ],
+      "models": [
+        "KAROQ"
+      ]
+    }
+  },
+  "model_index": {
+    "ENYAQ": [
+      "EBJA",
+      "EBJC",
+      "EBRA",
+      "EDCA",
+      "EDCC",
+      "EDDA",
+      "EDFA",
+      "EDXA",
+      "EEWA"
+    ],
+    "FABIA": [
+      "DLAA",
+      "DLAC",
+      "DPCA",
+      "DSGA",
+      "DSGD",
+      "DUSA",
+      "DUSB",
+      "DWYA",
+      "DXDB"
+    ],
+    "KAMIQ": [
+      "DKJA",
+      "DKRF",
+      "DPCA",
+      "DXUA"
+    ],
+    "KAROQ": [
+      "CHZJ",
+      "CRVC",
+      "CWVA",
+      "CZEA",
+      "DDYA",
+      "DFFA",
+      "DFHA",
+      "DGTE",
+      "DJKA",
+      "DKRA",
+      "DKRF",
+      "DKZA",
+      "DLAA",
+      "DNNA",
+      "DPCA",
+      "DSBA",
+      "DTRB",
+      "DTRD",
+      "DTTA",
+      "DTTC",
+      "DUSA",
+      "DWYA",
+      "DXDB",
+      "DXRB",
+      "DXRC"
+    ],
+    "KODIAQ": [
+      "CRFD",
+      "CRGA",
+      "CRGB",
+      "CUAA",
+      "CZCA",
+      "CZDA",
+      "CZEA",
+      "CZPA",
+      "DBGC",
+      "DFGA",
+      "DFGC",
+      "DFHA",
+      "DKZA",
+      "DNNA",
+      "DNNE",
+      "DNPA",
+      "DNPB",
+      "DPCA",
+      "DTSB",
+      "DTUA",
+      "DUCB",
+      "DXDB",
+      "DXNB",
+      "DXPA",
+      "EANB"
+    ],
+    "OCTAVIA": [
+      "CKFC",
+      "CLCA",
+      "CPWA",
+      "CRMB",
+      "CRVC",
+      "CZPB",
+      "DGEA",
+      "DHFA",
+      "DJKA",
+      "DNNA",
+      "DNNE",
+      "DNPA",
+      "DNPD",
+      "DSTA",
+      "DSTB",
+      "DSUD",
+      "DTRB",
+      "DTRD",
+      "DTTA",
+      "DTTC",
+      "DTUA",
+      "DWYA",
+      "DXDB",
+      "DXDE",
+      "DXRB",
+      "DXRC",
+      "EANA"
+    ],
+    "SCALA": [
+      "CWVA",
+      "DBYA",
+      "DGTA",
+      "DGTD",
+      "DKJA",
+      "DKLA",
+      "DKRF",
+      "DLAA",
+      "DLAC",
+      "DPCA",
+      "DUSA",
+      "DUSB",
+      "DWYA",
+      "DXDB",
+      "DXUA"
+    ],
+    "SUPERB": [
+      "CFFB",
+      "CFGB",
+      "CHHB",
+      "CJSA",
+      "CJSC",
+      "CJXA",
+      "CLJA",
+      "CRGA",
+      "CRLB",
+      "CZCA",
+      "CZDA",
+      "CZEA",
+      "CZPB",
+      "DCXA",
+      "DCZA",
+      "DDAA",
+      "DFCA",
+      "DFEA",
+      "DFGA",
+      "DFHA",
+      "DGEB",
+      "DKZA",
+      "DNFE",
+      "DNNE",
+      "DNPB",
+      "DNUA",
+      "DSRA",
+      "DSRB",
+      "DSUB",
+      "DTRA",
+      "DTSA",
+      "DTSB",
+      "DTUA",
+      "DXNB",
+      "DXPA",
+      "EANB"
+    ]
+  }
+}

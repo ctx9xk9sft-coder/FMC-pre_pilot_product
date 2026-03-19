@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "version": "1.0",
+    "awHourFactor": 0.1
+  },
+  "oil_service": {
+    "aw": 12,
+    "hours": 1.2,
+    "label": "Mali servis"
+  },
+  "inspection_service": {
+    "aw": 5,
+    "hours": 0.5,
+    "label": "Kontrolni pregled"
+  },
+  "fuel_filter": {
+    "aw": 4,
+    "hours": 0.4,
+    "label": "Zamena filtera goriva"
+  },
+  "spark_plugs": {
+    "aw": 8,
+    "hours": 0.8,
+    "label": "Zamena svećica"
+  },
+  "dsg_service": {
+    "aw": 16,
+    "hours": 1.6,
+    "label": "Servis DSG menjača"
+  },
+  "haldex_service": {
+    "aw": 8,
+    "hours": 0.8,
+    "label": "Servis Haldex pogona"
+  },
+  "brake_fluid": {
+    "aw": 6,
+    "hours": 0.6,
+    "label": "Zamena kočione tečnosti"
+  },
+  "front_brake_pads": {
+    "aw": 10,
+    "hours": 1.0,
+    "label": "Prednje pločice"
+  },
+  "rear_brake_pads": {
+    "aw": 10,
+    "hours": 1.0,
+    "label": "Zadnje pločice"
+  },
+  "front_brake_discs": {
+    "aw": 12,
+    "hours": 1.2,
+    "label": "Prednji diskovi"
+  },
+  "rear_brake_discs": {
+    "aw": 12,
+    "hours": 1.2,
+    "label": "Zadnji diskovi"
+  },
+  "summer_tires": {
+    "aw": 8,
+    "hours": 0.8,
+    "label": "Zamena letnjih pneumatika"
+  },
+  "winter_tires": {
+    "aw": 8,
+    "hours": 0.8,
+    "label": "Zamena zimskih pneumatika"
+  },
+  "seasonal_tire_change": {
+    "aw": 7,
+    "hours": 0.7,
+    "label": "Sezonska zamena točkova"
+  }
+}

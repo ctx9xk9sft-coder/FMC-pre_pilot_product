@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "version": "2.0",
+    "currency": "RSD",
+    "note": "Centralna pricing pravila za Step 5 hardening. Omogućavaju pricing coverage, realnije baseline cene i kontrolisane fallback procene bez tihog 0 pricing-a."
+  },
+  "defaults": {
+    "laborRate": 5500,
+    "oilPricePerLiter": 1800,
+    "partsDiscount": 0,
+    "laborDiscount": 0,
+    "oilDiscount": 0,
+    "tireCategory": "standard"
+  },
+  "recommendedBusinessPresets": {
+    "retail": {
+      "laborRate": 6500,
+      "oilPricePerLiter": 2200,
+      "partsDiscount": 0,
+      "laborDiscount": 0,
+      "tireCategory": "premium"
+    },
+    "fleet_standard": {
+      "laborRate": 5500,
+      "oilPricePerLiter": 1800,
+      "partsDiscount": 15,
+      "laborDiscount": 10,
+      "tireCategory": "standard"
+    },
+    "fleet_key_account": {
+      "laborRate": 5000,
+      "oilPricePerLiter": 1650,
+      "partsDiscount": 20,
+      "laborDiscount": 12,
+      "tireCategory": "standard"
+    }
+  },
+  "consumables": {
+    "brakeFluidUnitPrice": 1800,
+    "gearboxOilUnitPrice": 3500,
+    "haldexOilUnitPrice": 4200
+  },
+  "missingPricing": {
+    "defaultPartUnitPrice": 6500,
+    "defaultFilterUnitPrice": 3500,
+    "defaultBrakeUnitPrice": 22000,
+    "defaultTireUnitPrice": 11500
+  },
+  "validation": {
+    "minLaborRate": 2500,
+    "maxLaborRate": 12000,
+    "minOilPricePerLiter": 900,
+    "maxOilPricePerLiter": 5000,
+    "maxDiscountPercent": 40
+  }
+}

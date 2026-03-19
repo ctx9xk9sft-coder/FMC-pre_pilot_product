@@ -1,0 +1,175 @@
+{
+  "DUSA": {
+    "engineUnit": "T0M",
+    "family": "EA211",
+    "displacementL": 1.0,
+    "fuel": "petrol",
+    "powerKw": 85,
+    "cylinders": 3,
+    "description": "3-cylinder SI engine 1.0 l/85 kW",
+    "sparkPlugsRequired": true
+  },
+  "DSGA": {
+    "engineUnit": "T5Y",
+    "family": "EA211-MPI",
+    "displacementL": 1.0,
+    "fuel": "petrol",
+    "powerKw": 48,
+    "cylinders": 3,
+    "description": "3-cylinder SI engine 1.0 l/48 kW",
+    "sparkPlugsRequired": true
+  },
+  "DXDB": {
+    "engineUnit": "N09",
+    "family": "EA211 evo",
+    "displacementL": 1.5,
+    "fuel": "petrol",
+    "powerKw": 110,
+    "cylinders": 4,
+    "description": "4-cylinder SI engine 1.5 l/110 kW",
+    "sparkPlugsRequired": true
+  },
+  "DTSB": {
+    "engineUnit": "T3Y",
+    "family": "EA288",
+    "displacementL": 2.0,
+    "fuel": "diesel",
+    "powerKw": 110,
+    "cylinders": 4,
+    "description": "4-cyl. turbo diesel 2.0l/110kW(4V) TDI",
+    "sparkPlugsRequired": false
+  },
+  "DXDE": {
+    "engineUnit": "N09",
+    "family": "EA211 evo",
+    "displacementL": 1.5,
+    "fuel": "petrol",
+    "powerKw": 85,
+    "cylinders": 4,
+    "description": "4-cylinder SI engine 1.5 l/85 kW",
+    "sparkPlugsRequired": true
+  },
+  "DXRC": {
+    "engineUnit": "T6M",
+    "family": "EA288",
+    "displacementL": 2.0,
+    "fuel": "diesel",
+    "powerKw": 85,
+    "cylinders": 4,
+    "description": "4-cyl. turbo dies. eng. 2.0 l/85 kW",
+    "sparkPlugsRequired": false
+  },
+  "DTUA": {
+    "engineUnit": "T6F",
+    "family": "EA288",
+    "displacementL": 2.0,
+    "fuel": "diesel",
+    "powerKw": 147,
+    "cylinders": 4,
+    "description": "4-cyl. turbo diesel engine 2.0 l/147 kW",
+    "sparkPlugsRequired": false
+  },
+  "DXNB": {
+    "engineUnit": "T6F",
+    "family": "EA288",
+    "displacementL": 2.0,
+    "fuel": "diesel",
+    "powerKw": 142,
+    "cylinders": 4,
+    "description": "4-cyl. turbo diesel engine 2.0 l/142 kW",
+    "sparkPlugsRequired": false
+  },
+  "DPCA": {
+    "engineUnit": "TJ7",
+    "family": "EA211 evo",
+    "displacementL": 1.5,
+    "fuel": "petrol",
+    "powerKw": 110,
+    "cylinders": 4,
+    "description": "4-cylinder SI engine 1.5 l/110 kW",
+    "sparkPlugsRequired": true
+  },
+  "CZPA": {
+    "engineUnit": "TD3",
+    "family": "EA888",
+    "displacementL": 2.0,
+    "fuel": "petrol",
+    "powerKw": 132,
+    "cylinders": 4,
+    "description": "4-cylinder SI engine 2.0 l/132 kW (16V)",
+    "sparkPlugsRequired": true
+  },
+  "DKLD": {
+    "engineUnit": "TJ4",
+    "family": "EA211",
+    "displacementL": 1.0,
+    "fuel": "petrol",
+    "powerKw": 70,
+    "cylinders": 3,
+    "description": "3-cylinder SI engine 1.0 l/70 kW",
+    "sparkPlugsRequired": true
+  },
+  "DNNA": {
+    "engineUnit": "T2C",
+    "family": "EA888 evo4",
+    "displacementL": 2.0,
+    "fuel": "petrol",
+    "powerKw": 140,
+    "cylinders": 4,
+    "description": "4-cylinder SI engine 2.0 l/140 kW TFSI,",
+    "sparkPlugsRequired": true
+  },
+  "DGTE": {
+    "engineUnit": "TJ1",
+    "family": "EA288",
+    "displacementL": 1.6,
+    "fuel": "diesel",
+    "powerKw": 85,
+    "cylinders": 4,
+    "description": "4-cyl. turbo dies. eng. 1.6 l/85 kW",
+    "sparkPlugsRequired": false
+  },
+  "DTRD": {
+    "engineUnit": "T6M",
+    "family": "EA288",
+    "displacementL": 2.0,
+    "fuel": "diesel",
+    "powerKw": 85,
+    "cylinders": 4,
+    "description": "4-cyl. turbo dies. eng. 2.0 l/85 kW",
+    "sparkPlugsRequired": false
+  },
+  "DLAA": {
+    "engineUnit": "TC5",
+    "family": "EA211",
+    "displacementL": 1.0,
+    "fuel": "petrol",
+    "powerKw": 81,
+    "cylinders": 3,
+    "description": "3-cylinder SI engine 1.0 l/81 kW",
+    "sparkPlugsRequired": true
+  },
+  "DXPA": {
+    "engineUnit": "T3Y",
+    "family": "EA288",
+    "displacementL": 2.0,
+    "fuel": "diesel",
+    "powerKw": 110,
+    "cylinders": 4,
+    "description": "4-cyl. turbo diesel 2.0l/110kW(4V) TDI",
+    "sparkPlugsRequired": false
+  },
+  "DNNE": {
+    "engineUnit": "TR6",
+    "family": "EA888 evo4",
+    "displacementL": 2.0,
+    "fuel": "petrol",
+    "powerKw": 150,
+    "cylinders": 4,
+    "description": "4-cylinder SI engine 2.0 l/150 kW TFSI",
+    "oilCapacityL": 5.7,
+    "oilSpec": "VW 508 00",
+    "oilViscosity": "0W-20",
+    "sparkPlugsRequired": true
+  }
+}

@@ -1,0 +1,1616 @@
+{
+  "AA8|NX": {
+    "bodyCode": "AA8",
+    "platformCode": "NX",
+    "models": [
+      "Octavia"
+    ],
+    "modelYears": [
+      2026
+    ],
+    "engineCodes": [
+      "DXDE"
+    ],
+    "gearboxCodes": [
+      "VCS",
+      "WQE"
+    ],
+    "drivetrains": [
+      "FWD"
+    ],
+    "fuelTypes": [],
+    "engineFamilies": [
+      "EA211 evo"
+    ]
+  },
+  "AB4|NP": {
+    "bodyCode": "AB4",
+    "platformCode": "NP",
+    "models": [
+      "Superb"
+    ],
+    "modelYears": [
+      2022
+    ],
+    "engineCodes": [
+      "CZDA"
+    ],
+    "gearboxCodes": [
+      "URJ"
+    ],
+    "drivetrains": [
+      "FWD"
+    ],
+    "fuelTypes": [
+      "petrol"
+    ],
+    "engineFamilies": [
+      "1.4 TSI 110 kW"
+    ]
+  },
+  "AG0|NX": {
+    "bodyCode": "AG0",
+    "platformCode": "NX",
+    "models": [
+      "Octavia"
+    ],
+    "modelYears": [
+      2023
+    ],
+    "engineCodes": [
+      "DTRB"
+    ],
+    "gearboxCodes": [
+      "UCE"
+    ],
+    "drivetrains": [
+      "FWD"
+    ],
+    "fuelTypes": [],
+    "engineFamilies": [
+      "EA288"
+    ]
+  },
+  "AG6|NE": {
+    "bodyCode": "AG6",
+    "platformCode": "NE",
+    "models": [
+      "Octavia"
+    ],
+    "modelYears": [
+      2019
+    ],
+    "engineCodes": [
+      "DGTE"
+    ],
+    "gearboxCodes": [
+      "TKV"
+    ],
+    "drivetrains": [
+      "FWD"
+    ],
+    "fuelTypes": [],
+    "engineFamilies": [
+      "EA288"
+    ]
+  },
+  "AG6|NX": {
+    "bodyCode": "AG6",
+    "platformCode": "NX",
+    "models": [
+      "Octavia"
+    ],
+    "modelYears": [
+      2020,
+      2021,
+      2022
+    ],
+    "engineCodes": [
+      "DSUD",
+      "DTRB",
+      "DTRD"
+    ],
+    "gearboxCodes": [
+      "UCE",
+      "UEV",
+      "UWT"
+    ],
+    "drivetrains": [
+      "FWD"
+    ],
+    "fuelTypes": [],
+    "engineFamilies": [
+      "2.0 TDI 85 kW",
+      "EA288"
+    ]
+  },
+  "AG8|NX": {
+    "bodyCode": "AG8",
+    "platformCode": "NX",
+    "models": [
+      "Octavia"
+    ],
+    "modelYears": [
+      2023,
+      2025,
+      2026
+    ],
+    "engineCodes": [
+      "DTRB",
+      "DTRD",
+      "DXRC"
+    ],
+    "gearboxCodes": [
+      "UCE",
+      "VCJ",
+      "VCN"
+    ],
+    "drivetrains": [
+      "FWD"
+    ],
+    "fuelTypes": [
+      "diesel"
+    ],
+    "engineFamilies": [
+      "EA288"
+    ]
+  },
+  "AH0|NZ": {
+    "bodyCode": "AH0",
+    "platformCode": "NZ",
+    "models": [
+      "Superb"
+    ],
+    "modelYears": [
+      2025,
+      2026
+    ],
+    "engineCodes": [
+      "DXPA"
+    ],
+    "gearboxCodes": [
+      "WFQ",
+      "WJQ"
+    ],
+    "drivetrains": [
+      "FWD"
+    ],
+    "fuelTypes": [],
+    "engineFamilies": [
+      "EA288"
+    ]
+  },
+  "AH7|NP": {
+    "bodyCode": "AH7",
+    "platformCode": "NP",
+    "models": [
+      "Superb"
+    ],
+    "modelYears": [
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "engineCodes": [
+      "DTSA",
+      "DTSB"
+    ],
+    "gearboxCodes": [
+      "ULV",
+      "USA",
+      "VCZ"
+    ],
+    "drivetrains": [
+      "FWD"
+    ],
+    "fuelTypes": [
+      "diesel"
+    ],
+    "engineFamilies": [
+      "EA288"
+    ]
+  },
+  "AH8|NZ": {
+    "bodyCode": "AH8",
+    "platformCode": "NZ",
+    "models": [
+      "Superb"
+    ],
+    "modelYears": [
+      2025
+    ],
+    "engineCodes": [
+      "DXPA"
+    ],
+    "gearboxCodes": [
+      "WFQ"
+    ],
+    "drivetrains": [
+      "FWD"
+    ],
+    "fuelTypes": [],
+    "engineFamilies": [
+      "EA288"
+    ]
+  },
+  "AJ6|NE": {
+    "bodyCode": "AJ6",
+    "platformCode": "NE",
+    "models": [
+      "Octavia"
+    ],
+    "modelYears": [
+      2020
+    ],
+    "engineCodes": [
+      "DFFA"
+    ],
+    "gearboxCodes": [
+      "UAW"
+    ],
+    "drivetrains": [
+      "FWD"
+    ],
+    "fuelTypes": [],
+    "engineFamilies": [
+      "2.0 TDI 110 kW"
+    ]
+  },
+  "AJ6|NX": {
+    "bodyCode": "AJ6",
+    "platformCode": "NX",
+    "models": [
+      "Octavia"
+    ],
+    "modelYears": [
+      2020,
+      2022
+    ],
+    "engineCodes": [
+      "DSTB",
+      "DTTA"
+    ],
+    "gearboxCodes": [
+      "UVP",
+      "UWT"
+    ],
+    "drivetrains": [
+      "FWD"
+    ],
+    "fuelTypes": [
+      "diesel"
+    ],
+    "engineFamilies": [
+      "2.0 TDI 110 kW",
+      "EA288"
+    ]
+  },
+  "AJ8|NX": {
+    "bodyCode": "AJ8",
+    "platformCode": "NX",
+    "models": [
+      "Octavia"
+    ],
+    "modelYears": [
+      2025
+    ],
+    "engineCodes": [
+      "DXRB"
+    ],
+    "gearboxCodes": [
+      "WFR"
+    ],
+    "drivetrains": [
+      "FWD"
+    ],
+    "fuelTypes": [
+      "diesel"
+    ],
+    "engineFamilies": [
+      "EA288 evo"
+    ]
+  },
+  "AL0|NZ": {
+    "bodyCode": "AL0",
+    "platformCode": "NZ",
+    "models": [
+      "Superb"
+    ],
+    "modelYears": [
+      2026
+    ],
+    "engineCodes": [
+      "DNNE"
+    ],
+    "gearboxCodes": [
+      "WJX"
+    ],
+    "drivetrains": [
+      "FWD"
+    ],
+    "fuelTypes": [],
+    "engineFamilies": [
+      "EA888 evo4"
+    ]
+  },
+  "AN7|NP": {
+    "bodyCode": "AN7",
+    "platformCode": "NP",
+    "models": [
+      "Superb"
+    ],
+    "modelYears": [
+      2021,
+      2022,
+      2023
+    ],
+    "engineCodes": [
+      "DPCA"
+    ],
+    "gearboxCodes": [
+      "UWS",
+      "UYV"
+    ],
+    "drivetrains": [
+      "FWD"
+    ],
+    "fuelTypes": [],
+    "engineFamilies": [
+      "EA211 evo"
+    ]
+  },
+  "AP6|NX": {
+    "bodyCode": "AP6",
+    "platformCode": "NX",
+    "models": [
+      "Octavia"
+    ],
+    "modelYears": [
+      2021,
+      2022
+    ],
+    "engineCodes": [
+      "DLAA"
+    ],
+    "gearboxCodes": [
+      "UTV"
+    ],
+    "drivetrains": [
+      "FWD"
+    ],
+    "fuelTypes": [],
+    "engineFamilies": [
+      "EA211"
+    ]
+  },
+  "AR6|NX": {
+    "bodyCode": "AR6",
+    "platformCode": "NX",
+    "models": [
+      "Octavia"
+    ],
+    "modelYears": [
+      2021,
+      2022
+    ],
+    "engineCodes": [
+      "DPCA"
+    ],
+    "gearboxCodes": [
+      "USE",
+      "UXC"
+    ],
+    "drivetrains": [
+      "FWD"
+    ],
+    "fuelTypes": [],
+    "engineFamilies": [
+      "EA211 evo"
+    ]
+  },
+  "AR8|NX": {
+    "bodyCode": "AR8",
+    "platformCode": "NX",
+    "models": [
+      "Octavia"
+    ],
+    "modelYears": [
+      2023,
+      2024,
+      2026
+    ],
+    "engineCodes": [
+      "DFYA",
+      "DPCA",
+      "DXDB"
+    ],
+    "gearboxCodes": [
+      "UUF",
+      "VCS",
+      "WSC"
+    ],
+    "drivetrains": [
+      "FWD"
+    ],
+    "fuelTypes": [
+      "petrol"
+    ],
+    "engineFamilies": [
+      "EA211 evo",
+      "EA211 evo mHEV"
+    ]
+  },
+  "CE7|NP": {
+    "bodyCode": "CE7",
+    "platformCode": "NP",
+    "models": [
+      "Superb"
+    ],
+    "modelYears": [
+      2023
+    ],
+    "engineCodes": [
+      "DNFE"
+    ],
+    "gearboxCodes": [
+      "VEL"
+    ],
+    "drivetrains": [
+      "AWD"
+    ],
+    "fuelTypes": [],
+    "engineFamilies": [
+      "EA888 evo4"
+    ]
+  },
+  "CJ7|NP": {
+    "bodyCode": "CJ7",
+    "platformCode": "NP",
+    "models": [
+      "Superb"
+    ],
+    "modelYears": [
+      2020
+    ],
+    "engineCodes": [
+      "DFHA"
+    ],
+    "gearboxCodes": [
+      "UAH"
+    ],
+    "drivetrains": [
+      "AWD"
+    ],
+    "fuelTypes": [],
+    "engineFamilies": []
+  },
+  "CP0|NZ": {
+    "bodyCode": "CP0",
+    "platformCode": "NZ",
+    "models": [
+      "Superb"
+    ],
+    "modelYears": [
+      2026
+    ],
+    "engineCodes": [
+      "DNPB"
+    ],
+    "gearboxCodes": [
+      "WKA"
+    ],
+    "drivetrains": [
+      "AWD"
+    ],
+    "fuelTypes": [],
+    "engineFamilies": [
+      "EA888 evo4"
+    ]
+  },
+  "CR0|NZ": {
+    "bodyCode": "CR0",
+    "platformCode": "NZ",
+    "models": [
+      "Superb"
+    ],
+    "modelYears": [
+      2026
+    ],
+    "engineCodes": [
+      "DXNB"
+    ],
+    "gearboxCodes": [
+      "WJV"
+    ],
+    "drivetrains": [
+      "AWD"
+    ],
+    "fuelTypes": [],
+    "engineFamilies": [
+      "EA288"
+    ]
+  },
+  "CR7|NP": {
+    "bodyCode": "CR7",
+    "platformCode": "NP",
+    "models": [
+      "Superb"
+    ],
+    "modelYears": [
+      2021,
+      2022,
+      2024
+    ],
+    "engineCodes": [
+      "DTUA"
+    ],
+    "gearboxCodes": [
+      "UEL",
+      "VDY"
+    ],
+    "drivetrains": [
+      "AWD"
+    ],
+    "fuelTypes": [],
+    "engineFamilies": [
+      "EA288"
+    ]
+  },
+  "CR9|NP": {
+    "bodyCode": "CR9",
+    "platformCode": "NP",
+    "models": [
+      "Superb"
+    ],
+    "modelYears": [
+      2021
+    ],
+    "engineCodes": [
+      "DTUA"
+    ],
+    "gearboxCodes": [
+      "UEL"
+    ],
+    "drivetrains": [
+      "AWD"
+    ],
+    "fuelTypes": [],
+    "engineFamilies": [
+      "EA288"
+    ]
+  },
+  "CT8|NX": {
+    "bodyCode": "CT8",
+    "platformCode": "NX",
+    "models": [
+      "Octavia"
+    ],
+    "modelYears": [
+      2026
+    ],
+    "engineCodes": [
+      "DNNE"
+    ],
+    "gearboxCodes": [
+      "WKE"
+    ],
+    "drivetrains": [
+      "AWD"
+    ],
+    "fuelTypes": [],
+    "engineFamilies": [
+      "EA888 evo4"
+    ]
+  },
+  "EA6|PJ": {
+    "bodyCode": "EA6",
+    "platformCode": "PJ",
+    "models": [
+      "Fabia"
+    ],
+    "modelYears": [
+      2022,
+      2023
+    ],
+    "engineCodes": [
+      "DSGA"
+    ],
+    "gearboxCodes": [
+      "SND"
+    ],
+    "drivetrains": [
+      "FWD"
+    ],
+    "fuelTypes": [
+      "petrol"
+    ],
+    "engineFamilies": [
+      "EA211-MPI"
+    ]
+  },
+  "EE6|PJ": {
+    "bodyCode": "EE6",
+    "platformCode": "PJ",
+    "models": [
+      "Fabia"
+    ],
+    "modelYears": [
+      2022,
+      2024
+    ],
+    "engineCodes": [
+      "DSGD"
+    ],
+    "gearboxCodes": [
+      "SND"
+    ],
+    "drivetrains": [
+      "FWD"
+    ],
+    "fuelTypes": [],
+    "engineFamilies": [
+      "EA211-MPI"
+    ]
+  },
+  "EE9|PJ": {
+    "bodyCode": "EE9",
+    "platformCode": "PJ",
+    "models": [
+      "Fabia"
+    ],
+    "modelYears": [
+      2024
+    ],
+    "engineCodes": [
+      "DSGD"
+    ],
+    "gearboxCodes": [
+      "SND"
+    ],
+    "drivetrains": [
+      "FWD"
+    ],
+    "fuelTypes": [],
+    "engineFamilies": [
+      "EA211-MPI"
+    ]
+  },
+  "EK6|NW": {
+    "bodyCode": "EK6",
+    "platformCode": "NW",
+    "models": [
+      "Scala"
+    ],
+    "modelYears": [
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "engineCodes": [
+      "DXDB"
+    ],
+    "gearboxCodes": [
+      "VCF"
+    ],
+    "drivetrains": [
+      "FWD"
+    ],
+    "fuelTypes": [],
+    "engineFamilies": [
+      "EA211 evo"
+    ]
+  },
+  "EK9|PJ": {
+    "bodyCode": "EK9",
+    "platformCode": "PJ",
+    "models": [
+      "Fabia"
+    ],
+    "modelYears": [
+      2024
+    ],
+    "engineCodes": [
+      "DXDB"
+    ],
+    "gearboxCodes": [
+      "WAJ"
+    ],
+    "drivetrains": [
+      "FWD"
+    ],
+    "fuelTypes": [
+      "petrol"
+    ],
+    "engineFamilies": [
+      "EA211 evo"
+    ]
+  },
+  "EP6|PJ": {
+    "bodyCode": "EP6",
+    "platformCode": "PJ",
+    "models": [
+      "Fabia"
+    ],
+    "modelYears": [
+      2022,
+      2024
+    ],
+    "engineCodes": [
+      "DLAC",
+      "DUSB"
+    ],
+    "gearboxCodes": [
+      "USM",
+      "VGV"
+    ],
+    "drivetrains": [
+      "FWD"
+    ],
+    "fuelTypes": [
+      "petrol"
+    ],
+    "engineFamilies": [
+      "1.0 TSI 70 kW",
+      "EA211"
+    ]
+  },
+  "EP9|PJ": {
+    "bodyCode": "EP9",
+    "platformCode": "PJ",
+    "models": [
+      "Fabia"
+    ],
+    "modelYears": [
+      2024,
+      2026
+    ],
+    "engineCodes": [
+      "DUSB"
+    ],
+    "gearboxCodes": [
+      "VGV"
+    ],
+    "drivetrains": [
+      "FWD"
+    ],
+    "fuelTypes": [
+      "petrol"
+    ],
+    "engineFamilies": [
+      "EA211"
+    ]
+  },
+  "ER6|NW": {
+    "bodyCode": "ER6",
+    "platformCode": "NW",
+    "models": [
+      "Scala"
+    ],
+    "modelYears": [
+      2022,
+      2023,
+      2024,
+      2026
+    ],
+    "engineCodes": [
+      "DLAA",
+      "DUSA"
+    ],
+    "gearboxCodes": [
+      "USN",
+      "VGS",
+      "WAL"
+    ],
+    "drivetrains": [
+      "FWD"
+    ],
+    "fuelTypes": [
+      "petrol"
+    ],
+    "engineFamilies": [
+      "EA211"
+    ]
+  },
+  "ER6|PJ": {
+    "bodyCode": "ER6",
+    "platformCode": "PJ",
+    "models": [
+      "Fabia"
+    ],
+    "modelYears": [
+      2022
+    ],
+    "engineCodes": [
+      "DLAA"
+    ],
+    "gearboxCodes": [
+      "UHC"
+    ],
+    "drivetrains": [
+      "FWD"
+    ],
+    "fuelTypes": [],
+    "engineFamilies": [
+      "EA211"
+    ]
+  },
+  "ER9|PJ": {
+    "bodyCode": "ER9",
+    "platformCode": "PJ",
+    "models": [
+      "Fabia"
+    ],
+    "modelYears": [
+      2024,
+      2026
+    ],
+    "engineCodes": [
+      "DUSA"
+    ],
+    "gearboxCodes": [
+      "VGR",
+      "WPZ"
+    ],
+    "drivetrains": [
+      "AWD",
+      "FWD"
+    ],
+    "fuelTypes": [],
+    "engineFamilies": [
+      "EA211"
+    ]
+  },
+  "GK6|NW": {
+    "bodyCode": "GK6",
+    "platformCode": "NW",
+    "models": [
+      "Kamiq"
+    ],
+    "modelYears": [
+      2023,
+      2026
+    ],
+    "engineCodes": [
+      "DPCA",
+      "DXDB"
+    ],
+    "gearboxCodes": [
+      "URK",
+      "VHQ",
+      "WAJ",
+      "WQA",
+      "WSD"
+    ],
+    "drivetrains": [
+      "FWD"
+    ],
+    "fuelTypes": [],
+    "engineFamilies": [
+      "EA211 evo"
+    ]
+  },
+  "GK9|NW": {
+    "bodyCode": "GK9",
+    "platformCode": "NW",
+    "models": [
+      "Kamiq"
+    ],
+    "modelYears": [
+      2020,
+      2023
+    ],
+    "engineCodes": [
+      "DPCA"
+    ],
+    "gearboxCodes": [
+      "TKN",
+      "UJA",
+      "URK"
+    ],
+    "drivetrains": [
+      "AWD",
+      "FWD"
+    ],
+    "fuelTypes": [],
+    "engineFamilies": [
+      "EA211 evo"
+    ]
+  },
+  "GR6|NW": {
+    "bodyCode": "GR6",
+    "platformCode": "NW",
+    "models": [
+      "Kamiq"
+    ],
+    "modelYears": [
+      2022,
+      2023,
+      2025,
+      2026
+    ],
+    "engineCodes": [
+      "DLAA",
+      "DUSA"
+    ],
+    "gearboxCodes": [
+      "USN",
+      "VGS",
+      "VSU",
+      "WPY"
+    ],
+    "drivetrains": [
+      "FWD"
+    ],
+    "fuelTypes": [],
+    "engineFamilies": [
+      "EA211"
+    ]
+  },
+  "GR9|NW": {
+    "bodyCode": "GR9",
+    "platformCode": "NW",
+    "models": [
+      "Kamiq"
+    ],
+    "modelYears": [
+      2023
+    ],
+    "engineCodes": [
+      "DLAA"
+    ],
+    "gearboxCodes": [
+      "USN"
+    ],
+    "drivetrains": [
+      "FWD"
+    ],
+    "fuelTypes": [
+      "petrol"
+    ],
+    "engineFamilies": [
+      "EA211"
+    ]
+  },
+  "JB7|NS": {
+    "bodyCode": "JB7",
+    "platformCode": "NS",
+    "models": [
+      "Kodiaq"
+    ],
+    "modelYears": [
+      2023
+    ],
+    "engineCodes": [
+      "DPCA"
+    ],
+    "gearboxCodes": [
+      "VCR"
+    ],
+    "drivetrains": [
+      "FWD"
+    ],
+    "fuelTypes": [
+      "petrol"
+    ],
+    "engineFamilies": [
+      "EA211 evo"
+    ]
+  },
+  "JF7|NU": {
+    "bodyCode": "JF7",
+    "platformCode": "NU",
+    "models": [
+      "Karoq"
+    ],
+    "modelYears": [
+      2022,
+      2023,
+      2024,
+      2026
+    ],
+    "engineCodes": [
+      "DTRD",
+      "DXRC"
+    ],
+    "gearboxCodes": [
+      "UXA",
+      "VCN",
+      "VCQ"
+    ],
+    "drivetrains": [
+      "FWD"
+    ],
+    "fuelTypes": [],
+    "engineFamilies": [
+      "EA288"
+    ]
+  },
+  "JG4|NU": {
+    "bodyCode": "JG4",
+    "platformCode": "NU",
+    "models": [
+      "Karoq"
+    ],
+    "modelYears": [
+      2020
+    ],
+    "engineCodes": [
+      "DGTE"
+    ],
+    "gearboxCodes": [
+      "TKK"
+    ],
+    "drivetrains": [
+      "FWD"
+    ],
+    "fuelTypes": [],
+    "engineFamilies": [
+      "EA288"
+    ]
+  },
+  "JG8|NX": {
+    "bodyCode": "JG8",
+    "platformCode": "NX",
+    "models": [
+      "Octavia"
+    ],
+    "modelYears": [
+      2023
+    ],
+    "engineCodes": [
+      "DTRD"
+    ],
+    "gearboxCodes": [
+      "VCJ"
+    ],
+    "drivetrains": [
+      "FWD"
+    ],
+    "fuelTypes": [
+      "diesel"
+    ],
+    "engineFamilies": [
+      "EA288"
+    ]
+  },
+  "JJ8|NX": {
+    "bodyCode": "JJ8",
+    "platformCode": "NX",
+    "models": [
+      "Octavia"
+    ],
+    "modelYears": [
+      2023
+    ],
+    "engineCodes": [
+      "DTTA"
+    ],
+    "gearboxCodes": [
+      "VCJ"
+    ],
+    "drivetrains": [
+      "FWD"
+    ],
+    "fuelTypes": [],
+    "engineFamilies": [
+      "EA288"
+    ]
+  },
+  "JP6|NJ": {
+    "bodyCode": "JP6",
+    "platformCode": "NJ",
+    "models": [
+      "Fabia"
+    ],
+    "modelYears": [
+      2023
+    ],
+    "engineCodes": [
+      "DKLD"
+    ],
+    "gearboxCodes": [
+      "QTS"
+    ],
+    "drivetrains": [
+      "FWD"
+    ],
+    "fuelTypes": [
+      "petrol"
+    ],
+    "engineFamilies": [
+      "EA211"
+    ]
+  },
+  "JP7|NU": {
+    "bodyCode": "JP7",
+    "platformCode": "NU",
+    "models": [
+      "Karoq"
+    ],
+    "modelYears": [
+      2022,
+      2023
+    ],
+    "engineCodes": [
+      "DLAA"
+    ],
+    "gearboxCodes": [
+      "UTV"
+    ],
+    "drivetrains": [
+      "FWD"
+    ],
+    "fuelTypes": [],
+    "engineFamilies": [
+      "EA211"
+    ]
+  },
+  "JR6|NX": {
+    "bodyCode": "JR6",
+    "platformCode": "NX",
+    "models": [
+      "Octavia"
+    ],
+    "modelYears": [
+      2021
+    ],
+    "engineCodes": [
+      "DPCA"
+    ],
+    "gearboxCodes": [
+      "USE"
+    ],
+    "drivetrains": [
+      "FWD"
+    ],
+    "fuelTypes": [],
+    "engineFamilies": [
+      "EA211 evo"
+    ]
+  },
+  "JR7|NU": {
+    "bodyCode": "JR7",
+    "platformCode": "NU",
+    "models": [
+      "Karoq"
+    ],
+    "modelYears": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "engineCodes": [
+      "DPCA",
+      "DXDB"
+    ],
+    "gearboxCodes": [
+      "UET",
+      "URK",
+      "VCE",
+      "VHQ",
+      "VSY",
+      "WQA"
+    ],
+    "drivetrains": [
+      "FWD"
+    ],
+    "fuelTypes": [],
+    "engineFamilies": [
+      "EA211 evo"
+    ]
+  },
+  "JR8|NX": {
+    "bodyCode": "JR8",
+    "platformCode": "NX",
+    "models": [
+      "Octavia"
+    ],
+    "modelYears": [
+      2025
+    ],
+    "engineCodes": [
+      "DXDB"
+    ],
+    "gearboxCodes": [
+      "WGS"
+    ],
+    "drivetrains": [
+      "FWD"
+    ],
+    "fuelTypes": [],
+    "engineFamilies": [
+      "EA211 evo"
+    ]
+  },
+  "JW9|PS": {
+    "bodyCode": "JW9",
+    "platformCode": "PS",
+    "models": [
+      "Kodiaq"
+    ],
+    "modelYears": [
+      2026
+    ],
+    "engineCodes": [
+      "DUCB"
+    ],
+    "gearboxCodes": [
+      "WPX"
+    ],
+    "drivetrains": [
+      "FWD"
+    ],
+    "fuelTypes": [],
+    "engineFamilies": []
+  },
+  "LD7|NS": {
+    "bodyCode": "LD7",
+    "platformCode": "NS",
+    "models": [
+      "Kodiaq"
+    ],
+    "modelYears": [
+      2018
+    ],
+    "engineCodes": [
+      "CZPA"
+    ],
+    "gearboxCodes": [
+      "TAH"
+    ],
+    "drivetrains": [
+      "AWD"
+    ],
+    "fuelTypes": [],
+    "engineFamilies": [
+      "EA888"
+    ]
+  },
+  "LD9|PS": {
+    "bodyCode": "LD9",
+    "platformCode": "PS",
+    "models": [
+      "Kodiaq"
+    ],
+    "modelYears": [
+      2026
+    ],
+    "engineCodes": [
+      "DNNE"
+    ],
+    "gearboxCodes": [
+      "WJW"
+    ],
+    "drivetrains": [
+      "AWD"
+    ],
+    "fuelTypes": [],
+    "engineFamilies": [
+      "EA888 evo4"
+    ]
+  },
+  "LE9|NU": {
+    "bodyCode": "LE9",
+    "platformCode": "NU",
+    "models": [
+      "Karoq"
+    ],
+    "modelYears": [
+      2026
+    ],
+    "engineCodes": [
+      "DNNA"
+    ],
+    "gearboxCodes": [
+      "WKW"
+    ],
+    "drivetrains": [
+      "AWD"
+    ],
+    "fuelTypes": [],
+    "engineFamilies": [
+      "EA888 evo4"
+    ]
+  },
+  "LG9|PS": {
+    "bodyCode": "LG9",
+    "platformCode": "PS",
+    "models": [
+      "Kodiaq"
+    ],
+    "modelYears": [
+      2026
+    ],
+    "engineCodes": [
+      "DNPB"
+    ],
+    "gearboxCodes": [
+      "WKA"
+    ],
+    "drivetrains": [
+      "AWD"
+    ],
+    "fuelTypes": [],
+    "engineFamilies": [
+      "EA888 evo4"
+    ]
+  },
+  "LJ4|NU": {
+    "bodyCode": "LJ4",
+    "platformCode": "NU",
+    "models": [
+      "Karoq"
+    ],
+    "modelYears": [
+      2019
+    ],
+    "engineCodes": [
+      "DFFA"
+    ],
+    "gearboxCodes": [
+      "TDB"
+    ],
+    "drivetrains": [
+      "AWD"
+    ],
+    "fuelTypes": [],
+    "engineFamilies": [
+      "2.0 TDI 110 kW"
+    ]
+  },
+  "LJ7|NS": {
+    "bodyCode": "LJ7",
+    "platformCode": "NS",
+    "models": [
+      "Kodiaq"
+    ],
+    "modelYears": [
+      2021,
+      2022,
+      2024
+    ],
+    "engineCodes": [
+      "DTSB"
+    ],
+    "gearboxCodes": [
+      "TUK",
+      "VEA"
+    ],
+    "drivetrains": [
+      "AWD"
+    ],
+    "fuelTypes": [
+      "diesel"
+    ],
+    "engineFamilies": [
+      "EA288"
+    ]
+  },
+  "LK7|NS": {
+    "bodyCode": "LK7",
+    "platformCode": "NS",
+    "models": [
+      "Kodiaq"
+    ],
+    "modelYears": [
+      2021
+    ],
+    "engineCodes": [
+      "DFHA"
+    ],
+    "gearboxCodes": [
+      "TNY"
+    ],
+    "drivetrains": [
+      "AWD"
+    ],
+    "fuelTypes": [],
+    "engineFamilies": []
+  },
+  "LN7|NS": {
+    "bodyCode": "LN7",
+    "platformCode": "NS",
+    "models": [
+      "Kodiaq"
+    ],
+    "modelYears": [
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "engineCodes": [
+      "DTUA"
+    ],
+    "gearboxCodes": [
+      "UDC",
+      "VEB"
+    ],
+    "drivetrains": [
+      "AWD"
+    ],
+    "fuelTypes": [
+      "diesel"
+    ],
+    "engineFamilies": [
+      "EA288"
+    ]
+  },
+  "LN7|PS": {
+    "bodyCode": "LN7",
+    "platformCode": "PS",
+    "models": [
+      "Kodiaq"
+    ],
+    "modelYears": [
+      2025
+    ],
+    "engineCodes": [
+      "DXNB"
+    ],
+    "gearboxCodes": [
+      "WFU"
+    ],
+    "drivetrains": [
+      "AWD"
+    ],
+    "fuelTypes": [],
+    "engineFamilies": [
+      "EA288"
+    ]
+  },
+  "LN9|NS": {
+    "bodyCode": "LN9",
+    "platformCode": "NS",
+    "models": [
+      "Kodiaq"
+    ],
+    "modelYears": [
+      2022
+    ],
+    "engineCodes": [
+      "DTUA"
+    ],
+    "gearboxCodes": [
+      "UDC"
+    ],
+    "drivetrains": [
+      "AWD"
+    ],
+    "fuelTypes": [],
+    "engineFamilies": [
+      "EA288"
+    ]
+  },
+  "LN9|PS": {
+    "bodyCode": "LN9",
+    "platformCode": "PS",
+    "models": [
+      "Kodiaq"
+    ],
+    "modelYears": [
+      2024,
+      2026
+    ],
+    "engineCodes": [
+      "DXNB"
+    ],
+    "gearboxCodes": [
+      "WFU",
+      "WJU"
+    ],
+    "drivetrains": [
+      "AWD"
+    ],
+    "fuelTypes": [],
+    "engineFamilies": [
+      "EA288"
+    ]
+  },
+  "LR7|NP": {
+    "bodyCode": "LR7",
+    "platformCode": "NP",
+    "models": [
+      "Superb"
+    ],
+    "modelYears": [
+      2023
+    ],
+    "engineCodes": [
+      "DTUA"
+    ],
+    "gearboxCodes": [
+      "VDY"
+    ],
+    "drivetrains": [
+      "AWD"
+    ],
+    "fuelTypes": [],
+    "engineFamilies": [
+      "EA288"
+    ]
+  },
+  "LR9|NP": {
+    "bodyCode": "LR9",
+    "platformCode": "NP",
+    "models": [
+      "Superb"
+    ],
+    "modelYears": [
+      2022
+    ],
+    "engineCodes": [
+      "DTUA"
+    ],
+    "gearboxCodes": [
+      "UEL"
+    ],
+    "drivetrains": [
+      "AWD"
+    ],
+    "fuelTypes": [],
+    "engineFamilies": [
+      "EA288"
+    ]
+  },
+  "EP6|NW": {
+    "bodyCode": "EP6",
+    "platformCode": "NW",
+    "models": [
+      "Scala"
+    ],
+    "modelYears": [
+      2022,
+      2023,
+      2024
+    ],
+    "engineCodes": [
+      "DLAC",
+      "DUSB"
+    ],
+    "gearboxCodes": [
+      "UFC",
+      "VGW"
+    ],
+    "drivetrains": [
+      "FWD"
+    ],
+    "fuelTypes": [
+      "petrol"
+    ],
+    "engineFamilies": [
+      "EA211"
+    ]
+  },
+  "AR7|NP": {
+    "bodyCode": "AR7",
+    "platformCode": "NP",
+    "models": [
+      "Superb"
+    ],
+    "modelYears": [
+      2023
+    ],
+    "engineCodes": [
+      "DTUA"
+    ],
+    "gearboxCodes": [
+      "USA",
+      "VCZ"
+    ],
+    "drivetrains": [
+      "FWD"
+    ],
+    "fuelTypes": [
+      "diesel"
+    ],
+    "engineFamilies": [
+      "EA288"
+    ]
+  }
+}

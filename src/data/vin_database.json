@@ -1,0 +1,677 @@
+{
+  "meta": {
+    "name": "skoda_vin_database",
+    "version": "1.0.0",
+    "manufacturer": "Skoda Auto",
+    "scope": "Modern Skoda VIN decoding",
+    "supported_models": [
+      "FABIA_NJ",
+      "FABIA_PJ",
+      "SCALA_NW",
+      "KAMIQ_NW",
+      "KAROQ_NU",
+      "KODIAQ_NS",
+      "KODIAQ_PS",
+      "OCTAVIA_5E",
+      "OCTAVIA_NX",
+      "SUPERB_NP",
+      "SUPERB_NZ",
+      "ENYAQ_NY"
+    ]
+  },
+  "resolver": {
+    "by_model_code": {
+      "NJ": ["FABIA_NJ"],
+      "PJ": ["FABIA_PJ"],
+      "NU": ["KAROQ_NU"],
+      "NS": ["KODIAQ_NS"],
+      "PS": ["KODIAQ_PS"],
+      "NE": ["OCTAVIA_5E"],
+      "5E": ["OCTAVIA_5E"],
+      "NX": ["OCTAVIA_NX"],
+      "NP": ["SUPERB_NP"],
+      "NZ": ["SUPERB_NZ"],
+      "NY": ["ENYAQ_NY"],
+      "NW": ["SCALA_NW", "KAMIQ_NW"]
+    },
+    "disambiguation": {
+      "NW": {
+        "position_4": {
+          "E": "SCALA_NW",
+          "F": "SCALA_NW",
+          "G": "KAMIQ_NW",
+          "H": "KAMIQ_NW"
+        }
+      }
+    }
+  },
+  "normalization": {
+    "fuel_types": {
+      "petrol": "petrol",
+      "diesel": "diesel",
+      "cng": "cng",
+      "phev": "phev",
+      "hybrid": "hybrid",
+      "ev": "ev"
+    },
+    "body_styles": {
+      "Hatchback": "hatchback",
+      "Sedan": "sedan",
+      "Combi": "wagon",
+      "Coupe": "coupe_suv",
+      "SUV": "suv",
+      "Enyaq": "suv"
+    },
+    "steering": {
+      "LHD": "LHD",
+      "RHD": "RHD"
+    },
+    "drivetrain": {
+      "4x2": "2WD",
+      "4x4": "AWD"
+    }
+  },
+  "models": {
+    "FABIA_NJ": {
+      "id": "FABIA_NJ",
+      "model_code": ["NJ"],
+      "name": "Fabia",
+      "generation": "III",
+      "supported_wmi": ["TMB", "XWW", "XW8"],
+      "body_map": {
+        "E": { "style": "Hatchback", "steering": "LHD", "drivetrain": "4x2" },
+        "F": { "style": "Hatchback", "steering": "RHD", "drivetrain": "4x2" },
+        "J": { "style": "Combi", "steering": "LHD", "drivetrain": "4x2" },
+        "K": { "style": "Combi", "steering": "RHD", "drivetrain": "4x2" },
+        "0": { "style": "Motorsport", "steering": null, "drivetrain": null, "special_flags": { "motorsport": true } },
+        "1": { "style": "N1", "steering": "LHD", "drivetrain": "4x2", "special_flags": { "n1": true } },
+        "2": { "style": "N1", "steering": "RHD", "drivetrain": "4x2", "special_flags": { "n1": true } }
+      },
+      "engine_map": {
+        "A": { "description": "1.0 MPI 44 kW", "fuel_type": "petrol", "displacement_l": 1.0, "power_kw": [44] },
+        "B": { "description": "1.0 MPI 55 kW", "fuel_type": "petrol", "displacement_l": 1.0, "power_kw": [55] },
+        "C": { "description": "1.6 MPI 81 kW", "fuel_type": "petrol", "displacement_l": 1.6, "power_kw": [81] },
+        "D": { "description": "1.6 MPI 66 kW", "fuel_type": "petrol", "displacement_l": 1.6, "power_kw": [66] },
+        "E": { "description": "1.4 TDI 55 kW", "fuel_type": "diesel", "displacement_l": 1.4, "power_kw": [55] },
+        "J": { "description": "1.4 TDI 66 kW", "fuel_type": "diesel", "displacement_l": 1.4, "power_kw": [66] },
+        "M": { "description": "1.2 MPI 66 kW", "fuel_type": "petrol", "displacement_l": 1.2, "power_kw": [66] },
+        "N": { "description": "1.2 MPI 81 kW", "fuel_type": "petrol", "displacement_l": 1.2, "power_kw": [81] },
+        "P": { "description": "1.0 TSI 70 kW", "fuel_type": "petrol", "displacement_l": 1.0, "power_kw": [70] },
+        "R": { "description": "1.0 TSI 81 kW", "fuel_type": "petrol", "displacement_l": 1.0, "power_kw": [81] },
+        "S": { "description": "1.4 TSI 92 kW", "fuel_type": "petrol", "displacement_l": 1.4, "power_kw": [92] },
+        "T": { "description": "1.4 TDI 77 kW", "fuel_type": "diesel", "displacement_l": 1.4, "power_kw": [77] },
+        "0": { "description": "Motorsport", "fuel_type": null, "displacement_l": null, "power_kw": [], "special_flags": { "motorsport": true } }
+      },
+      "airbag_map": {
+        "1": "1 front airbag",
+        "2": "2 front airbags",
+        "4": "2 front + 2 side airbags",
+        "6": "2 front + 2 side + 2 curtain airbags",
+        "B": "GVW class 1360-1814 kg",
+        "C": "GVW class 1814-2268 kg"
+      },
+      "year_map": {
+        "F": 2015,
+        "G": 2016,
+        "H": 2017,
+        "J": 2018,
+        "K": 2019,
+        "L": 2020,
+        "M": 2021
+      },
+      "plant_map": {
+        "B": "Solomonovo",
+        "D": "Ust-Kamenogorsk",
+        "L": "Relizane",
+        "Z": "Mlada Boleslav"
+      }
+    },
+    "FABIA_PJ": {
+      "id": "FABIA_PJ",
+      "model_code": ["PJ"],
+      "name": "Fabia",
+      "generation": "IV",
+      "supported_wmi": ["TMB"],
+      "body_map": {
+        "E": { "style": "Hatchback", "steering": "LHD", "drivetrain": "4x2" },
+        "F": { "style": "Hatchback", "steering": "RHD", "drivetrain": "4x2" }
+      },
+      "engine_map": {
+        "A": { "description": "1.0 MPI 48 kW", "fuel_type": "petrol", "displacement_l": 1.0, "power_kw": [48] },
+        "C": { "description": "1.6 MPI 81 kW", "fuel_type": "petrol", "displacement_l": 1.6, "power_kw": [81] },
+        "E": { "description": "1.0 MPI 59 kW", "fuel_type": "petrol", "displacement_l": 1.0, "power_kw": [59] },
+        "K": { "description": "1.5 TSI 110 kW", "fuel_type": "petrol", "displacement_l": 1.5, "power_kw": [110] },
+        "P": { "description": "1.0 TSI 70 kW", "fuel_type": "petrol", "displacement_l": 1.0, "power_kw": [70] },
+        "R": { "description": "1.0 TSI 81 kW", "fuel_type": "petrol", "displacement_l": 1.0, "power_kw": [81] }
+      },
+      "airbag_map": {
+        "2": "2 front airbags",
+        "3": "2 front + 2 side + knee airbag",
+        "4": "2 front + 2 side airbags",
+        "5": "2 front + 2 side + knee airbag",
+        "6": "2 front + 2 side + 2 curtain airbags",
+        "7": "2 front + 2 side + 2 curtain + knee airbag",
+        "8": "2 front + 4 side + 2 curtain airbags",
+        "9": "2 front + 4 side + 2 curtain + knee airbag"
+      },
+      "year_map": {
+        "N": 2022,
+        "P": 2023,
+        "R": 2024,
+        "S": 2025
+      },
+      "plant_map": {
+        "4": "Mlada Boleslav"
+      }
+    },
+    "SCALA_NW": {
+      "id": "SCALA_NW",
+      "model_code": ["NW"],
+      "name": "Scala",
+      "generation": "I",
+      "supported_wmi": ["TMB"],
+      "body_map": {
+        "E": { "style": "Hatchback", "steering": "LHD", "drivetrain": "4x2" },
+        "F": { "style": "Hatchback", "steering": "RHD", "drivetrain": "4x2" }
+      },
+      "engine_map": {
+        "C": { "description": "1.6 MPI 81 kW", "fuel_type": "petrol", "displacement_l": 1.6, "power_kw": [81] },
+        "F": { "description": "1.6 TDI 70 kW", "fuel_type": "diesel", "displacement_l": 1.6, "power_kw": [70] },
+        "G": { "description": "1.6 TDI 85 kW", "fuel_type": "diesel", "displacement_l": 1.6, "power_kw": [85] },
+        "H": { "description": "1.0 CNG 66 kW", "fuel_type": "cng", "displacement_l": 1.0, "power_kw": [66] },
+        "K": { "description": "1.5 TSI 110 kW", "fuel_type": "petrol", "displacement_l": 1.5, "power_kw": [110] },
+        "P": { "description": "1.0 TSI 70 kW", "fuel_type": "petrol", "displacement_l": 1.0, "power_kw": [70] },
+        "R": { "description": "1.0 TSI 85 kW", "fuel_type": "petrol", "displacement_l": 1.0, "power_kw": [85] }
+      },
+      "airbag_map": {
+        "2": "2 front airbags",
+        "4": "2 front + 2 side airbags",
+        "5": "2 front + 2 side + knee airbag",
+        "6": "2 front + 2 side + 2 curtain airbags",
+        "7": "2 front + 2 side + 2 curtain + knee airbag",
+        "9": "2 front + 4 side + 2 curtain + knee airbag"
+      },
+      "year_map": {
+        "K": 2019,
+        "L": 2020,
+        "M": 2021,
+        "N": 2022,
+        "P": 2023,
+        "R": 2024,
+        "S": 2025
+      },
+      "plant_map": {
+        "3": "Mlada Boleslav",
+        "9": "Kvasiny"
+      }
+    },
+    "KAMIQ_NW": {
+      "id": "KAMIQ_NW",
+      "model_code": ["NW"],
+      "name": "Kamiq",
+      "generation": "I",
+      "supported_wmi": ["TMB"],
+      "body_map": {
+        "G": { "style": "SUV", "steering": "LHD", "drivetrain": "4x2" },
+        "H": { "style": "SUV", "steering": "RHD", "drivetrain": "4x2" }
+      },
+      "engine_map": {
+        "C": { "description": "1.6 MPI 81 kW", "fuel_type": "petrol", "displacement_l": 1.6, "power_kw": [81] },
+        "F": { "description": "1.6 TDI 70 kW", "fuel_type": "diesel", "displacement_l": 1.6, "power_kw": [70] },
+        "G": { "description": "1.6 TDI 85 kW", "fuel_type": "diesel", "displacement_l": 1.6, "power_kw": [85] },
+        "H": { "description": "1.0 CNG 66 kW", "fuel_type": "cng", "displacement_l": 1.0, "power_kw": [66] },
+        "K": { "description": "1.5 TSI 110 kW", "fuel_type": "petrol", "displacement_l": 1.5, "power_kw": [110] },
+        "P": { "description": "1.0 TSI 70 kW", "fuel_type": "petrol", "displacement_l": 1.0, "power_kw": [70] },
+        "R": { "description": "1.0 TSI 85 kW", "fuel_type": "petrol", "displacement_l": 1.0, "power_kw": [85] }
+      },
+      "airbag_map": {
+        "2": "2 front airbags",
+        "4": "2 front + 2 side airbags",
+        "5": "2 front + 2 side + knee airbag",
+        "6": "2 front + 2 side + 2 curtain airbags",
+        "7": "2 front + 2 side + 2 curtain + knee airbag",
+        "9": "2 front + 4 side + 2 curtain + knee airbag"
+      },
+      "year_map": {
+        "K": 2019,
+        "L": 2020,
+        "M": 2021,
+        "N": 2022,
+        "P": 2023,
+        "R": 2024,
+        "S": 2025
+      },
+      "plant_map": {
+        "3": "Mlada Boleslav",
+        "9": "Kvasiny"
+      }
+    },
+    "KAROQ_NU": {
+      "id": "KAROQ_NU",
+      "model_code": ["NU"],
+      "name": "Karoq",
+      "generation": "I",
+      "supported_wmi": ["TMB", "XW8"],
+      "body_map": {
+        "J": { "style": "Combi", "steering": "LHD", "drivetrain": "4x2" },
+        "K": { "style": "Combi", "steering": "RHD", "drivetrain": "4x2" },
+        "L": { "style": "Combi", "steering": "LHD", "drivetrain": "4x4" },
+        "M": { "style": "Combi", "steering": "RHD", "drivetrain": "4x4" }
+      },
+      "engine_map": {
+        "C": { "description": "1.4 TSI 110 kW", "fuel_type": "petrol", "displacement_l": 1.4, "power_kw": [110] },
+        "E": { "description": "1.4 TSI 140 kW", "fuel_type": "petrol", "displacement_l": 1.4, "power_kw": [140] },
+        "F": { "description": "2.0 TDI 85 kW", "fuel_type": "diesel", "displacement_l": 2.0, "power_kw": [85] },
+        "G": { "description": "1.6 TDI 85 kW", "fuel_type": "diesel", "displacement_l": 1.6, "power_kw": [85] },
+        "H": { "description": "2.0 TDI 105 kW", "fuel_type": "diesel", "displacement_l": 2.0, "power_kw": [105] },
+        "J": { "description": "2.0 TDI 110 kW", "fuel_type": "diesel", "displacement_l": 2.0, "power_kw": [110] },
+        "M": { "description": "2.0 TDI 110 kW", "fuel_type": "diesel", "displacement_l": 2.0, "power_kw": [110] },
+        "N": { "description": "1.6 MPI 81 kW", "fuel_type": "petrol", "displacement_l": 1.6, "power_kw": [81] },
+        "P": { "description": "1.0 TSI 81/85 kW", "fuel_type": "petrol", "displacement_l": 1.0, "power_kw": [81, 85] },
+        "R": { "description": "1.5 TSI 110 kW", "fuel_type": "petrol", "displacement_l": 1.5, "power_kw": [110] }
+      },
+      "airbag_map": {
+        "2": "2 front airbags",
+        "4": "2 front + 2 side airbags",
+        "5": "2 front + 2 side + knee airbag",
+        "6": "2 front + 2 side + 2 curtain airbags",
+        "7": "2 front + 2 side + 2 curtain + knee airbag",
+        "8": "2 front + 4 side + 2 curtain airbags",
+        "9": "2 front + 4 side + 2 curtain + knee airbag"
+      },
+      "year_map": {
+        "J": 2018,
+        "K": 2019,
+        "L": 2020,
+        "M": 2021,
+        "N": 2022,
+        "P": 2023,
+        "R": 2024,
+        "S": 2025,
+        "T": 2026
+      },
+      "plant_map": {
+        "2": "Mlada Boleslav",
+        "5": "Kvasiny",
+        "B": "Solomonovo",
+        "C": "Bratislava",
+        "D": "Kostanay",
+        "H": "Nizhny Novgorod, GAZ",
+        "J": "Osnabruck"
+      }
+    },
+    "KODIAQ_NS": {
+      "id": "KODIAQ_NS",
+      "model_code": ["NS"],
+      "name": "Kodiaq",
+      "generation": "I",
+      "supported_wmi": ["TMB", "XWW", "XW8"],
+      "body_map": {
+        "J": { "style": "SUV", "steering": "LHD", "drivetrain": "4x2" },
+        "K": { "style": "SUV", "steering": "RHD", "drivetrain": "4x2" },
+        "L": { "style": "SUV", "steering": "LHD", "drivetrain": "4x4" },
+        "M": { "style": "SUV", "steering": "RHD", "drivetrain": "4x4" }
+      },
+      "engine_map": {
+        "A": { "description": "1.4 TSI 92 kW", "fuel_type": "petrol", "displacement_l": 1.4, "power_kw": [92] },
+        "B": { "description": "1.5 TSI 110 kW", "fuel_type": "petrol", "displacement_l": 1.5, "power_kw": [110] },
+        "C": { "description": "1.4 TSI 110 kW", "fuel_type": "petrol", "displacement_l": 1.4, "power_kw": [110] },
+        "D": { "description": "2.0 TSI 132 kW", "fuel_type": "petrol", "displacement_l": 2.0, "power_kw": [132] },
+        "E": { "description": "2.0 TSI 140 kW", "fuel_type": "petrol", "displacement_l": 2.0, "power_kw": [140] },
+        "F": { "description": "2.0 TDI 85 kW", "fuel_type": "diesel", "displacement_l": 2.0, "power_kw": [85] },
+        "J": { "description": "2.0 TDI 105/110 kW", "fuel_type": "diesel", "displacement_l": 2.0, "power_kw": [105, 110] },
+        "K": { "description": "2.0 TDI 140 kW", "fuel_type": "diesel", "displacement_l": 2.0, "power_kw": [140] },
+        "L": { "description": "2.0 TDI 130 kW", "fuel_type": "diesel", "displacement_l": 2.0, "power_kw": [130] },
+        "M": { "description": "2.0 TDI 176 kW", "fuel_type": "diesel", "displacement_l": 2.0, "power_kw": [176] },
+        "N": { "description": "2.0 TDI 147 kW", "fuel_type": "diesel", "displacement_l": 2.0, "power_kw": [147] },
+        "U": { "description": "2.0 TSI 180 kW", "fuel_type": "petrol", "displacement_l": 2.0, "power_kw": [180] }
+      },
+      "airbag_map": {
+        "2": "2 front airbags",
+        "4": "2 front + 2 side airbags",
+        "5": "2 front + 2 side + knee airbag",
+        "6": "2 front + 2 side + 2 curtain airbags",
+        "7": "2 front + 2 side + 2 curtain + knee airbag",
+        "8": "2 front + 4 side + 2 curtain airbags",
+        "9": "2 front + 4 side + 2 curtain + knee airbag"
+      },
+      "year_map": {
+        "G": 2016,
+        "H": 2017,
+        "J": 2018,
+        "K": 2019,
+        "L": 2020,
+        "M": 2021,
+        "N": 2022,
+        "P": 2023,
+        "R": 2024
+      },
+      "plant_map": {
+        "8": "Kvasiny",
+        "A": "Aurangabad",
+        "B": "Solomonovo",
+        "D": "Ust-Kamenogorsk",
+        "H": "Nizhny Novgorod, GAZ",
+        "N": "Nizhny Novgorod, GAZ (TMB)",
+        "L": "Relizane",
+        "U": "India"
+      }
+    },
+    "KODIAQ_PS": {
+      "id": "KODIAQ_PS",
+      "model_code": ["PS"],
+      "name": "Kodiaq",
+      "generation": "II",
+      "supported_wmi": ["TMB"],
+      "body_map": {
+        "J": { "style": "Combi", "steering": "LHD", "drivetrain": "4x2" },
+        "K": { "style": "Combi", "steering": "RHD", "drivetrain": "4x2" },
+        "L": { "style": "Combi", "steering": "LHD", "drivetrain": "4x4" },
+        "M": { "style": "Combi", "steering": "RHD", "drivetrain": "4x4" }
+      },
+      "engine_map": {
+        "B": { "description": "1.5 TSI 110 kW", "fuel_type": "petrol", "displacement_l": 1.5, "power_kw": [110] },
+        "C": { "description": "1.4 TSI 110 kW", "fuel_type": "petrol", "displacement_l": 1.4, "power_kw": [110] },
+        "D": { "description": "2.0 TSI 150 kW", "fuel_type": "petrol", "displacement_l": 2.0, "power_kw": [150] },
+        "E": { "description": "2.0 TSI 140 kW", "fuel_type": "petrol", "displacement_l": 2.0, "power_kw": [140] },
+        "G": { "description": "2.0 TSI 195 kW", "fuel_type": "petrol", "displacement_l": 2.0, "power_kw": [195] },
+        "J": { "description": "2.0 TDI 110 kW", "fuel_type": "diesel", "displacement_l": 2.0, "power_kw": [110] },
+        "N": { "description": "2.0 TDI 142 kW", "fuel_type": "diesel", "displacement_l": 2.0, "power_kw": [142] },
+        "W": { "description": "1.5 PHEV 110 kW", "fuel_type": "phev", "displacement_l": 1.5, "power_kw": [110] }
+      },
+      "airbag_map": {
+        "7": "2 front + 2 side + 2 curtain + central airbag",
+        "9": "2 front + 4 side + 2 curtain + central airbag"
+      },
+      "year_map": {
+        "R": 2024,
+        "S": 2025,
+        "T": 2026,
+        "V": 2027,
+        "W": 2028
+      },
+      "plant_map": {
+        "A": "Aurangabad",
+        "T": "Kvasiny"
+      }
+    },
+    "OCTAVIA_5E": {
+      "id": "OCTAVIA_5E",
+      "model_code": ["NE", "5E"],
+      "name": "Octavia",
+      "generation": "III",
+      "supported_wmi": ["TMB", "XWW", "XW8"],
+      "body_map": {
+        "A": { "style": "Sedan", "steering": "LHD", "drivetrain": "4x2" },
+        "B": { "style": "Sedan", "steering": "RHD", "drivetrain": "4x2" },
+        "C": { "style": "Sedan", "steering": "LHD", "drivetrain": "4x4" },
+        "D": { "style": "Sedan", "steering": "RHD", "drivetrain": "4x4" },
+        "J": { "style": "Combi", "steering": "LHD", "drivetrain": "4x2" },
+        "K": { "style": "Combi", "steering": "RHD", "drivetrain": "4x2" },
+        "L": { "style": "Combi", "steering": "LHD", "drivetrain": "4x4" },
+        "M": { "style": "Combi", "steering": "RHD", "drivetrain": "4x4" },
+        "1": { "style": "N1", "steering": "LHD", "drivetrain": "4x2", "special_flags": { "n1": true } },
+        "2": { "style": "N1", "steering": "RHD", "drivetrain": "4x2", "special_flags": { "n1": true } },
+        "3": { "style": "N1", "steering": "LHD", "drivetrain": "4x4", "special_flags": { "n1": true } },
+        "4": { "style": "N1", "steering": "RHD", "drivetrain": "4x4", "special_flags": { "n1": true } }
+      },
+      "engine_map": {
+        "A": { "description": "1.2 TSI 63 kW", "fuel_type": "petrol", "displacement_l": 1.2, "power_kw": [63] },
+        "B": { "description": "1.2 TSI 77/81 kW", "fuel_type": "petrol", "displacement_l": 1.2, "power_kw": [77, 81] },
+        "C": { "description": "1.4 TSI 103/110 kW", "fuel_type": "petrol", "displacement_l": 1.4, "power_kw": [103, 110] },
+        "D": { "description": "1.8 TSI 132 kW", "fuel_type": "petrol", "displacement_l": 1.8, "power_kw": [132] },
+        "E": { "description": "2.0 TSI 162/169 kW", "fuel_type": "petrol", "displacement_l": 2.0, "power_kw": [162, 169] },
+        "N": { "description": "1.6 MPI 81 kW", "fuel_type": "petrol", "displacement_l": 1.6, "power_kw": [81] },
+        "M": { "description": "1.4 CNG 81 kW", "fuel_type": "cng", "displacement_l": 1.4, "power_kw": [81] },
+        "F": { "description": "1.6 TDI 66 kW", "fuel_type": "diesel", "displacement_l": 1.6, "power_kw": [66] },
+        "G": { "description": "1.6 TDI 77/81/85 kW", "fuel_type": "diesel", "displacement_l": 1.6, "power_kw": [77, 81, 85] },
+        "H": { "description": "1.5 CNG 96 kW", "fuel_type": "cng", "displacement_l": 1.5, "power_kw": [96] },
+        "J": { "description": "2.0 TDI 103/105/110 kW", "fuel_type": "diesel", "displacement_l": 2.0, "power_kw": [103, 105, 110] },
+        "K": { "description": "2.0 TDI 130/135 kW", "fuel_type": "diesel", "displacement_l": 2.0, "power_kw": [130, 135] },
+        "P": { "description": "1.0 TSI 85 kW", "fuel_type": "petrol", "displacement_l": 1.0, "power_kw": [85] },
+        "R": { "description": "1.5 TSI 110 kW", "fuel_type": "petrol", "displacement_l": 1.5, "power_kw": [110] },
+        "S": { "description": "2.0 TSI 140 kW", "fuel_type": "petrol", "displacement_l": 2.0, "power_kw": [140] },
+        "U": { "description": "2.0 TSI 180 kW", "fuel_type": "petrol", "displacement_l": 2.0, "power_kw": [180] }
+      },
+      "airbag_map": {
+        "2": "2 front airbags",
+        "4": "2 front + 2 side airbags",
+        "5": "2 front + 2 side + knee airbag",
+        "6": "2 front + 2 side + 2 curtain airbags",
+        "7": "2 front + 2 side + 2 curtain + knee airbag",
+        "8": "2 front + 4 side + 2 curtain airbags",
+        "9": "2 front + 4 side + 2 curtain + knee airbag",
+        "B": "GVW class 1360-1814 kg",
+        "C": "GVW class 1814-2268 kg"
+      },
+      "year_map": {
+        "D": 2013,
+        "E": 2014,
+        "F": 2015,
+        "G": 2016,
+        "H": 2017,
+        "J": 2018,
+        "K": 2019,
+        "L": 2020
+      },
+      "plant_map": {
+        "0": "Mlada Boleslav",
+        "A": "Aurangabad",
+        "B": "Solomonovo",
+        "D": "Ust-Kamenogorsk",
+        "H": "Nizhny Novgorod, GAZ (XW8)",
+        "L": "Relizane",
+        "N": "Nizhny Novgorod, GAZ (TMB)",
+        "U": "India"
+      }
+    },
+    "OCTAVIA_NX": {
+      "id": "OCTAVIA_NX",
+      "model_code": ["NX"],
+      "name": "Octavia",
+      "generation": "IV",
+      "supported_wmi": ["TMB", "XWW", "XW8"],
+      "body_map": {
+        "A": { "style": "Sedan", "steering": "LHD", "drivetrain": "4x2" },
+        "B": { "style": "Sedan", "steering": "RHD", "drivetrain": "4x2" },
+        "C": { "style": "Sedan", "steering": "LHD", "drivetrain": "4x4" },
+        "D": { "style": "Sedan", "steering": "RHD", "drivetrain": "4x4" },
+        "J": { "style": "Combi", "steering": "LHD", "drivetrain": "4x2" },
+        "K": { "style": "Combi", "steering": "RHD", "drivetrain": "4x2" },
+        "L": { "style": "Combi", "steering": "LHD", "drivetrain": "4x4" },
+        "M": { "style": "Combi", "steering": "RHD", "drivetrain": "4x4" }
+      },
+      "engine_map": {
+        "C": { "description": "1.4 TSI 110 kW", "fuel_type": "petrol", "displacement_l": 1.4, "power_kw": [110] },
+        "F": { "description": "2.0 TDI 105 kW", "fuel_type": "diesel", "displacement_l": 2.0, "power_kw": [105] },
+        "G": { "description": "2.0 TDI 85 kW", "fuel_type": "diesel", "displacement_l": 2.0, "power_kw": [85] },
+        "H": { "description": "1.5 CNG 96 kW", "fuel_type": "cng", "displacement_l": 1.5, "power_kw": [96] },
+        "J": { "description": "2.0 TDI 110 kW", "fuel_type": "diesel", "displacement_l": 2.0, "power_kw": [110] },
+        "K": { "description": "2.0 TDI 147 kW", "fuel_type": "diesel", "displacement_l": 2.0, "power_kw": [147] },
+        "N": { "description": "1.6 MPI 81 kW", "fuel_type": "petrol", "displacement_l": 1.6, "power_kw": [81] },
+        "P": { "description": "1.0 TSI 81 kW", "fuel_type": "petrol", "displacement_l": 1.0, "power_kw": [81] },
+        "R": { "description": "1.5 TSI 110 kW", "fuel_type": "petrol", "displacement_l": 1.5, "power_kw": [110] },
+        "S": { "description": "2.0 TSI 140 kW", "fuel_type": "petrol", "displacement_l": 2.0, "power_kw": [140] },
+        "U": { "description": "2.0 TSI 180 kW", "fuel_type": "petrol", "displacement_l": 2.0, "power_kw": [180] },
+        "V": { "description": "2.0 TSI 195 kW", "fuel_type": "petrol", "displacement_l": 2.0, "power_kw": [195] },
+        "W": { "description": "1.4 TSI PHEV 110 kW", "fuel_type": "phev", "displacement_l": 1.4, "power_kw": [110] }
+      },
+      "airbag_map": {
+        "2": "2 front airbags",
+        "4": "2 front + 2 side airbags",
+        "5": "2 front + 2 side + knee airbag",
+        "6": "2 front + 2 side + 2 curtain airbags",
+        "7": "2 front + 2 side + 2 curtain + knee or central airbag",
+        "8": "2 front + 4 side + 2 curtain or 2 front + 2 side + 2 curtain + knee",
+        "9": "2 front + 4 side + 2 curtain + knee or central airbag",
+        "0": "2 front + 4 side + 2 curtain + knee airbag"
+      },
+      "year_map": {
+        "L": 2020,
+        "M": 2021,
+        "N": 2022,
+        "P": 2023,
+        "R": 2024,
+        "S": 2025
+      },
+      "plant_map": {
+        "Y": "Mlada Boleslav",
+        "A": "Aurangabad",
+        "D": "Kostanay",
+        "H": "Nizhny Novgorod, GAZ",
+        "L": "Relizane",
+        "N": "Nizhny Novgorod, GAZ",
+        "U": "India"
+      }
+    },
+    "SUPERB_NP": {
+      "id": "SUPERB_NP",
+      "model_code": ["NP"],
+      "name": "Superb",
+      "generation": "III",
+      "supported_wmi": ["TMB", "XWW", "XW8"],
+      "body_map": {
+        "A": { "style": "Sedan", "steering": "LHD", "drivetrain": "4x2" },
+        "B": { "style": "Sedan", "steering": "RHD", "drivetrain": "4x2" },
+        "C": { "style": "Sedan", "steering": "LHD", "drivetrain": "4x4" },
+        "D": { "style": "Sedan", "steering": "RHD", "drivetrain": "4x4" },
+        "J": { "style": "Combi", "steering": "LHD", "drivetrain": "4x2" },
+        "K": { "style": "Combi", "steering": "RHD", "drivetrain": "4x2" },
+        "L": { "style": "Combi", "steering": "LHD", "drivetrain": "4x4" },
+        "M": { "style": "Combi", "steering": "RHD", "drivetrain": "4x4" },
+        "1": { "style": "N1", "steering": "LHD", "drivetrain": "4x2", "special_flags": { "n1": true } },
+        "2": { "style": "N1", "steering": "RHD", "drivetrain": "4x2", "special_flags": { "n1": true } },
+        "3": { "style": "N1", "steering": "LHD", "drivetrain": "4x4", "special_flags": { "n1": true } },
+        "4": { "style": "N1", "steering": "RHD", "drivetrain": "4x4", "special_flags": { "n1": true } }
+      },
+      "engine_map": {
+        "A": { "description": "1.4 TSI 92 kW", "fuel_type": "petrol", "displacement_l": 1.4, "power_kw": [92] },
+        "B": { "description": "1.4 TSI 110 kW", "fuel_type": "petrol", "displacement_l": 1.4, "power_kw": [110] },
+        "D": { "description": "2.0 TSI 162/169 kW", "fuel_type": "petrol", "displacement_l": 2.0, "power_kw": [162, 169] },
+        "E": { "description": "2.0 TSI 206 kW", "fuel_type": "petrol", "displacement_l": 2.0, "power_kw": [206] },
+        "G": { "description": "1.6 TDI 88 kW", "fuel_type": "diesel", "displacement_l": 1.6, "power_kw": [88] },
+        "H": { "description": "2.0 TDI 110 kW", "fuel_type": "diesel", "displacement_l": 2.0, "power_kw": [110] },
+        "J": { "description": "2.0 TDI 140 kW", "fuel_type": "diesel", "displacement_l": 2.0, "power_kw": [140] },
+        "K": { "description": "2.0 TDI 130 kW", "fuel_type": "diesel", "displacement_l": 2.0, "power_kw": [130] },
+        "L": { "description": "1.8 TSI 132 kW", "fuel_type": "petrol", "displacement_l": 1.8, "power_kw": [132] },
+        "M": { "description": "2.0 TSI 140 kW", "fuel_type": "petrol", "displacement_l": 2.0, "power_kw": [140] },
+        "N": { "description": "1.5 TSI 110 kW", "fuel_type": "petrol", "displacement_l": 1.5, "power_kw": [110] },
+        "P": { "description": "2.0 TSI 200 kW", "fuel_type": "petrol", "displacement_l": 2.0, "power_kw": [200] },
+        "W": { "description": "1.4 Hybrid 115 kW", "fuel_type": "hybrid", "displacement_l": 1.4, "power_kw": [115] },
+        "R": { "description": "2.0 TDI 147 kW", "fuel_type": "diesel", "displacement_l": 2.0, "power_kw": [147] },
+        "S": { "description": "2.0 TDI 90 kW", "fuel_type": "diesel", "displacement_l": 2.0, "power_kw": [90] }
+      },
+      "airbag_map": {
+        "4": "2 front + 2 side airbags",
+        "5": "2 front + 2 side + knee airbag",
+        "6": "2 front + 2 side + 2 curtain airbags",
+        "7": "2 front + 2 side + 2 curtain + knee airbag",
+        "8": "2 front + 4 side + 2 curtain airbags",
+        "9": "2 front + 4 side + 2 curtain + knee airbag",
+        "C": "GVW class 1814-2268 kg",
+        "D": "GVW class 2268-2722 kg"
+      },
+      "year_map": {
+        "F": 2015,
+        "G": 2016,
+        "H": 2017,
+        "J": 2018,
+        "K": 2019,
+        "L": 2020,
+        "M": 2021,
+        "N": 2022,
+        "P": 2023,
+        "R": 2024
+      },
+      "plant_map": {
+        "7": "Kvasiny",
+        "A": "Aurangabad",
+        "B": "Solomonovo",
+        "D": "Ust-Kamenogorsk",
+        "U": "India"
+      }
+    },
+    "SUPERB_NZ": {
+      "id": "SUPERB_NZ",
+      "model_code": ["NZ"],
+      "name": "Superb",
+      "generation": "IV",
+      "supported_wmi": ["TMB"],
+      "body_map": {
+        "A": { "style": "Sedan", "steering": "LHD", "drivetrain": "4x2" },
+        "B": { "style": "Sedan", "steering": "RHD", "drivetrain": "4x2" },
+        "C": { "style": "Sedan", "steering": "LHD", "drivetrain": "4x4" },
+        "D": { "style": "Sedan", "steering": "RHD", "drivetrain": "4x4" },
+        "J": { "style": "Combi", "steering": "LHD", "drivetrain": "4x2" },
+        "K": { "style": "Combi", "steering": "RHD", "drivetrain": "4x2" },
+        "L": { "style": "Combi", "steering": "LHD", "drivetrain": "4x4" },
+        "M": { "style": "Combi", "steering": "RHD", "drivetrain": "4x4" }
+      },
+      "engine_map": {
+        "H": { "description": "2.0 TDI 110 kW", "fuel_type": "diesel", "displacement_l": 2.0, "power_kw": [110] },
+        "N": { "description": "1.5 TSI 110 kW", "fuel_type": "petrol", "displacement_l": 1.5, "power_kw": [110] },
+        "L": { "description": "2.0 TSI 150 kW", "fuel_type": "petrol", "displacement_l": 2.0, "power_kw": [150] },
+        "M": { "description": "2.0 TSI 140 kW", "fuel_type": "petrol", "displacement_l": 2.0, "power_kw": [140] }
+      },
+      "airbag_map": {
+        "7": "2 front + 2 side + 2 curtain + central airbag",
+        "8": "2 front + 4 side + 2 curtain + knee + central airbag",
+        "9": "2 front + 4 side + 2 curtain + central airbag",
+        "0": "2 front + 4 side + 2 curtain + knee + central airbag"
+      },
+      "year_map": {
+        "R": 2024,
+        "S": 2025,
+        "T": 2026,
+        "V": 2027
+      },
+      "plant_map": {
+        "C": "Bratislava"
+      }
+    },
+    "ENYAQ_NY": {
+      "id": "ENYAQ_NY",
+      "model_code": ["NY"],
+      "name": "Enyaq",
+      "generation": "I",
+      "supported_wmi": ["TMB"],
+      "body_map": {
+        "E": { "style": "Coupe", "steering": "LHD", "drivetrain": "4x2" },
+        "F": { "style": "Coupe", "steering": "RHD", "drivetrain": "4x2" },
+        "G": { "style": "Coupe", "steering": "LHD", "drivetrain": "4x4" },
+        "H": { "style": "Coupe", "steering": "RHD", "drivetrain": "4x4" },
+        "J": { "style": "Enyaq", "steering": "LHD", "drivetrain": "4x2" },
+        "K": { "style": "Enyaq", "steering": "RHD", "drivetrain": "4x2" },
+        "L": { "style": "Enyaq", "steering": "LHD", "drivetrain": "4x4" },
+        "M": { "style": "Enyaq", "steering": "RHD", "drivetrain": "4x4" }
+      },
+      "engine_map": {
+        "A": { "description": "109 kW electric", "fuel_type": "ev", "displacement_l": null, "power_kw": [109] },
+        "B": { "description": "132 kW electric", "fuel_type": "ev", "displacement_l": null, "power_kw": [132] },
+        "C": { "description": "150 kW electric", "fuel_type": "ev", "displacement_l": null, "power_kw": [150] },
+        "D": { "description": "165 kW electric", "fuel_type": "ev", "displacement_l": null, "power_kw": [165] },
+        "E": { "description": "195 kW electric", "fuel_type": "ev", "displacement_l": null, "power_kw": [195] },
+        "F": { "description": "220/225 kW electric", "fuel_type": "ev", "displacement_l": null, "power_kw": [220, 225] },
+        "G": { "description": "125 kW electric", "fuel_type": "ev", "displacement_l": null, "power_kw": [125] },
+        "H": { "description": "195 kW electric", "fuel_type": "ev", "displacement_l": null, "power_kw": [195] },
+        "J": { "description": "250 kW electric", "fuel_type": "ev", "displacement_l": null, "power_kw": [250] }
+      },
+      "airbag_map": {
+        "7": "2 front + 2 side + 2 curtain + central airbag",
+        "9": "2 front + 4 side + 2 curtain + central airbag",
+        "0": "Motorsport"
+      },
+      "year_map": {
+        "M": 2021,
+        "N": 2022,
+        "P": 2023,
+        "R": 2024,
+        "S": 2025,
+        "T": 2026
+      },
+      "plant_map": {
+        "F": "Mlada Boleslav"
+      }
+    }
+  }
+}
