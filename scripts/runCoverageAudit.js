@@ -211,3 +211,43 @@ console.log("Exact-friendly:", output.dataset.exactFriendlySegments);
 console.log("Inference-safe:", output.dataset.inferenceSafeSegments);
 console.log("Ambiguous:", output.dataset.ambiguousSegments);
 console.log("Single-sample:", output.dataset.singleSampleSegments);
+const problematicVINs = [];
+
+// SINGLE SAMPLE VINs
+for (const segment of audit.segments) {
+  if (segment.sampleCount === 1) {
+    problematicVINs.push({
+      type: "single_sample",
+      key: segment.key,
+      vin: segment.rows[0]?.vin,
+      model: segment.model,
+      body: segment.body,
+      platform: segment.platform,
+      year: segment.year
+    });
+  }
+}
+
+// AMBIGUOUS VINs
+for (const segment of audit.segments) {
+  if (segment.ambiguous) {
+    for (const row of segment.rows) {
+      problematicVINs.push({
+        type: "ambiguous",
+        key: segment.key,
+        vin: row?.vin,
+        model: segment.model,
+        body: segment.body,
+        platform: segment.platform,
+        year: segment.year
+      });
+    }
+  }
+}
+
+fs.writeFileSync(
+  "audit_outputs/problematic_vins.json",
+  JSON.stringify(problematicVINs, null, 2)
+);
+
+console.log("\nProblematic VINs generated:", problematicVINs.length);
