@@ -368,6 +368,7 @@ function applyInferenceFallback({ decoded, fields, overrides = {} }) {
         dominanceRatio: inference.engine.ratio,
         dominanceScore: inference.engine.dominanceScore,
         conflictCount: inference.engine.conflictCount,
+        selected: inference.engine.selected,
       },
     };
     inferredEngine = true;
@@ -414,6 +415,7 @@ function applyInferenceFallback({ decoded, fields, overrides = {} }) {
         dominanceRatio: inference.gearbox.ratio,
         dominanceScore: inference.gearbox.dominanceScore,
         conflictCount: inference.gearbox.conflictCount,
+        selected: inference.gearbox.selected,
       },
     };
     inferredGearbox = true;
@@ -447,7 +449,38 @@ function deriveResolutionStatus(fields) {
   return "ready_for_provisional_maintenance";
 }
 
-function determineInternalStatus({ supported, fields, usedInference, inferredEngine, inferredGearbox }) {
+function isStrongYearSpecificDatasetInference(inference) {
+  if (!inference) return false;
+
+  return (
+    inference.matched === true &&
+    inference.source === "dataset_pattern_statistics" &&
+    inference.statsLevel === "body_platform_year_model"
+  );
+}
+
+function matchesStrongDatasetInference(field, expectedField) {
+  if (!field?.resolved || !expectedField) return false;
+  if (!field?.inferenceMeta) return false;
+
+  const selectedValue = normalizeCandidateValue(expectedField?.selected);
+  const resolvedValue = normalizeCandidateValue(field?.value);
+
+  if (!selectedValue || !resolvedValue || selectedValue !== resolvedValue) return false;
+  if (Number(field?.inferenceMeta?.supportCount || 0) < 2) return false;
+  if (Number(field?.inferenceMeta?.conflictCount || 0) !== 0) return false;
+  if (Number(field?.inferenceMeta?.dominanceScore || 0) < 0.6) return false;
+
+  if (field?.field === "gearbox") {
+    const semantic = field?.semantic || deriveGearboxClosure({ code: field?.value, candidates: field?.candidates || [] });
+    if (!(semantic?.familyClosed || semantic?.transmissionTypeClosed)) return false;
+    if (semantic?.hasConflict) return false;
+  }
+
+  return true;
+}
+
+function determineInternalStatus({ supported, fields, usedInference, inferredEngine, inferredGearbox, inference }) {
   if (!supported) return "invalid";
 
   const modelClosed = Boolean(fields?.model?.resolved) && Boolean(fields?.modelYear?.resolved);
@@ -479,24 +512,28 @@ function determineInternalStatus({ supported, fields, usedInference, inferredEng
     return "ready_exact";
   }
 
-  const engineInferenceOk = inferredEngine ? isDominantInferenceField(fields?.engine) : engineClosed;
-  const gearboxInferenceOk = inferredGearbox ? isDominantInferenceField(fields?.gearbox) : gearboxClosed;
+  const strongDatasetInference = isStrongYearSpecificDatasetInference(inference);
+  const strongEngineInferenceMatch = inferredEngine
+    ? matchesStrongDatasetInference(fields?.engine, inference?.engine)
+    : engineClosed;
+  const strongGearboxInferenceMatch = inferredGearbox
+    ? matchesStrongDatasetInference(fields?.gearbox, inference?.gearbox)
+    : gearboxClosed;
+
   const noCompetingCandidates =
     !hasCompetingCandidates(fields?.engine) && !hasMeaningfulGearboxCompetition(fields?.gearbox);
 
-  // Sprint 10 contract:
-  // inference fallback remains non-plannable even when high-confidence.
-  // Therefore it must stay partial_inferred, not ready_high_confidence_inferred.
   if (
     inferenceUsed &&
+    strongDatasetInference &&
     modelClosed &&
-    engineInferenceOk &&
-    gearboxInferenceOk &&
+    strongEngineInferenceMatch &&
+    strongGearboxInferenceMatch &&
     drivetrainClosed &&
     drivetrainConsistent &&
     noCompetingCandidates
   ) {
-    return "partial_inferred";
+    return "ready_high_confidence_inferred";
   }
 
   if (inferenceUsed) {
@@ -516,7 +553,8 @@ function determineOperationalReadiness(internalStatus) {
 function toVehicleStatus({ internalStatus }) {
   if (internalStatus === "invalid") return "invalid";
   if (internalStatus === "ready_exact") return "ready_for_planning";
-  if (["ready_high_confidence_inferred", "partial_inferred"].includes(internalStatus)) return "partial_inferred";
+  if (internalStatus === "ready_high_confidence_inferred") return "ready_for_planning";
+  if (internalStatus === "partial_inferred") return "partial_inferred";
   return "needs_manual_input";
 }
 
@@ -526,10 +564,7 @@ function buildMissingConfirmations(fields, internalStatus) {
     .map((item) => item.field);
 
   if (internalStatus === "ready_high_confidence_inferred") {
-    const inferredFields = [fields?.engine, fields?.gearbox, fields?.drivetrain]
-      .filter((field) => usesInferenceSource(field))
-      .map((field) => field.field);
-    return uniqueStrings([...unresolved, ...inferredFields]);
+    return unresolved;
   }
 
   return unresolved;
@@ -611,6 +646,7 @@ export function resolveVehicleConfiguration({ vin, decoded, validation = null, m
     usedInference,
     inferredEngine: inferenceResult.inferredEngine,
     inferredGearbox: inferenceResult.inferredGearbox,
+    inference: inferenceResult.inference,
   });
   const operationalReadiness = determineOperationalReadiness(internalStatus);
   const canonicalStatus = toVehicleStatus({ internalStatus });
@@ -624,7 +660,9 @@ export function resolveVehicleConfiguration({ vin, decoded, validation = null, m
     internalStatus === "partial_inferred";
 
   const resolutionStatus =
-    hasMissingConfirmations || operationalReadiness !== "quote_ready" || isInferencePath
+    internalStatus === "ready_high_confidence_inferred"
+      ? baseResolutionStatus
+      : hasMissingConfirmations || operationalReadiness !== "quote_ready" || isInferencePath
       ? "partial_inferred"
       : baseResolutionStatus;
 
