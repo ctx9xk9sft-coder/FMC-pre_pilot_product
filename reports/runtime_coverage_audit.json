@@ -1,0 +1,823 @@
+{
+  "generatedAt": "2026-03-20T10:26:47.477Z",
+  "runtimeModulesUsed": [
+    "src/services/vinDecoder.js#decodeSkodaVin",
+    "src/services/tcoCalculator.js#calculateMaintenanceValidation",
+    "src/services/vehicleResolver.js#resolveVehicleForMaintenance",
+    "src/services/scenarioSimulationEngine.js#buildSingleScenarioSimulation",
+    "src/services/confidence/computePricingConfidence.js#computePricingConfidence"
+  ],
+  "auditInput": {
+    "source": "src/data/vin_training_dataset.json",
+    "semantics": "VIN list only; all statuses below come from runtime decode/resolution/planning execution.",
+    "defaultScenario": {
+      "exploitationType": "fleet_standard",
+      "plannedKm": 150000,
+      "contractMonths": 48,
+      "laborRate": 5500,
+      "oilPricePerLiter": 1800,
+      "tireCategory": "standard"
+    }
+  },
+  "totals": {
+    "totalVinsAudited": 227,
+    "internalStatus": {
+      "partial_inferred": 174,
+      "needs_manual_input": 43,
+      "ready_exact": 10
+    },
+    "canonicalStatus": {
+      "partial_inferred": 174,
+      "needs_manual_input": 43,
+      "ready_for_planning": 10
+    },
+    "operationalReadiness": {
+      "manual_review_required": 217,
+      "quote_ready": 10
+    },
+    "resolutionStatus": {
+      "partial_inferred": 217,
+      "fully_resolved": 10
+    }
+  },
+  "breakdowns": {
+    "byModel": {
+      "Fabia": {
+        "needs_manual_input": 1,
+        "partial_inferred": 1,
+        "ready_exact": 1
+      },
+      "Karoq": {
+        "partial_inferred": 8
+      },
+      "Kodiaq": {
+        "partial_inferred": 20,
+        "ready_exact": 5,
+        "needs_manual_input": 1
+      },
+      "Scala": {
+        "partial_inferred": 62,
+        "ready_exact": 1
+      },
+      "Kamiq": {
+        "needs_manual_input": 38,
+        "partial_inferred": 6
+      },
+      "Octavia": {
+        "partial_inferred": 48
+      },
+      "Superb": {
+        "partial_inferred": 29,
+        "ready_exact": 3
+      },
+      "Enyaq": {
+        "needs_manual_input": 3
+      }
+    },
+    "byGeneration": {
+      "IV": {
+        "partial_inferred": 78,
+        "ready_exact": 4,
+        "needs_manual_input": 1
+      },
+      "I": {
+        "partial_inferred": 76,
+        "needs_manual_input": 41,
+        "ready_exact": 1
+      },
+      "II": {
+        "partial_inferred": 20,
+        "ready_exact": 5,
+        "needs_manual_input": 1
+      }
+    },
+    "byBodyCode": {
+      "EE6": {
+        "partial_inferred": 1,
+        "ready_exact": 1
+      },
+      "ER9": {
+        "needs_manual_input": 1
+      },
+      "JR7": {
+        "partial_inferred": 8
+      },
+      "JW9": {
+        "partial_inferred": 2
+      },
+      "LN9": {
+        "partial_inferred": 14,
+        "needs_manual_input": 1,
+        "ready_exact": 1
+      },
+      "LN7": {
+        "partial_inferred": 4,
+        "ready_exact": 4
+      },
+      "EP6": {
+        "partial_inferred": 31
+      },
+      "ER6": {
+        "partial_inferred": 31,
+        "ready_exact": 1
+      },
+      "GR6": {
+        "needs_manual_input": 38,
+        "partial_inferred": 1
+      },
+      "GK6": {
+        "partial_inferred": 5
+      },
+      "AA8": {
+        "partial_inferred": 6
+      },
+      "AR8": {
+        "partial_inferred": 41
+      },
+      "AG8": {
+        "partial_inferred": 1
+      },
+      "AH8": {
+        "partial_inferred": 5
+      },
+      "AH0": {
+        "partial_inferred": 22
+      },
+      "CR0": {
+        "partial_inferred": 1,
+        "ready_exact": 1
+      },
+      "AW0": {
+        "partial_inferred": 1
+      },
+      "CP0": {
+        "ready_exact": 2
+      },
+      "JH9": {
+        "needs_manual_input": 2
+      },
+      "LH9": {
+        "needs_manual_input": 1
+      }
+    },
+    "byPlatformCode": {
+      "PJ": {
+        "needs_manual_input": 1,
+        "partial_inferred": 1,
+        "ready_exact": 1
+      },
+      "NU": {
+        "partial_inferred": 8
+      },
+      "PS": {
+        "partial_inferred": 20,
+        "ready_exact": 5,
+        "needs_manual_input": 1
+      },
+      "NW": {
+        "partial_inferred": 68,
+        "needs_manual_input": 38,
+        "ready_exact": 1
+      },
+      "NX": {
+        "partial_inferred": 48
+      },
+      "NZ": {
+        "partial_inferred": 29,
+        "ready_exact": 3
+      },
+      "NY": {
+        "needs_manual_input": 3
+      }
+    },
+    "byModelYear": {
+      "2023": {
+        "partial_inferred": 1
+      },
+      "2024": {
+        "partial_inferred": 10,
+        "needs_manual_input": 4,
+        "ready_exact": 2
+      },
+      "2025": {
+        "partial_inferred": 6,
+        "ready_exact": 4
+      },
+      "2026": {
+        "partial_inferred": 157,
+        "needs_manual_input": 39,
+        "ready_exact": 4
+      }
+    },
+    "byEngineFamily": {
+      "EA211-MPI": {
+        "partial_inferred": 1,
+        "ready_exact": 1
+      },
+      "EA211": {
+        "needs_manual_input": 39,
+        "partial_inferred": 31,
+        "ready_exact": 1
+      },
+      "unknown": {
+        "partial_inferred": 44
+      },
+      "EA288": {
+        "partial_inferred": 40,
+        "ready_exact": 6,
+        "needs_manual_input": 1
+      },
+      "EA211 evo": {
+        "partial_inferred": 52
+      },
+      "1.4 TSI": {
+        "partial_inferred": 1
+      },
+      "1.8 TSI": {
+        "partial_inferred": 5,
+        "needs_manual_input": 3
+      },
+      "EA888 evo4": {
+        "ready_exact": 2
+      }
+    },
+    "byGearboxFamily": {
+      "MQ200": {
+        "partial_inferred": 32,
+        "ready_exact": 1
+      },
+      "unknown": {
+        "needs_manual_input": 42
+      },
+      "DQ200": {
+        "partial_inferred": 60
+      },
+      "DQ381": {
+        "partial_inferred": 49,
+        "ready_exact": 8,
+        "needs_manual_input": 1
+      },
+      "MQ281": {
+        "partial_inferred": 33,
+        "ready_exact": 1
+      }
+    }
+  },
+  "topClusters": {
+    "partialInferred": [
+      {
+        "key": "Octavia | IV | AR8 | NX | 2026 | EA211 evo | DQ200",
+        "count": 41
+      },
+      {
+        "key": "Scala | I | ER6 | NW | 2026 | EA211 | MQ281",
+        "count": 29
+      },
+      {
+        "key": "Scala | I | EP6 | NW | 2026 | unknown | MQ200",
+        "count": 25
+      },
+      {
+        "key": "Superb | IV | AH0 | NZ | 2026 | EA288 | DQ381",
+        "count": 22
+      },
+      {
+        "key": "Kodiaq | II | LN9 | PS | 2026 | EA288 | DQ381",
+        "count": 14
+      },
+      {
+        "key": "Karoq | I | JR7 | NU | 2026 | unknown | DQ200",
+        "count": 8
+      },
+      {
+        "key": "Octavia | IV | AA8 | NX | 2026 | EA211 evo | DQ200",
+        "count": 6
+      },
+      {
+        "key": "Kamiq | I | GK6 | NW | 2026 | EA211 evo | DQ200",
+        "count": 5
+      },
+      {
+        "key": "Superb | IV | AH8 | NZ | 2026 | 1.8 TSI | DQ381",
+        "count": 5
+      },
+      {
+        "key": "Kodiaq | II | LN7 | PS | 2024 | EA288 | DQ381",
+        "count": 4
+      }
+    ],
+    "needsManualInput": [
+      {
+        "key": "Kamiq | I | GR6 | NW | 2026 | EA211 | unknown",
+        "count": 38
+      },
+      {
+        "key": "Enyaq | I | JH9 | NY | 2024 | 1.8 TSI | unknown",
+        "count": 2
+      },
+      {
+        "key": "Enyaq | I | LH9 | NY | 2024 | 1.8 TSI | unknown",
+        "count": 1
+      },
+      {
+        "key": "Fabia | IV | ER9 | PJ | 2026 | EA211 | unknown",
+        "count": 1
+      },
+      {
+        "key": "Kodiaq | II | LN9 | PS | 2024 | EA288 | DQ381",
+        "count": 1
+      }
+    ],
+    "blocked": [],
+    "gearboxUnresolved": [
+      {
+        "key": "Kamiq | I | GR6 | NW | 2026 | EA211 | unknown",
+        "count": 38
+      },
+      {
+        "key": "Enyaq | I | JH9 | NY | 2024 | 1.8 TSI | unknown",
+        "count": 2
+      },
+      {
+        "key": "Enyaq | I | LH9 | NY | 2024 | 1.8 TSI | unknown",
+        "count": 1
+      },
+      {
+        "key": "Fabia | IV | ER9 | PJ | 2026 | EA211 | unknown",
+        "count": 1
+      }
+    ],
+    "weakPricingConfidence": [
+      {
+        "key": "Superb | IV | CP0 | NZ | 2026 | EA888 evo4 | DQ381",
+        "count": 2
+      },
+      {
+        "key": "Scala | I | ER6 | NW | 2026 | EA211 | MQ281",
+        "count": 1
+      }
+    ]
+  },
+  "pricingObservability": {
+    "included": true,
+    "auditedPricedVinCount": 10,
+    "missingPriceEventCount": 0,
+    "genericEventCount": 0,
+    "familyEventCount": 90,
+    "fallbackLineCount": 0,
+    "missingLineCount": 0,
+    "pricingConfidenceBuckets": {
+      "high": 7,
+      "medium": 3
+    }
+  },
+  "sampleRecords": [
+    {
+      "vin": "TMBEE6PJ4P4126275",
+      "model": "Fabia",
+      "generation": "IV",
+      "bodyCode": "EE6",
+      "platformCode": "PJ",
+      "modelYear": 2023,
+      "engineFamily": "EA211-MPI",
+      "gearboxFamily": "MQ200",
+      "canonicalStatus": "partial_inferred",
+      "internalStatus": "partial_inferred",
+      "operationalReadiness": "manual_review_required",
+      "resolutionStatus": "partial_inferred",
+      "validationStatus": "needs_manual_input",
+      "missingConfirmations": [],
+      "warnings": [
+        "gearbox_inferred_from_dataset_pattern"
+      ],
+      "inferredEngine": false,
+      "inferredGearbox": true,
+      "gearboxResolved": true,
+      "gearboxClosureMissing": false,
+      "gearboxClosure": {
+        "family": "MQ200",
+        "transmissionType": "manual",
+        "maintenanceGroup": "MANUAL_5",
+        "familyClosed": true,
+        "transmissionTypeClosed": true,
+        "hasConflict": false
+      },
+      "pricingObserved": false,
+      "pricingStatus": null,
+      "pricingMeta": null,
+      "pricingConfidenceLevel": null,
+      "pricingConfidenceMetrics": null,
+      "totalPlannedEvents": null,
+      "totalPlannedCost": null,
+      "priceRange": null,
+      "clusterKey": "Fabia | IV | EE6 | PJ | 2023 | EA211-MPI | MQ200"
+    },
+    {
+      "vin": "TMBEE6PJ1R4042062",
+      "model": "Fabia",
+      "generation": "IV",
+      "bodyCode": "EE6",
+      "platformCode": "PJ",
+      "modelYear": 2024,
+      "engineFamily": "EA211-MPI",
+      "gearboxFamily": "MQ200",
+      "canonicalStatus": "ready_for_planning",
+      "internalStatus": "ready_exact",
+      "operationalReadiness": "quote_ready",
+      "resolutionStatus": "fully_resolved",
+      "validationStatus": "needs_manual_input",
+      "missingConfirmations": [],
+      "warnings": [],
+      "inferredEngine": false,
+      "inferredGearbox": false,
+      "gearboxResolved": true,
+      "gearboxClosureMissing": false,
+      "gearboxClosure": {
+        "family": "MQ200",
+        "transmissionType": "manual",
+        "maintenanceGroup": "MANUAL_5",
+        "familyClosed": true,
+        "transmissionTypeClosed": true,
+        "hasConflict": false
+      },
+      "pricingObserved": true,
+      "pricingStatus": "priced",
+      "pricingMeta": {
+        "laborRate": 5500,
+        "oilPricePerLiter": 1800,
+        "tireCategory": "standard",
+        "discounts": {
+          "laborDiscount": 0,
+          "partsDiscount": 0,
+          "oilDiscount": 0
+        },
+        "contractMode": "standard",
+        "pricingCoveragePercent": 100,
+        "exactEventCount": 28,
+        "familyEventCount": 0,
+        "genericEventCount": 0,
+        "missingPriceEventCount": 0,
+        "fallbackLineCount": 0,
+        "missingLineCount": 0,
+        "pricingConfidence": "high",
+        "warnings": [],
+        "pricingRange": {
+          "min": 519823,
+          "expected": 535900,
+          "max": 562695
+        }
+      },
+      "pricingConfidenceLevel": "high",
+      "pricingConfidenceMetrics": {
+        "pricingCoveragePercent": 100,
+        "exactEventCount": 28,
+        "familyEventCount": 0,
+        "genericEventCount": 0,
+        "missingPriceEventCount": 0,
+        "fallbackLineCount": 0,
+        "pricingRange": {
+          "min": 519823,
+          "expected": 535900,
+          "max": 562695
+        }
+      },
+      "totalPlannedEvents": 28,
+      "totalPlannedCost": 535900,
+      "priceRange": {
+        "min": 519823,
+        "expected": 535900,
+        "max": 562695
+      },
+      "clusterKey": "Fabia | IV | EE6 | PJ | 2024 | EA211-MPI | MQ200"
+    },
+    {
+      "vin": "TMBER9PJ2T4023310",
+      "model": "Fabia",
+      "generation": "IV",
+      "bodyCode": "ER9",
+      "platformCode": "PJ",
+      "modelYear": 2026,
+      "engineFamily": "EA211",
+      "gearboxFamily": null,
+      "canonicalStatus": "needs_manual_input",
+      "internalStatus": "needs_manual_input",
+      "operationalReadiness": "manual_review_required",
+      "resolutionStatus": "partial_inferred",
+      "validationStatus": "needs_manual_input",
+      "missingConfirmations": [
+        "gearbox"
+      ],
+      "warnings": [
+        "drivetrain_inferred_from_partial_gearbox_consensus"
+      ],
+      "inferredEngine": false,
+      "inferredGearbox": false,
+      "gearboxResolved": false,
+      "gearboxClosureMissing": true,
+      "gearboxClosure": {
+        "family": null,
+        "transmissionType": null,
+        "maintenanceGroup": null,
+        "familyClosed": false,
+        "transmissionTypeClosed": false,
+        "hasConflict": true
+      },
+      "pricingObserved": false,
+      "pricingStatus": null,
+      "pricingMeta": null,
+      "pricingConfidenceLevel": null,
+      "pricingConfidenceMetrics": null,
+      "totalPlannedEvents": null,
+      "totalPlannedCost": null,
+      "priceRange": null,
+      "clusterKey": "Fabia | IV | ER9 | PJ | 2026 | EA211 | unknown"
+    },
+    {
+      "vin": "TMBJR7NUXT5051561",
+      "model": "Karoq",
+      "generation": "I",
+      "bodyCode": "JR7",
+      "platformCode": "NU",
+      "modelYear": 2026,
+      "engineFamily": null,
+      "gearboxFamily": "DQ200",
+      "canonicalStatus": "partial_inferred",
+      "internalStatus": "partial_inferred",
+      "operationalReadiness": "manual_review_required",
+      "resolutionStatus": "partial_inferred",
+      "validationStatus": "needs_manual_input",
+      "missingConfirmations": [],
+      "warnings": [
+        "engine_inferred_from_dataset_pattern",
+        "gearbox_inferred_from_dataset_pattern"
+      ],
+      "inferredEngine": true,
+      "inferredGearbox": true,
+      "gearboxResolved": true,
+      "gearboxClosureMissing": false,
+      "gearboxClosure": {
+        "family": "DQ200",
+        "transmissionType": "dsg",
+        "maintenanceGroup": "DSG_DQ200_NO_SERVICE",
+        "familyClosed": true,
+        "transmissionTypeClosed": true,
+        "hasConflict": false
+      },
+      "pricingObserved": false,
+      "pricingStatus": null,
+      "pricingMeta": null,
+      "pricingConfidenceLevel": null,
+      "pricingConfidenceMetrics": null,
+      "totalPlannedEvents": null,
+      "totalPlannedCost": null,
+      "priceRange": null,
+      "clusterKey": "Karoq | I | JR7 | NU | 2026 | unknown | DQ200"
+    },
+    {
+      "vin": "TMBJR7NU0T5049611",
+      "model": "Karoq",
+      "generation": "I",
+      "bodyCode": "JR7",
+      "platformCode": "NU",
+      "modelYear": 2026,
+      "engineFamily": null,
+      "gearboxFamily": "DQ200",
+      "canonicalStatus": "partial_inferred",
+      "internalStatus": "partial_inferred",
+      "operationalReadiness": "manual_review_required",
+      "resolutionStatus": "partial_inferred",
+      "validationStatus": "needs_manual_input",
+      "missingConfirmations": [],
+      "warnings": [
+        "engine_inferred_from_dataset_pattern",
+        "gearbox_inferred_from_dataset_pattern"
+      ],
+      "inferredEngine": true,
+      "inferredGearbox": true,
+      "gearboxResolved": true,
+      "gearboxClosureMissing": false,
+      "gearboxClosure": {
+        "family": "DQ200",
+        "transmissionType": "dsg",
+        "maintenanceGroup": "DSG_DQ200_NO_SERVICE",
+        "familyClosed": true,
+        "transmissionTypeClosed": true,
+        "hasConflict": false
+      },
+      "pricingObserved": false,
+      "pricingStatus": null,
+      "pricingMeta": null,
+      "pricingConfidenceLevel": null,
+      "pricingConfidenceMetrics": null,
+      "totalPlannedEvents": null,
+      "totalPlannedCost": null,
+      "priceRange": null,
+      "clusterKey": "Karoq | I | JR7 | NU | 2026 | unknown | DQ200"
+    },
+    {
+      "vin": "TMBJR7NUXT5050698",
+      "model": "Karoq",
+      "generation": "I",
+      "bodyCode": "JR7",
+      "platformCode": "NU",
+      "modelYear": 2026,
+      "engineFamily": null,
+      "gearboxFamily": "DQ200",
+      "canonicalStatus": "partial_inferred",
+      "internalStatus": "partial_inferred",
+      "operationalReadiness": "manual_review_required",
+      "resolutionStatus": "partial_inferred",
+      "validationStatus": "needs_manual_input",
+      "missingConfirmations": [],
+      "warnings": [
+        "engine_inferred_from_dataset_pattern",
+        "gearbox_inferred_from_dataset_pattern"
+      ],
+      "inferredEngine": true,
+      "inferredGearbox": true,
+      "gearboxResolved": true,
+      "gearboxClosureMissing": false,
+      "gearboxClosure": {
+        "family": "DQ200",
+        "transmissionType": "dsg",
+        "maintenanceGroup": "DSG_DQ200_NO_SERVICE",
+        "familyClosed": true,
+        "transmissionTypeClosed": true,
+        "hasConflict": false
+      },
+      "pricingObserved": false,
+      "pricingStatus": null,
+      "pricingMeta": null,
+      "pricingConfidenceLevel": null,
+      "pricingConfidenceMetrics": null,
+      "totalPlannedEvents": null,
+      "totalPlannedCost": null,
+      "priceRange": null,
+      "clusterKey": "Karoq | I | JR7 | NU | 2026 | unknown | DQ200"
+    },
+    {
+      "vin": "TMBJR7NU5T5050611",
+      "model": "Karoq",
+      "generation": "I",
+      "bodyCode": "JR7",
+      "platformCode": "NU",
+      "modelYear": 2026,
+      "engineFamily": null,
+      "gearboxFamily": "DQ200",
+      "canonicalStatus": "partial_inferred",
+      "internalStatus": "partial_inferred",
+      "operationalReadiness": "manual_review_required",
+      "resolutionStatus": "partial_inferred",
+      "validationStatus": "needs_manual_input",
+      "missingConfirmations": [],
+      "warnings": [
+        "engine_inferred_from_dataset_pattern",
+        "gearbox_inferred_from_dataset_pattern"
+      ],
+      "inferredEngine": true,
+      "inferredGearbox": true,
+      "gearboxResolved": true,
+      "gearboxClosureMissing": false,
+      "gearboxClosure": {
+        "family": "DQ200",
+        "transmissionType": "dsg",
+        "maintenanceGroup": "DSG_DQ200_NO_SERVICE",
+        "familyClosed": true,
+        "transmissionTypeClosed": true,
+        "hasConflict": false
+      },
+      "pricingObserved": false,
+      "pricingStatus": null,
+      "pricingMeta": null,
+      "pricingConfidenceLevel": null,
+      "pricingConfidenceMetrics": null,
+      "totalPlannedEvents": null,
+      "totalPlannedCost": null,
+      "priceRange": null,
+      "clusterKey": "Karoq | I | JR7 | NU | 2026 | unknown | DQ200"
+    },
+    {
+      "vin": "TMBJR7NU5T5050785",
+      "model": "Karoq",
+      "generation": "I",
+      "bodyCode": "JR7",
+      "platformCode": "NU",
+      "modelYear": 2026,
+      "engineFamily": null,
+      "gearboxFamily": "DQ200",
+      "canonicalStatus": "partial_inferred",
+      "internalStatus": "partial_inferred",
+      "operationalReadiness": "manual_review_required",
+      "resolutionStatus": "partial_inferred",
+      "validationStatus": "needs_manual_input",
+      "missingConfirmations": [],
+      "warnings": [
+        "engine_inferred_from_dataset_pattern",
+        "gearbox_inferred_from_dataset_pattern"
+      ],
+      "inferredEngine": true,
+      "inferredGearbox": true,
+      "gearboxResolved": true,
+      "gearboxClosureMissing": false,
+      "gearboxClosure": {
+        "family": "DQ200",
+        "transmissionType": "dsg",
+        "maintenanceGroup": "DSG_DQ200_NO_SERVICE",
+        "familyClosed": true,
+        "transmissionTypeClosed": true,
+        "hasConflict": false
+      },
+      "pricingObserved": false,
+      "pricingStatus": null,
+      "pricingMeta": null,
+      "pricingConfidenceLevel": null,
+      "pricingConfidenceMetrics": null,
+      "totalPlannedEvents": null,
+      "totalPlannedCost": null,
+      "priceRange": null,
+      "clusterKey": "Karoq | I | JR7 | NU | 2026 | unknown | DQ200"
+    },
+    {
+      "vin": "TMBJR7NU5T5048471",
+      "model": "Karoq",
+      "generation": "I",
+      "bodyCode": "JR7",
+      "platformCode": "NU",
+      "modelYear": 2026,
+      "engineFamily": null,
+      "gearboxFamily": "DQ200",
+      "canonicalStatus": "partial_inferred",
+      "internalStatus": "partial_inferred",
+      "operationalReadiness": "manual_review_required",
+      "resolutionStatus": "partial_inferred",
+      "validationStatus": "needs_manual_input",
+      "missingConfirmations": [],
+      "warnings": [
+        "engine_inferred_from_dataset_pattern",
+        "gearbox_inferred_from_dataset_pattern"
+      ],
+      "inferredEngine": true,
+      "inferredGearbox": true,
+      "gearboxResolved": true,
+      "gearboxClosureMissing": false,
+      "gearboxClosure": {
+        "family": "DQ200",
+        "transmissionType": "dsg",
+        "maintenanceGroup": "DSG_DQ200_NO_SERVICE",
+        "familyClosed": true,
+        "transmissionTypeClosed": true,
+        "hasConflict": false
+      },
+      "pricingObserved": false,
+      "pricingStatus": null,
+      "pricingMeta": null,
+      "pricingConfidenceLevel": null,
+      "pricingConfidenceMetrics": null,
+      "totalPlannedEvents": null,
+      "totalPlannedCost": null,
+      "priceRange": null,
+      "clusterKey": "Karoq | I | JR7 | NU | 2026 | unknown | DQ200"
+    },
+    {
+      "vin": "TMBJR7NU5T5049751",
+      "model": "Karoq",
+      "generation": "I",
+      "bodyCode": "JR7",
+      "platformCode": "NU",
+      "modelYear": 2026,
+      "engineFamily": null,
+      "gearboxFamily": "DQ200",
+      "canonicalStatus": "partial_inferred",
+      "internalStatus": "partial_inferred",
+      "operationalReadiness": "manual_review_required",
+      "resolutionStatus": "partial_inferred",
+      "validationStatus": "needs_manual_input",
+      "missingConfirmations": [],
+      "warnings": [
+        "engine_inferred_from_dataset_pattern",
+        "gearbox_inferred_from_dataset_pattern"
+      ],
+      "inferredEngine": true,
+      "inferredGearbox": true,
+      "gearboxResolved": true,
+      "gearboxClosureMissing": false,
+      "gearboxClosure": {
+        "family": "DQ200",
+        "transmissionType": "dsg",
+        "maintenanceGroup": "DSG_DQ200_NO_SERVICE",
+        "familyClosed": true,
+        "transmissionTypeClosed": true,
+        "hasConflict": false
+      },
+      "pricingObserved": false,
+      "pricingStatus": null,
+      "pricingMeta": null,
+      "pricingConfidenceLevel": null,
+      "pricingConfidenceMetrics": null,
+      "totalPlannedEvents": null,
+      "totalPlannedCost": null,
+      "priceRange": null,
+      "clusterKey": "Karoq | I | JR7 | NU | 2026 | unknown | DQ200"
+    }
+  ]
+}
