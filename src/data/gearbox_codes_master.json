@@ -760,10 +760,10 @@
     "clutchType": null
   },
   "VGS": {
-    "family": "MQ281",
+    "family": "MQ200",
     "type": "manual",
     "drivetrain": "FWD",
-    "description": "G0K",
+    "description": "6-speed manual (GA)",
     "serviceRequired": false,
     "clutchType": null
   },
@@ -1168,6 +1168,14 @@
     "clutchType": "dry"
   },
   "WSD": {
+    "family": "DQ200",
+    "type": "dsg",
+    "drivetrain": "FWD",
+    "description": "7-speed DSG dry clutch",
+    "serviceRequired": false,
+    "clutchType": "dry"
+  },
+  "WQF": {
     "family": "DQ200",
     "type": "dsg",
     "drivetrain": "FWD",
